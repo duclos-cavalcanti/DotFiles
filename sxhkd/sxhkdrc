@@ -1,0 +1,194 @@
+# _______   __ _   _  _   _______ 
+#/  ___\ \ / /| | | || | / /  _  \
+#\ `--. \ V / | |_| || |/ /| | | |
+# `--. \/   \ |  _  ||    \| | | |
+#/\__/ / /^\ \| | | || |\  \ |/ / 
+#\____/\/   \/\_| |_/\_| \_/___/  
+#                                 
+
+# --------------------
+# -- Window Configs --
+# --------------------
+
+# Close/Kill window
+super + {w,shift + q}
+	bspc node {-c,-k}
+
+# Move Focus between windows
+super + {h,j,k,l}
+    bspc node -f {west,south,north,east}.local
+
+# Preselect splitting window
+super + {H,J,K,L}
+	bspc node -p \~{west,south,north,east}
+
+# Preselect the ratio
+super + e : {1-9}
+	bspc node -o 0.{1-9}
+
+# Swap Windows
+super + s ; {h,j,k,l}
+    bspc node -s {west,south,north,east}
+
+# Swap Mirror Window/Nodes Group
+super + s ; {H,J,K,L}
+	bspc node @/ -F {vertical,horizontal,horizontal,vertical}
+
+# Expand a window by moving one of its side outward
+super + e : {h,j,k,l}
+	bspc node -z {left -30 0,bottom 0 30,top 0 -30,right 30 0}
+
+# Contract a window by moving one of its side inward
+super + e : {H,J,K,L}
+	bspc node -z {right -30 0,top 0 30,bottom 0 -30,left 30 0}
+
+# Move a floating window
+super + {Left,Down,Up,Right}
+	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+# Circulate leaves of tree
+super + {c,C}
+	bspc node @/ -C {forward,backward}
+
+# Balance tree
+super + =
+	bspc node @/ -B ; dunstify " Balance Nodes "
+
+# Cycle windows
+alt + {_,shift + }Tab
+	bspc node -f {next,prev}.local.!hidden.window
+
+# --------------------
+# -- Layout Configs --
+# --------------------
+
+# Toggle monocle mode
+super + space
+	bspc desktop -l next
+
+# Hide current node
+super + minus
+	bspc node --flag hidden -f
+
+# Toggle floating, tiled, pseudo_tiled, full
+super + {f,t,T,F}
+    bspc node -t {floating,tiled,pseudo_tiled,fullscreen ; polybar-msg cmd toggle}
+
+# ---------------------
+# -- Desktop Configs --
+# ---------------------
+
+# Go/Move to Desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+# Go Prev/Newest/Oldest Desktop
+super + {p,N,O}
+	bspc desktop -f {last,newer,older}
+
+# Swap Desktops
+alt + super + shift + {1-9,0}
+    ${BSPWM_PATH}/bspwm_swap_desktops.sh '^{1-9,10}'
+
+# Select previous/next Desktop
+super + {b,n,B,N}
+	bspc desktop -f {prev.local.occupied,next.local.occupied,prev.local,next.local} 
+
+# --------------------
+# -- Spawn Programs --
+# --------------------
+
+# Terminal
+super + Return
+	st
+
+# Tabbed Terminal
+alt + Return
+	tabbed -n tabbed_st -c -r 2 st -w ''
+
+# Scratchpad
+super + shift + Return
+   ${BSPWM_PATH}/bspwm_float_term.sh "scratchterm"
+
+# Pdf
+super + r
+    zathura
+
+# Tabbed Pdf
+super + alt + r
+	tabbed -n tabbed_zathura -c zathura -e
+
+# Browser
+super + i
+	firefox
+
+super + alt + i
+	firefox --private-window
+
+# Filemanager
+super + m
+	pcmanfm
+
+# Dmenu/Launcher
+alt + space
+    eval $CUSTOM_DMENU
+
+# ---------------------
+# -- Dmemu Launchers --
+# ---------------------
+
+# Dmenu show hidden windows
+super + d ; h
+	${BSPWM_PATH}/bspwm_dmenu_hidden_nodes.sh
+
+# Dmenu for Screenshots
+super + d ; s
+    ${TLBX_PATH}/tlbx_screenshot_mgr.sh
+
+# Dmenu for Tmux Sessions
+super + d ; p
+	${TMUX_PATH}/tmux_dmenu_sessions.sh
+
+# Dmenu for Major Sessions
+super + d ; P
+	${BSPWM_PATH}/bspwm_dmenu_WM_layout.sh 
+
+# ---------------------
+# -- Restart Configs --
+# ---------------------
+
+# Quit Bspwm or Restart Bspwm
+alt + ctrl + {q,r}
+	bspc {quit 1 && pkill polybar,wm -r} ; dunstify " Relaunched WM " &
+
+# Start Dunst Daemon
+alt + ctrl + d
+    ${TLBX_PATH}/tlbx_mng_daemon.sh "dunst" ; dunstify " Relaunched Dunst " &
+
+# Reload sxhkd
+alt + ctrl + s
+	pkill -USR1 -x sxhkd ; dunstify " Relaunched Sxhkd " &
+
+# Reload bspwmrc
+alt + ctrl + b
+	bspwmrc ; dunstify " Relaunched Bspwmrc " &
+
+# Reload Polybar
+alt + ctrl + p
+	killall polybar ; $HOME/.config/polybar/launch.sh & ; dunstify " Relaunched Polybar " &
+
+# Reload compositing
+alt + ctrl + c
+	pkill picom ; picom -c -b ; dunstify " Relaunched Picom " &
+
+# -----------------
+# -- Sys Changes --
+# -----------------
+
+# Lock
+alt + ctrl + l
+    dm-tool lock
+
+# Toggle Monitor display
+alt + ctrl + m
+    ${TLBX_PATH}/tlbx_configure_monitors.sh ; dunstify " Monitor Readjustment " &

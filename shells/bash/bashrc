@@ -1,0 +1,119 @@
+#______  ___   _____ _   _ 
+#| ___ \/ _ \ /  ___| | | |
+#| |_/ / /_\ \\ `--.| |_| |
+#| ___ \  _  | `--. \  _  |
+#| |_/ / | | |/\__/ / | | |
+#\____/\_| |_/\____/\_| |_/
+#                          
+
+[ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
+
+
+#Sets Prompt to simple Current Directory in Green
+PS1='\[\033[37m\]\[\033[37m\]\$ '
+
+export XDG_DATA_HOME='/home/duclos/.local/'
+export XDG_CACHE_HOME='/home/duclos/.cache/'
+export XDG_CONFIG_HOME='/home/duclos/.config/'
+export TERM='xterm-256color'
+export GIT_CONFIG='/home/duclos/.config/git/config'
+export GTK2_RC_FILES='/home/duclos/.config/gtk-2.0/gtkrc-2.0'
+export QT_QPA_PLATFORMTHEME='qt5ct'
+export QT_STYLE_OVERRIDE='kvantum-dark'
+export VIMINIT='source $CUSTOM_VIMRC'
+export CUSTOM_VIMRC='/home/duclos/.config/vim/vimrc'
+export IPYTHONDIR='/home/duclos/.config/ipython/'
+export CARGO_HOME='/home/duclos/.cache/cargo/'
+export HISTFILE='/home/duclos/.config/bash/bash_history'
+export GNUPGHOME='/home/duclos/.cache/gnupg/'
+export IPDB_CONFIG='/home/duclos/.config/ipdb/setup.cfg'
+export LESSHISTFILE=-
+export VIRTUAL_ENV_DISABLE_PROMPT=1
+
+export WM='bspwm'
+export EDITOR='vim'
+export VISUAL='vim'
+export GIT_EDITOR='vim'
+export DIFFPROG='vim'
+export PAGER='less'
+export READER='zathura'
+export BROWSER='qutebrowser'
+
+export BSPWM_PATH=~/.config/bspwm/scripts
+export TMUX_PATH=~/.config/tmux/scripts
+export TLBX_PATH=~/.scripts
+export POLY_PATH=~/.config/polybar/scripts
+export CUSTOM_DMENU="dmenu_run -h 30 -x 0 -y 0 -w 1920" 
+export CUSTOM_DMENU_PROMPT="dmenu -h 30 -x 0 -y 0 -w 1920" 
+
+#Basic Aliases
+alias ls='ls --color=auto'
+alias ll='ls -l --color=auto'
+alias l="ls"
+
+alias grep='grep --colour=auto'
+alias egrep='egrep --colour=auto'
+alias fgrep='fgrep --colour=auto'
+
+alias untar="tar -xf"
+alias rmtar="rm *.tar*"
+alias rmzip="rm *.zip"
+
+alias gs="git status"
+alias gba="git branch --all"
+alias gbd="git branch -d"
+alias gBd="git push --delete origin"
+alias greset="git reset --hard"
+
+alias vpn="/opt/cisco/anyconnect/bin/vpn"
+
+alias dockinfo="docker info"
+alias dockcreate="docker create -i --name <name> debian"
+alias dockimgs="docker images"
+alias dockls="docker ps -a"
+alias dockrun="docker run --name <name> -it -d <img>"
+alias dockrm="docker rm"
+alias dockexec="docker exec -it debian-docker /bin/bash"
+alias dockstart="docker start debian-docker"
+alias dockattach="docker attach"
+
+alias nmls="nmcli device wifi list"
+alias nmcon="nmcli device wifi connect"
+alias nmdel="nmcli device wifi delete"
+
+alias bc="bluetoothctl"
+alias bson="bluetoothctl scan on"
+alias bsoff="bluetoothctl scan off"
+
+alias pdb="python -m pdb"
+alias pd="ipdb3"
+
+alias gcc="gcc -Wall -g"
+alias gdb="gdb -nx -x /home/duclos/.config/gdb/init"
+alias armgdb="/usr/bin/arm-none-eabi-gdb -nx -x /home/duclos/.config/gdb/init"
+
+alias aur="sudo pacman -Qqm"
+
+alias t="mux -2 -f ~/.config/tmux/tmux.conf"
+alias tn="tmux -2 -f ~/.config/tmux/tmux.conf new-session -t"
+alias tls="tmux ls"
+alias twls="tmux list-windows -t"
+alias tk="tmux kill-session -t"
+alias tka="tmux kill-server"
+alias tc="~/.config/tmux/scripts/tmux_create.sh"
+
+alias cF="vim ~/.config/fish/config.fish"
+alias cT="vim ~/.config/tmux/tmux.conf"
+alias cFp="vim ~/.config/fish/functions/fish_prompt.fish"
+alias cFP="vim ~/.config/fish/functions/fish_right_prompt.fish"
+alias cV="vim ~/.config/vim/vimrc"
+alias cS="vim ~/.config/sxhkd/sxhkdrc"
+alias cW="vim ~/.config/bspwm/bspwmrc"
+alias cD="vim ~/.config/dunst/dunstrc"
+alias cP="vim ~/.config/picom/picom.conf"
+alias cB="vim ~/.config/polybar/config.ini"
+alias cZ="vim ~/.config/zathura/zathurarc"
+
+#Sourcing fzf keybindings
+source /usr/share/fzf/key-bindings.bash
+source /usr/share/fzf/completion.bash

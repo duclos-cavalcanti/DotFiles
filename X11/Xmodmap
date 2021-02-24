@@ -1,0 +1,24 @@
+!setxkbmap --resets mapping
+!xev -event keyboard --Caputers keypresses
+!xmodmap -pke --Shows all keycodes and their names
+!GRAVE(`,~) Keycode 49 / Name grave
+!ESC Keycode 9 / Name Escape
+!CAPS Keycode 66 / Name Caps_Lock
+!CTRL Keycode 37 / Name Control_L
+!SUPER Keycode 113 / Name Super_L
+!TAB Keycode 23 / Name Tab
+!LESS (<>) Keycode 94 / Name less
+!BACKSLASH (\|) Keycode 51 / Name backslash
+!
+!
+! Reassigning grave key to Esc and mantaining tilde shift functionality
+keycode 49=Escape asciitilde
+!
+! Reassigin Caps to Control
+clear lock 
+clear control 
+add control = Caps_Lock Control_L Control_R
+!
+!Adds graves/slanted quotes to shift + Control_L (Now Caps Lock)
+keycode 66=Control_L
+!keycode 66=Control_L grave

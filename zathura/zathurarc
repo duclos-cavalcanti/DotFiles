@@ -1,0 +1,59 @@
+# ------------
+# -- Colors --
+# ------------
+set default-bg \#263238
+set default-fg \#ffffff
+
+set inputbar-bg \#263238
+set inputbar-fg \#ffffff
+
+set statusbar-bg \#263238
+set statusbar-fg \#ffffff
+
+set notification-error-bg "#4db6ac" 
+set notification-error-fg "#263238"
+
+set notification-warning-bg "#4db6ac" 
+set notification-warning-fg "#263238" 
+
+set highlight-color "#4db6ac" 
+set highlight-active-color "#4db6ac" 
+
+set completion-highlight-fg "#263238" 
+set completion-highlight-bg "#00bcd4" 
+
+set completion-group-bg "#ffffff" 
+set completion-group-fg "#263238" 
+
+set completion-bg "#263238" 
+set completion-fg "#ffffff" 
+
+set index-bg "#263238"
+set index-fg "#ffffff" 
+
+set index-active-bg "#00bcd4"
+set index-active-fg "#263238" 
+
+set notification-bg "#263238" 
+set notification-fg "#ffffff" 
+
+# ----------
+# -- Font --
+# ----------
+set font "UbuntuMono 16"
+
+# ---------------
+# -- Clipboard --
+# ---------------
+set selection-clipboard clipboard
+
+# ------------
+# -- Config --
+# ------------
+set pages-per-row 1
+
+# --------------
+# -- Mappings --
+# --------------
+map <C-=> zoom in
+map <C--> zoom out

@@ -1,0 +1,172 @@
+" _   _ ________  ___
+"| | | |_   _|  \/  |
+"| | | | | | | .  . |
+"| | | | | | | |\/| |
+"\ \_/ /_| |_| |  | |
+" \___/ \___/\_|  |_/
+"                    
+set runtimepath^=~/.config/vim 
+set runtimepath+=~/.config/vim/after 
+
+let &packpath = &runtimepath
+
+" -------------
+" -- Plugins --
+" -------------
+call plug#begin('~/.config/vim/extern')
+
+Plug 'ycm-core/YouCompleteMe'
+Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
+
+Plug 'liuchengxu/vista.vim'
+Plug 'dense-analysis/ale'
+Plug 'jiangmiao/auto-pairs'
+
+call plug#end()
+
+" ----------
+" -- Sets --
+" ----------
+filetype plugin indent on                               "Enables filetype recognition and indent vim-plugins
+set path=.,**                                           "Easier finding of files through FZF and find, as the branches and nodes are indexed
+set tags=./tags,tags;/                                  "Defining typical tag folders
+set laststatus=2                                        "Enables Statusline in Vim
+set splitbelow                                          "Splits now begin from below
+set splitright                                          "Vert Splits now begin on the right
+set noshowcmd                                           "Dont Show commands while they are being typed
+set noshowmode                                          "Dont/Do Show Modes (INSERT/REPLACE)
+set shortmess+=a                                        "Make Command Line less messy with abbreviations to certain words
+set shortmess-=S                                        "Show me the number of search hits when searching with /
+set noerrorbells                                        "No Sounds regarding command effects
+set nu                                                  "Show Line Numbers
+set relativenumber                                      "Show Relative Line Numbers
+set scrolloff=8                                         "Minimal number of screen lines to keep above and below cursor
+set nowrap                                              "Dont wrap lines of text
+set nowrapscan                                          "Dont Wrap Searches
+set showmatch                                           "When a bracket is inserted, briefly jump to the matching one
+set nohlsearch                                          "Dont/Do highlight all search hits
+set incsearch                                           "Show Search hit as you type
+set hidden                                              "Keep buffers hidden after leaving
+set smartcase                                           "Do not ignore casing of letters when searching
+set smartindent                                         "Try to indent smartly
+set expandtab                                           "When using >< to indent, use the appropiate number of spaces
+set tabstop=4 softtabstop=4                             "Sets tab to 4 spaces
+set shiftwidth=4                                        "Sets tab/spaces used when smartindenting
+set showtabline=2                                       "Show tablines
+set wildmenu                                            "Turn Wildmenu on
+set wildmode=full,longest                               "Mode in which wildmenu completes entries / PREV: set wildmode=longest:full,full 
+set wildignore=*.o,*venv                                "Config of things to ignore during commands like find
+set pumheight=5                                         "Height of pop um menus like in Wildmenu and that of completions
+set noswapfile                                          "No need of swapfiles to store changes to buffers
+set nobackup                                            "No need for backup files of changed files
+set foldmethod=indent                                   "Lines with equal indent form a fold. 
+set foldlevelstart=99                                   "Foldlevel of file when opneing it             
+set modifiable                                          "When on, fileenconding and fileformat can be changed  
+set nolazyredraw                                        "Speed Macros as they are partially delayed by redrawing
+set ttimeout                                            "Turns on timeout to diminish delay of ESC in command line
+set ttimeoutlen=100                                     "Sets timeout length
+set viminfofile=$HOME/.config/vim/info/viminfo          "Changes location of viminfo file
+set cursorline                                          "Set Cursorline to follow where cursor is, will be toggled depending on modes
+set signcolumn=yes                                      "Set Signcolumn which gives space for error and warning lint plugins to display info
+set nocursorcolumn                                      "Set Custoocolumn to follow where cursor is
+set colorcolumn=80                                      "Setting 80 char Column to respect the ancient tradition
+set cmdheight=2                                         "More space for commands in command window
+set clipboard=unnamed                                   "Shared clipboard
+set completeopt-=preview                                "Used to disable YCM preview.
+set exrc                                                "Used to have project specific external RCs.
+
+" ------------
+" -- Remaps --
+" ------------
+
+"Leader Remap
+let mapleader = " "
+
+"Vim/Custom Remaps
+cnoreabbrev w!! w !sudo tee % > /dev/null
+
+tnoremap <esc> <C-\><C-n>
+tnoremap gt <C-w>gt
+tnoremap <C-w>\ <C-\><C-n><C-w>_<C-w>\|A
+
+nnoremap <silent> vv v$h
+
+nnoremap <C-w>\ <C-w>\|<C-w>_
+nnoremap <C-w>V :vsplit find
+nnoremap <C-w>S :split find
+
+nnoremap <C-p> <C-^>
+nnoremap <silent> <C-n> :bnext<CR>
+
+nnoremap <silent> <leader><space> :call TerminalManager("pane")<CR>
+nnoremap <silent> <leader>tt :call TerminalManager("current")<CR>
+nnoremap <silent> <leader>tv :call TerminalManager("v_current")<CR>
+nnoremap <silent> <leader>th :call TerminalManager("h_current")<CR>
+
+nnoremap <silent> <leader>q :call ToggleQuickFix()<CR>
+
+nnoremap <silent> <leader>dd :call NetrwManager("top_right")<CR>
+nnoremap <silent> <leader>dv :call NetrwManager("v_split")<CR>
+nnoremap <silent> <leader>ds :call NetrwManager("h_split")<CR>
+nnoremap <silent> <leader>dt :call NetrwManager("tab")<CR>
+nnoremap <silent> <leader>dD :call NetrwManager("current")<CR>
+
+"Plug Remaps
+nmap <silent> <C-@> :Vista!!<CR>
+
+nnoremap <silent> <C-s><C-i> :YcmCompleter GoTo<CR>zz
+nnoremap <silent> <C-s><C-v> :vsplit<BAR>YcmCompleter GoTo<CR>zz
+nnoremap <silent> <C-s><C-s> :split<BAR>YcmCompleter GoTo<CR>zz
+
+nnoremap <silent> <leader>gi :YcmCompleter GoToInclude<CR>
+nnoremap <silent> <leader>gd :YcmCompleter GoToDeclaration<CR>
+nnoremap <silent> <leader>gr :YcmCompleter GoToReferences<CR>
+nnoremap <silent> <leader>gD :YcmCompleter GetDoc<CR>
+nnoremap <silent> <leader>gt :YcmCompleter GetType<CR>
+nnoremap <silent> <leader>fi :YcmCompleter FixIt<CR>
+nnoremap <leader>rw :YcmCompleter RefactorRename<SPACE>
+
+nmap <silent> <leader>ad <Plug>(ale_detail)
+nmap <silent> <leader>an <Plug>(ale_next_wrap)
+nmap <silent> <leader>ap <Plug>(ale_previous_wrap)
+nmap <silent> = <Plug>(ale_fix)
+
+" ----------------
+" -- Executions --
+" ----------------
+
+"Custom Function/Executions
+command! LoadConfig execute "source $HOME/.config/vim/vimrc"
+command! VeritcalResizeCustom execute "vertical resize 90"
+
+"Go To Vim Custom Config files
+command! ConfigGoTo execute "tabnew $HOME/.config/vim/vimrc"
+command! StatusLineGoTo execute "tabnew $HOME/.config/vim/plugin/StatusLine.vim"
+command! TablineLineGoTo execute "tabnew $HOME/.config/vim/plugin/Tabline.vim"
+command! IconsGoTo execute "tabnew $HOME/.config/vim/plugin/Icons.vim"
+command! QuickFixGoTo execute "tabnew $HOME/.config/vim/plugin/QuickFix.vim"
+command! TerminalGoTo execute "tabnew $HOME/.config/vim/plugin/Terminal.vim"
+command! NetrwGoTo execute "tabnew $HOME/.config/vim/plugin/Netrw.vim"
+command! OperatorGoTo execute "tabnew $HOME/.config/vim/plugin/Operators.vim"
+command! AbbrevsGoTo execute "tabnew $HOME/.config/vim/plugin/Abbreviations.vim"
+
+"Go To Vim Plugin Config files
+command! CompleterGoTo execute "tabnew $HOME/.config/vim/after/plugin/Ycm.vim"
+command! TagViewerGoTo execute "tabnew $HOME/.config/vim/after/plugin/Vista.vim"
+command! LinterGoTo execute "tabnew $HOME/.config/vim/after/plugin/Ale.vim"
+
+"Go To Specific Vim folders
+command! FtpluginGoTo execute "tabnew $HOME/.config/vim/ftplugin/"
+command! FtdetectGoTo execute "tabnew $HOME/.config/vim/ftdetect/"
+command! PluginGoTo execute "tabnew $HOME/.config/vim/plugin/"
+command! AfterGoTo execute "tabnew $HOME/.config/vim/after/"
+command! IndentGoTo execute "tabnew $HOME/.config/vim/indent/"
+command! SyntaxGoTo execute "tabnew $HOME/.config/vim/syntax/"
+
+"Colors
+command! ColorschemeGoTo execute "tabnew $HOME/.config/vim/colors/Custom.vim"
+command! ColorschemeView execute "source $VIMRUNTIME/syntax/hitest.vim"
+
+"Go To Specific Files
+command! FishHistoryGoTo execute "tabnew $HOME/.local/fish/fish_history"
+command! VimInfoGoTo execute "tabnew $HOME/.config/vim/info/viminfo"

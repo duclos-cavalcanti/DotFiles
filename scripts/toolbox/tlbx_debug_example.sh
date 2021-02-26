@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
+#
+# An example script to visualize some of the tools around bash debugging.
 
 #set -xv
 set -x

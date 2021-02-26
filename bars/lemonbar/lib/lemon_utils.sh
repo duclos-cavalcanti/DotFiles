@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+#!/bin/bash
+#
 # Helper functions for the lemonbar modules.
 
 bg="#222d32"
@@ -9,38 +10,38 @@ problem="#fb4934"
 
 padding=" "
 
-function _format() {
-    if [[ $# -eq 3 ]]; then
-        text=$1
-        background=$2
-        foreground=$3
-        echo "%{B$background}%{F$foreground} $1 %{B-}%{F-}"
-
-    elif [[ $# -eq 2 ]]; then
-        text=$1
-        foreground=$2
-        echo "%{B$bg}%{F$foreground} $text %{B-}%{F-}"
-
-    else
-        text=$1
-        echo "%{B$bg}%{F$fg} $text %{B-}%{F-}"
-    fi
-}
-
-function _font() {
+function utils::format() {
+  if [[ $# -eq 3 ]]; then
     text=$1
-    font=$2
-    echo "%{T${font}}${text}%{T-}"
-}
+    background=$2
+    foreground=$3
+    echo -n "%{B$background}%{F$foreground} $1 %{B-}%{F-}"
 
-function _padding() {
+  elif [[ $# -eq 2 ]]; then
     text=$1
-    echo "${padding}${text}${padding}"
+    foreground=$2
+    echo "%{B$bg}%{F$foreground} $text %{B-}%{F-}"
+
+  else
+    text=$1
+    echo "%{B$bg}%{F$fg} $text %{B-}%{F-}"
+  fi
 }
 
-function _source_modules() {
-    modules=~/.config/lemonbar/modules
-    for mod in $(ls $modules); do
-        source ${modules}/${mod}
-    done
+function utils::font() {
+  text=$1
+  font=$2
+  echo -n "%{T${font}}${text}%{T-}"
+}
+
+function utils::padding() {
+  text=$1
+  echo -n "${padding}${text}${padding}"
+}
+
+function utils::source_modules() {
+  modules=~/.config/lemonbar/modules
+  for mod in $(ls $modules); do
+    source ${modules}/${mod}
+  done
 }

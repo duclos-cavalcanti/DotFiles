@@ -1,6 +1,8 @@
-#!/usr/bin/env bash
+#!/bin/bash
+#
+# Calls on monitors library and condigures the monitors.
 
-source ${TLBX_PATH}/tlbx_monitors_functions.bash
-monitor_configuration
+source ${TLBX_PATH}/tlbx_monitors_functions.sh
+monitors::configuration
 
 

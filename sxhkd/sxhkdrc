@@ -51,8 +51,8 @@ super + {c,C}
 	bspc node @/ -C {forward,backward}
 
 # Balance tree
-super + =
-	bspc node @/ -B ; dunstify " Balance Nodes "
+super + equal
+	bspc node @/ -B ;
 
 # Cycle windows
 alt + {_,shift + }Tab
@@ -148,10 +148,6 @@ super + d ; s
 # Dmenu for Tmux Sessions
 super + d ; p
 	${TMUX_PATH}/tmux_dmenu_sessions.sh
-
-# Dmenu for Major Sessions
-super + d ; P
-	${BSPWM_PATH}/bspwm_dmenu_WM_layout.sh 
 
 # ---------------------
 # -- Restart Configs --

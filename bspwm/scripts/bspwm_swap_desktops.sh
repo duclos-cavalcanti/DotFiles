@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
+#
+# Switches/Swaps windows between current desktop and desktop $1.
 
 target_desktop="$1"
 target_desktop_nodes=$(bspc query -d $target_desktop -N -n .!hidden)

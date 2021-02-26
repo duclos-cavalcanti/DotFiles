@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
+#
+# Dmenu wrapper menu around tmux session creation.
 
 custom_dmenu=$CUSTOM_DMENU_PROMPT
 tmux_create=${TMUX_PATH}/tmux_create_session.bash
@@ -6,7 +8,7 @@ tmux_create=${TMUX_PATH}/tmux_create_session.bash
 answ=$(echo -e "CS\nFP\nESS\nMISC" | $custom_dmenu -i -p "Sessions:") 
 
 case "$answ" in
-"CS")
+  "CS")
     $tmux_create -cs CS
     CMD_1="st tmux attach-session -t CS"
     CMD_2="st tmux attach-session -t CS-ALT"
@@ -14,7 +16,7 @@ case "$answ" in
     $CMD_2 &
     ;;
 
-"FP")
+  "FP")
     $tmux_create -fp FP
     CMD_1="st tmux attach-session -t FP"
     CMD_2="st tmux attach-session -t FP-ALT"
@@ -22,7 +24,7 @@ case "$answ" in
     $CMD_2 &
     ;;
 
-"ESS")
+  "ESS")
     $tmux_create -ess ESS
     CMD_1="st tmux attach-session -t ESS"
     CMD_2="st tmux attach-session -t ESS-ALT"
@@ -30,12 +32,11 @@ case "$answ" in
     $CMD_2 &
     ;;
 
-"MISC")
+  "MISC")
     $tmux_create -ex EX 
     CMD="st tmux attach-session -t EX"
     $CMD &
     ;;
 
 *) echo "Unavailable Command."
-
 esac

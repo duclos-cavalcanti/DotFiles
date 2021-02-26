@@ -54,8 +54,8 @@ set -x TLBX_PATH ~/.scripts/tlbx
 set -x CRON_PATH ~/.scripts/cron
 set -x POLY_PATH ~/.config/polybar/scripts
 set -x LEMON_PATH ~/.config/lemonbar/
-set -gx CUSTOM_DMENU "dmenu_run -h 35 -x 0 -y 0 -w 2560" 
-set -gx CUSTOM_DMENU_PROMPT "dmenu -h 35 -x 0 -y 0 -w 2560" 
+set -gx CUSTOM_DMENU "dmenu_run -h 35" 
+set -gx CUSTOM_DMENU_PROMPT "dmenu -h 35" 
 
 # ALIASES / ABBRs
 abbr l "ls"

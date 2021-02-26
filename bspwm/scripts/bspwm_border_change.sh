@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
+#
+# Changes border of given window class/name.
 
 # Example border arguments
 # "st-256-color"
@@ -9,23 +11,26 @@
 # "tabbed_st"
         
 function expand_border_class {
-    window_class=$1
-    xdo id -N $window_class | xargs -I{} bspc config -n {} border_width 0
+  window_class=$1
+  xdo id -N $window_class | xargs -I{} bspc config -n {} border_width 0
 }
 
 function expand_border_name {
-    window_name=$1
-    xdo id -n $window_name | xargs -I{} bspc config -n {} border_width 0
+  window_name=$1
+  xdo id -n $window_name | xargs -I{} bspc config -n {} border_width 0
 }
 
-if [[ "$#" -eq 1 ]]; then
+function main {
+  if [[ "$#" -eq 1 ]]; then
     window=$1
     $(expand_border_class $window) 
     [[ $? ]] && $(expand_border_name $window)
-else
+  else
     for window in "$@"; do
-        $(expand_border_class $window) 
-        [[ $? ]] && $(expand_border_name $window)
+      $(expand_border_class $window) 
+      [[ $? ]] && $(expand_border_name $window)
     done
-fi
+  fi
+}
 
+main "$@"

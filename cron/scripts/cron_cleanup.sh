@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
+#
+# Deletes unwished confs and files.
 
 ZOOM_DIR="/home/duclos/.config/Unknown*/"
 ZOOM_HOME=/home/duclos/.zoom/

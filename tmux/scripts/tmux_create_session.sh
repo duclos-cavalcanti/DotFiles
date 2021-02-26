@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
+#
+# Creates a tmux session depending on the command line arguments given.
 
 FP="~/Documents/work/TensorDSE/"
 ESS="~/Documents/Uni/ESS/User/Embedded-Systems-SEC/"
@@ -51,82 +53,84 @@ function runWindow(){
 mode=$1
 sess=$2
 
-case "$mode" in
-"-fp")
+function main {
+  case "$mode" in
+  "-fp")
     createSession $sess MAIN 
     [ $? -eq 1 ] && exit
-
+  
     runWindow $sess MAIN "cd $FP"
     runWindow $sess MAIN "source venv/bin/activate.fish"
     runWindow $sess MAIN "cd benchmarking/reading_tflite_model"
     runWindow $sess MAIN "vim ."
-
-
+  
+  
     new_sess="${sess}-ALT"
     createSession $new_sess IPY
     [ $? -eq 1 ] && exit
-
+  
     createWindow $new_sess DBG
     createWindow $new_sess DOCKER
-
+  
     runWindow $new_sess IPY "cd $FP"
     runWindow $new_sess IPY "source ./venv/bin/activate.fish"
     runWindow $new_sess IPY "ipython"
-
+  
     runWindow $new_sess DBG "cd $FP"
     runWindow $new_sess DBG "source ./venv/bin/activate.fish"
-
+  
     runWindow $new_sess DOCKER "docker start exp-docker && docker attach exp-docker"
     ;;
-
-"-ess")
+  
+  "-ess")
     createSession $sess MAIN
     [ $? -eq 1 ] && exit
-
+  
     createWindow $sess ALT
-
+  
     new_sess="${sess}-ALT"
     createSession $new_sess DBG
     [ $? -eq 1 ] && exit
-
+  
     createWindow $new_sess DBG-ALT
-
+  
     runWindow $sess MAIN "cd $ESS"
     runWindow $sess ALT "cd $ESS"
-
+  
     runWindow $new_sess DBG "cd $ESS"
     runWindow $new_sess DBG-ALT "cd $ESS"
     ;;
-
-"-cs")
+  
+  "-cs")
     createSession $sess MAIN
     [ $? -eq 1 ] && exit
-
+  
     new_sess="${sess}-ALT"
     createSession $new_sess IPY
     [ $? -eq 1 ] && exit
-
+  
     createWindow $new_sess DBG
-
+  
     runWindow $sess MAIN "cd ${CS}/ai50/projects/Search/tictactoe/"
     runWindow $sess MAIN "vim runner.py"
-
+  
     runWindow $new_sess IPY "cd ${CS}"
     runWindow $new_sess IPY "source venv/bin/activate.fish"
     runWindow $new_sess IPY "ipython"
-
+  
     runWindow $new_sess DBG "cd ${CS}"
     runWindow $new_sess DBG "source venv/bin/activate.fish"
     runWindow $new_sess DBG "cd ${CS}/ai50/projects/Search/tictactoe/"
     ;;
-
-"-ex")
+  
+  "-ex")
     createSession $sess MAIN
     [ $? -eq 1 ] && exit
-
+  
     runWindow $sess MAIN "cd $ESS"
     ;;
+  
+  *) echo "Unavailable Command."
 
-*) echo "Unavailable Command."
-
-esac
+  esac
+}

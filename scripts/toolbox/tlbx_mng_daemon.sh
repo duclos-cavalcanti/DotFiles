@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
+#
+# Simple script to launch/kill daemons.
 
 daemon=$1
 pid=$(pgrep $daemon)

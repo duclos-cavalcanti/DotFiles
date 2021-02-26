@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Dmenu script to show all hidden nodes' titles
+# Dmenu script to show all hidden nodes' titles.
 
 custom_dmenu=$CUSTOM_DMENU_PROMPT
 sticky=$(bspc query -N -n .sticky.hidden)

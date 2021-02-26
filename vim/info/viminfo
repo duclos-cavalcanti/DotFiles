@@ -20,12 +20,14 @@
 ${
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1614299554,,"q"
 :wq
-|2,0,1614299550,,"wq"
+|2,0,1614299983,,"wq"
+:!ls ~/.scripts/tlbx/
+|2,0,1614299974,,"!ls ~/.scripts/tlbx/"
 :w
-|2,0,1614299547,,"w"
+|2,0,1614299824,,"w"
+:q
+|2,0,1614299692,,"q"
 :e bspwm_node_focus_manager.sh
 |2,0,1614296904,,"e bspwm_node_focus_manager.sh"
 :e tlbx_monitors_functions.sh
@@ -118,8 +120,6 @@ ${
 |2,0,1614202358,,"e ~/.config/bspwm/scripts/bspwm_float_term.sh"
 :e ../ST/config.h
 |2,0,1614202179,,"e ../ST/config.h"
-:vim README.md
-|2,0,1614202036,,"vim README.md"
 
 # Search String History (newest to oldest):
 ?/WM
@@ -235,68 +235,74 @@ ${
 "0	LINE	0
 	  cp -r /home/duclos/.scripts/cron ${DOTFILES_PATH}/cron/scripts
 |3,0,0,1,1,0,1614299533,"  cp -r /home/duclos/.scripts/cron ${DOTFILES_PATH}/cron/scripts"
-"1	BLOCK	1
-	  
-	  
-	  
-	  
-	  
-	  
-|3,0,1,2,6,1,1614299061,"  ","  ","  ","  ","  ","  "
-"2	LINE	0
+""1	LINE	0
 	
-|3,0,2,1,1,0,1614299055,""
-"3	BLOCK	1
+	# Dmenu for Screenshots
+	super + d ; s
+	    ${TLBX_PATH}/tlbx_screenshot_mgr.sh
+|3,1,1,1,4,0,1614299979,"","# Dmenu for Screenshots","super + d ; s","    ${TLBX_PATH}/tlbx_screenshot_mgr.sh"
+"2	BLOCK	1
 	  
 	  
+	  
+	  
+	  
+	  
+|3,0,2,2,6,1,1614299061,"  ","  ","  ","  ","  ","  "
+"3	LINE	0
 	
-	  
-	  
-	  
-	  
-	
-	
-	  
-	  
-	  
-	
-	  
-	  
-	
-	  
-	  
-	  
-	
-	  
-	  
-	
-	  
-	  
-|3,0,3,2,25,1,1614298991,"  ","  ","","  ","  ","  ","  ","","","  ","  ","  ","","  ","  ","","  ","  ","  ","","  ","  ","","  ","  "
+|3,0,3,1,1,0,1614299055,""
 "4	BLOCK	1
 	  
 	  
 	
 	  
+	  
+	  
+	  
+	
 	
 	  
 	  
 	  
 	
 	  
+	  
+	
+	  
+	  
+	  
 	
 	  
 	  
 	
 	  
 	  
-	  
-|3,0,4,2,17,1,1614298984,"  ","  ","","  ","","  ","  ","  ","","  ","","  ","  ","","  ","  ","  "
+|3,0,4,2,25,1,1614298991,"  ","  ","","  ","  ","  ","  ","","","  ","  ","  ","","  ","  ","","  ","  ","  ","","  ","  ","","  ","  "
 "5	BLOCK	1
 	  
 	  
 	
 	  
+	
+	  
+	  
+	  
+	
+	  
+	
+	  
+	  
+	
+	  
+	  
+	  
+|3,0,5,2,17,1,1614298984,"  ","  ","","  ","","  ","  ","  ","","  ","","  ","  ","","  ","  ","  "
+"6	BLOCK	1
+	  
+	  
+	
+	  
 	  
 	  
 	
@@ -313,19 +319,16 @@ ${
 	  
 	  
 	  
-|3,0,5,2,20,1,1614298975,"  ","  ","","  ","  ","  ","","  ","","  ","  ","","  ","  ","  ","","  ","  ","  ","  "
-"6	LINE	0
-	  
-|3,0,6,1,1,0,1614298965,"  "
+|3,0,6,2,20,1,1614298975,"  ","  ","","  ","  ","  ","","  ","","  ","  ","","  ","  ","  ","","  ","  ","  ","  "
 "7	LINE	0
-	
-|3,0,7,1,1,0,1614298938,""
-"8	LINE	0
-	}
-|3,0,8,1,1,0,1614298937,"}"
-"9	LINE	0
 	  
-|3,0,9,1,1,0,1614298906,"  "
+|3,0,7,1,1,0,1614298965,"  "
+"8	LINE	0
+	
+|3,0,8,1,1,0,1614298938,""
+"9	LINE	0
+	}
+|3,0,9,1,1,0,1614298937,"}"
 "a@	CHAR	0
 	/_foritemp€kb€kb€kbmp=$(€ýalxA)€ýa€ýak0jj
 |3,2,10,0,1,0,1614114771,"/_foritemp€kb€kb€kbmp=$(€ýalxA)€ýa€ýak0jj"
@@ -335,238 +338,507 @@ ${
 "k	CHAR	0
 	jk
 |3,0,20,0,1,0,1613388036,"jk"
-""-	CHAR	0
-	/home/duclos/.scripts/cron 
-|3,1,36,0,1,0,1614299541,"/home/duclos/.scripts/cron "
+"-	CHAR	0
+	bash
+|3,0,36,0,1,0,1614299789,"bash"
 
 # File marks:
-'0  1  0  ~/Documents/dotfiles/bin/update.sh
-|4,48,1,0,1614299554,"~/Documents/dotfiles/bin/update.sh"
-'1  1  0  ~/Documents/dotfiles/bin/update.sh
-|4,49,1,0,1614299551,"~/Documents/dotfiles/bin/update.sh"
-'2  1  10  ~/.scripts/tlbx/tlbx_monitors_functions.sh
-|4,50,1,10,1614299197,"~/.scripts/tlbx/tlbx_monitors_functions.sh"
-'3  1  10  ~/.scripts/tlbx/tlbx_mng_daemon.sh
-|4,51,1,10,1614299189,"~/.scripts/tlbx/tlbx_mng_daemon.sh"
-'4  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,52,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
-'5  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,53,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
-'6  3  34  ~/.scripts/cron/cron_cleanup.sh
-|4,54,3,34,1614299151,"~/.scripts/cron/cron_cleanup.sh"
-'7  1  0  ~/.config/tmux/scripts/tmux_dmenu_sessions.sh
-|4,55,1,0,1614299102,"~/.config/tmux/scripts/tmux_dmenu_sessions.sh"
-'8  3  70  ~/.config/tmux/scripts/tmux_create_session.sh
-|4,56,3,70,1614299014,"~/.config/tmux/scripts/tmux_create_session.sh"
-'9  1  0  ~/.config/tmux/scripts/tmux_display_sessions.sh
-|4,57,1,0,1614298910,"~/.config/tmux/scripts/tmux_display_sessions.sh"
+'0  143  0  ~/.config/sxhkd/sxhkdrc
+|4,48,143,0,1614299983,"~/.config/sxhkd/sxhkdrc"
+'1  3  47  ~/.config/bspwm/scripts/bspwm_dmenu_hidden_nodes.sh
+|4,49,3,47,1614299903,"~/.config/bspwm/scripts/bspwm_dmenu_hidden_nodes.sh"
+'2  26  0  ~/.config/bspwm/bspwmrc
+|4,50,26,0,1614299829,"~/.config/bspwm/bspwmrc"
+'3  1  0  ~/.config/polybar/launch.sh
+|4,51,1,0,1614299778,"~/.config/polybar/launch.sh"
+'4  1  10  ~/.config/bspwm/bspwmrc
+|4,52,1,10,1614299718,"~/.config/bspwm/bspwmrc"
+'5  1  10  ~/.config/bspwm/bspwmrc
+|4,53,1,10,1614299718,"~/.config/bspwm/bspwmrc"
+'6  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,54,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+'7  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,55,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+'8  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,56,1,0,1614299554,"~/Documents/dotfiles/bin/update.sh"
+'9  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,57,1,0,1614299551,"~/Documents/dotfiles/bin/update.sh"
 
 # Jumplist (newest first):
+-'  143  0  ~/.config/sxhkd/sxhkdrc
+|4,39,143,0,1614299983,"~/.config/sxhkd/sxhkdrc"
+-'  1  0  ~/.config/sxhkd/sxhkdrc
+|4,39,1,0,1614299953,"~/.config/sxhkd/sxhkdrc"
+-'  3  47  ~/.config/bspwm/scripts/bspwm_dmenu_hidden_nodes.sh
+|4,39,3,47,1614299903,"~/.config/bspwm/scripts/bspwm_dmenu_hidden_nodes.sh"
+-'  3  47  ~/.config/bspwm/scripts/bspwm_dmenu_hidden_nodes.sh
+|4,39,3,47,1614299903,"~/.config/bspwm/scripts/bspwm_dmenu_hidden_nodes.sh"
+-'  1  0  ~/.config/bspwm/scripts/bspwm_dmenu_hidden_nodes.sh
+|4,39,1,0,1614299901,"~/.config/bspwm/scripts/bspwm_dmenu_hidden_nodes.sh"
+-'  1  0  ~/.config/bspwm/scripts/bspwm_dmenu_hidden_nodes.sh
+|4,39,1,0,1614299901,"~/.config/bspwm/scripts/bspwm_dmenu_hidden_nodes.sh"
+-'  26  0  ~/.config/bspwm/bspwmrc
+|4,39,26,0,1614299829,"~/.config/bspwm/bspwmrc"
+-'  26  0  ~/.config/bspwm/bspwmrc
+|4,39,26,0,1614299829,"~/.config/bspwm/bspwmrc"
+-'  26  0  ~/.config/bspwm/bspwmrc
+|4,39,26,0,1614299829,"~/.config/bspwm/bspwmrc"
+-'  26  0  ~/.config/bspwm/bspwmrc
+|4,39,26,0,1614299829,"~/.config/bspwm/bspwmrc"
+-'  19  0  ~/.scripts/tlbx/tlbx_monitors_functions.sh
+|4,39,19,0,1614299819,"~/.scripts/tlbx/tlbx_monitors_functions.sh"
+-'  19  0  ~/.scripts/tlbx/tlbx_monitors_functions.sh
+|4,39,19,0,1614299819,"~/.scripts/tlbx/tlbx_monitors_functions.sh"
+-'  19  0  ~/.scripts/tlbx/tlbx_monitors_functions.sh
+|4,39,19,0,1614299819,"~/.scripts/tlbx/tlbx_monitors_functions.sh"
+-'  19  0  ~/.scripts/tlbx/tlbx_monitors_functions.sh
+|4,39,19,0,1614299819,"~/.scripts/tlbx/tlbx_monitors_functions.sh"
+-'  13  8  ~/.config/bspwm/bspwmrc
+|4,39,13,8,1614299813,"~/.config/bspwm/bspwmrc"
+-'  13  8  ~/.config/bspwm/bspwmrc
+|4,39,13,8,1614299813,"~/.config/bspwm/bspwmrc"
+-'  13  8  ~/.config/bspwm/bspwmrc
+|4,39,13,8,1614299813,"~/.config/bspwm/bspwmrc"
+-'  13  8  ~/.config/bspwm/bspwmrc
+|4,39,13,8,1614299813,"~/.config/bspwm/bspwmrc"
+-'  1  0  ~/.config/bspwm/bspwmrc
+|4,39,1,0,1614299780,"~/.config/bspwm/bspwmrc"
+-'  1  0  ~/.config/bspwm/bspwmrc
+|4,39,1,0,1614299780,"~/.config/bspwm/bspwmrc"
+-'  1  0  ~/.config/bspwm/bspwmrc
+|4,39,1,0,1614299780,"~/.config/bspwm/bspwmrc"
+-'  1  0  ~/.config/bspwm/bspwmrc
+|4,39,1,0,1614299780,"~/.config/bspwm/bspwmrc"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1614299778,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1614299778,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1614299778,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1614299778,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1614299778,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1614299778,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1614299778,"~/.config/polybar/launch.sh"
+-'  1  0  ~/.config/polybar/launch.sh
+|4,39,1,0,1614299778,"~/.config/polybar/launch.sh"
+-'  1  10  ~/.config/bspwm/bspwmrc
+|4,39,1,10,1614299718,"~/.config/bspwm/bspwmrc"
+-'  1  10  ~/.config/bspwm/bspwmrc
+|4,39,1,10,1614299718,"~/.config/bspwm/bspwmrc"
+-'  1  10  ~/.config/bspwm/bspwmrc
+|4,39,1,10,1614299718,"~/.config/bspwm/bspwmrc"
+-'  1  10  ~/.config/bspwm/bspwmrc
+|4,39,1,10,1614299718,"~/.config/bspwm/bspwmrc"
+-'  1  10  ~/.config/bspwm/bspwmrc
+|4,39,1,10,1614299718,"~/.config/bspwm/bspwmrc"
+-'  1  10  ~/.config/bspwm/bspwmrc
+|4,39,1,10,1614299718,"~/.config/bspwm/bspwmrc"
+-'  1  10  ~/.config/bspwm/bspwmrc
+|4,39,1,10,1614299718,"~/.config/bspwm/bspwmrc"
+-'  1  10  ~/.config/bspwm/bspwmrc
+|4,39,1,10,1614299718,"~/.config/bspwm/bspwmrc"
 -'  1  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,1,0,1614299554,"~/Documents/dotfiles/bin/update.sh"
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
 -'  1  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,1,0,1614299551,"~/Documents/dotfiles/bin/update.sh"
--'  117  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,117,0,1614299550,"~/Documents/dotfiles/bin/update.sh"
--'  117  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,117,0,1614299550,"~/Documents/dotfiles/bin/update.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_monitors_functions.sh
-|4,39,1,10,1614299197,"~/.scripts/tlbx/tlbx_monitors_functions.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_monitors_functions.sh
-|4,39,1,10,1614299197,"~/.scripts/tlbx/tlbx_monitors_functions.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_monitors_functions.sh
-|4,39,1,10,1614299197,"~/.scripts/tlbx/tlbx_monitors_functions.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_monitors_functions.sh
-|4,39,1,10,1614299197,"~/.scripts/tlbx/tlbx_monitors_functions.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_mng_daemon.sh
-|4,39,1,10,1614299189,"~/.scripts/tlbx/tlbx_mng_daemon.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_mng_daemon.sh
-|4,39,1,10,1614299189,"~/.scripts/tlbx/tlbx_mng_daemon.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_mng_daemon.sh
-|4,39,1,10,1614299189,"~/.scripts/tlbx/tlbx_mng_daemon.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_mng_daemon.sh
-|4,39,1,10,1614299189,"~/.scripts/tlbx/tlbx_mng_daemon.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_mng_daemon.sh
-|4,39,1,10,1614299189,"~/.scripts/tlbx/tlbx_mng_daemon.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_mng_daemon.sh
-|4,39,1,10,1614299189,"~/.scripts/tlbx/tlbx_mng_daemon.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_mng_daemon.sh
-|4,39,1,10,1614299189,"~/.scripts/tlbx/tlbx_mng_daemon.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_mng_daemon.sh
-|4,39,1,10,1614299189,"~/.scripts/tlbx/tlbx_mng_daemon.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,39,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,39,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,39,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,39,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,39,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,39,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,39,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,39,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,39,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,39,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,39,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,39,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,39,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,39,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,39,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
--'  1  10  ~/.scripts/tlbx/tlbx_debug_example.sh
-|4,39,1,10,1614299177,"~/.scripts/tlbx/tlbx_debug_example.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  1  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,3,1,1614299168,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  1  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,39,1,0,1614299159,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
--'  3  34  ~/.scripts/cron/cron_cleanup.sh
-|4,39,3,34,1614299151,"~/.scripts/cron/cron_cleanup.sh"
--'  3  34  ~/.scripts/cron/cron_cleanup.sh
-|4,39,3,34,1614299151,"~/.scripts/cron/cron_cleanup.sh"
--'  3  34  ~/.scripts/cron/cron_cleanup.sh
-|4,39,3,34,1614299151,"~/.scripts/cron/cron_cleanup.sh"
--'  3  34  ~/.scripts/cron/cron_cleanup.sh
-|4,39,3,34,1614299151,"~/.scripts/cron/cron_cleanup.sh"
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  0  ~/Documents/dotfiles/bin/update.sh
+|4,39,1,0,1614299692,"~/Documents/dotfiles/bin/update.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
+-'  1  10  ~/Documents/dotfiles/bin/install.sh
+|4,39,1,10,1614299687,"~/Documents/dotfiles/bin/install.sh"
 
 # History of marks within files (newest to oldest):
 
+> ~/.config/sxhkd/sxhkdrc
+	*	1614299980	0
+	"	143	0
+	^	54	13
+	.	143	0
+	+	93	23
+	+	96	0
+	+	60	8
+	+	60	0
+	+	96	0
+	+	92	5
+	+	90	22
+	+	92	22
+	+	96	0
+	+	60	0
+	+	20	0
+	+	21	27
+	+	94	14
+	+	27	20
+	+	24	0
+	+	25	1
+	+	28	0
+	+	50	11
+	+	51	33
+	+	49	10
+	+	114	8
+	+	118	14
+	+	94	11
+	+	143	0
+	+	147	12
+	+	147	0
+	+	26	10
+	+	70	12
+	+	103	10
+	+	94	9
+	+	122	8
+	+	125	14
+	+	122	8
+	+	1	0
+	+	67	53
+	+	60	0
+	+	60	4
+	+	60	62
+	+	60	8
+	+	60	41
+	+	67	20
+	+	60	0
+	+	129	8
+	+	141	8
+	+	143	8
+	+	145	8
+	+	147	8
+	+	129	8
+	+	82	25
+	+	83	35
+	+	88	0
+	+	90	27
+	+	91	43
+	+	92	0
+	+	103	6
+	+	83	28
+	+	91	44
+	+	14	18
+	+	94	13
+	+	95	0
+	+	10	21
+	+	9	21
+	+	11	21
+	+	61	0
+	+	62	10
+	+	77	0
+	+	78	11
+	+	77	22
+	+	79	22
+	+	97	0
+	+	98	18
+	+	97	22
+	+	99	22
+	+	148	0
+	+	149	19
+	+	148	22
+	+	150	22
+	+	136	0
+	+	137	19
+	+	176	0
+	+	177	15
+	+	176	19
+	+	178	19
+	+	187	0
+	+	139	0
+	+	8	0
+	+	111	35
+	+	86	0
+	+	84	0
+	+	85	23
+	+	86	11
+	+	87	28
+	+	86	13
+	+	85	22
+	+	87	33
+	+	86	13
+	+	54	12
+	+	55	18
+	+	147	0
+	+	143	0
+
+> ~/.config/bspwm/scripts/bspwm_dmenu_hidden_nodes.sh
+	*	1614299903	0
+	"	3	47
+	^	3	48
+	.	3	47
+	+	31	0
+	+	38	0
+	+	31	1
+	+	32	0
+	+	37	0
+	+	39	3
+	+	6	18
+	+	2	0
+	+	3	46
+	+	14	1
+	+	18	1
+	+	19	1
+	+	20	1
+	+	21	1
+	+	25	1
+	+	26	3
+	+	27	2
+	+	31	1
+	+	1	10
+	+	3	47
+
+> ~/.config/bspwm/bspwmrc
+	*	1614299828	0
+	"	26	0
+	^	69	17
+	.	69	16
+	+	16	0
+	+	16	7
+	+	16	0
+	+	11	10
+	+	16	9
+	+	92	30
+	+	88	0
+	+	88	35
+	+	102	0
+	+	102	13
+	+	105	0
+	+	12	10
+	+	10	0
+	+	11	4
+	+	10	13
+	+	12	13
+	+	13	0
+	+	11	16
+	+	10	16
+	+	12	16
+	+	16	0
+	+	17	13
+	+	13	0
+	+	40	0
+	+	41	16
+	+	40	19
+	+	42	19
+	+	56	0
+	+	57	12
+	+	56	15
+	+	58	15
+	+	41	10
+	+	40	11
+	+	42	11
+	+	41	8
+	+	40	11
+	+	42	11
+	+	63	0
+	+	64	12
+	+	63	15
+	+	65	15
+	+	88	0
+	+	88	35
+	+	88	1
+	+	88	0
+	+	88	11
+	+	88	15
+	+	88	0
+	+	88	10
+	+	88	14
+	+	89	0
+	+	90	9
+	+	89	13
+	+	91	13
+	+	102	0
+	+	80	0
+	+	88	0
+	+	79	0
+	+	64	21
+	+	88	0
+	+	49	0
+	+	55	0
+	+	88	0
+	+	30	0
+	+	39	0
+	+	102	0
+	+	101	0
+	+	100	0
+	+	89	0
+	+	78	0
+	+	77	0
+	+	89	0
+	+	87	0
+	+	83	0
+	+	88	0
+	+	84	0
+	+	85	8
+	+	84	12
+	+	86	12
+	+	13	47
+	+	16	0
+	+	92	0
+	+	85	11
+	+	84	14
+	+	86	14
+	+	14	25
+	+	13	20
+	+	16	0
+	+	15	0
+	+	11	8
+	+	10	12
+	+	12	12
+	+	52	40
+	+	22	14
+	+	2	0
+	+	38	25
+	+	1	10
+	+	14	51
+	+	13	46
+	+	69	16
+
+> ~/.scripts/tlbx/tlbx_monitors_functions.sh
+	*	1614299819	0
+	"	19	0
+	^	1	11
+	.	1	10
+	+	47	30
+	+	33	0
+	+	41	42
+	+	5	18
+	+	13	18
+	+	17	18
+	+	21	18
+	+	25	19
+	+	26	21
+	+	27	23
+	+	28	25
+	+	48	0
+	+	2	0
+	+	3	73
+	+	1	10
+
+> ~/.config/polybar/launch.sh
+	*	1614299775	0
+	"	1	0
+	^	10	18
+	.	10	17
+	+	1	10
+	+	2	0
+	+	3	15
+	+	10	17
+
 > ~/Documents/dotfiles/bin/update.sh
-	*	1614299553	0
+	*	1614299691	0
 	"	1	0
 	^	94	8
 	.	94	9
@@ -628,25 +900,11 @@ ${
 	+	13	9
 	+	94	9
 
-> ~/.scripts/tlbx/tlbx_monitors_functions.sh
-	*	1614299196	0
+> ~/Documents/dotfiles/bin/install.sh
+	*	1614299687	0
 	"	1	10
 	^	1	11
 	.	1	10
-	+	47	30
-	+	33	0
-	+	41	42
-	+	5	18
-	+	13	18
-	+	17	18
-	+	21	18
-	+	25	19
-	+	26	21
-	+	27	23
-	+	28	25
-	+	48	0
-	+	2	0
-	+	3	73
 	+	1	10
 
 > ~/.scripts/tlbx/tlbx_mng_daemon.sh
@@ -1441,31 +1699,6 @@ ${
 	+	3	57
 	+	1	10
 
-> ~/.config/bspwm/scripts/bspwm_dmenu_hidden_nodes.sh
-	*	1614298276	0
-	"	1	0
-	^	1	11
-	.	1	10
-	+	31	0
-	+	38	0
-	+	31	1
-	+	32	0
-	+	37	0
-	+	39	3
-	+	6	18
-	+	2	0
-	+	3	46
-	+	14	1
-	+	18	1
-	+	19	1
-	+	20	1
-	+	21	1
-	+	25	1
-	+	26	3
-	+	27	2
-	+	31	1
-	+	1	10
-
 > ~/.config/bspwm/scripts/bspwm_swap_desktops.sh
 	*	1614298263	0
 	"	1	10
@@ -1633,112 +1866,6 @@ ${
 > ~/.config/bspwm/scripts/bspwm_regular_WM_layout.sh
 	*	1614296841	0
 	"	1	0
-
-> ~/.config/sxhkd/sxhkdrc
-	*	1614296675	0
-	"	151	0
-	^	54	13
-	.	151	0
-	+	92	46
-	+	93	23
-	+	96	0
-	+	60	8
-	+	60	0
-	+	96	0
-	+	92	5
-	+	90	22
-	+	92	22
-	+	96	0
-	+	60	0
-	+	20	0
-	+	21	27
-	+	94	14
-	+	27	20
-	+	24	0
-	+	25	1
-	+	28	0
-	+	50	11
-	+	51	33
-	+	49	10
-	+	114	8
-	+	118	14
-	+	94	11
-	+	147	0
-	+	151	12
-	+	151	0
-	+	26	10
-	+	70	12
-	+	103	10
-	+	94	9
-	+	122	8
-	+	125	14
-	+	122	8
-	+	1	0
-	+	67	53
-	+	60	0
-	+	60	4
-	+	60	62
-	+	60	8
-	+	60	41
-	+	67	20
-	+	60	0
-	+	129	8
-	+	141	8
-	+	145	8
-	+	149	8
-	+	151	8
-	+	129	8
-	+	82	25
-	+	83	35
-	+	88	0
-	+	90	27
-	+	91	43
-	+	92	0
-	+	103	6
-	+	83	28
-	+	91	44
-	+	14	18
-	+	94	13
-	+	95	0
-	+	10	21
-	+	9	21
-	+	11	21
-	+	61	0
-	+	62	10
-	+	77	0
-	+	78	11
-	+	77	22
-	+	79	22
-	+	97	0
-	+	98	18
-	+	97	22
-	+	99	22
-	+	152	0
-	+	153	19
-	+	152	22
-	+	154	22
-	+	136	0
-	+	137	19
-	+	180	0
-	+	181	15
-	+	180	19
-	+	182	19
-	+	191	0
-	+	139	0
-	+	8	0
-	+	111	35
-	+	86	0
-	+	84	0
-	+	85	23
-	+	86	11
-	+	87	28
-	+	86	13
-	+	85	22
-	+	87	33
-	+	86	13
-	+	54	12
-	+	55	18
-	+	151	0
 
 > ~/.config/bspwm/scripts/bspwm_close_receptacle.sh
 	*	1614296424	0
@@ -2345,112 +2472,6 @@ ${
 	+	12	52
 	+	13	45
 
-> ~/.config/bspwm/bspwmrc
-	*	1614164699	0
-	"	1	0
-	^	38	26
-	.	38	25
-	+	13	0
-	+	16	7
-	+	16	0
-	+	13	0
-	+	16	0
-	+	16	7
-	+	16	0
-	+	11	10
-	+	16	9
-	+	92	30
-	+	88	0
-	+	88	35
-	+	102	0
-	+	102	13
-	+	105	0
-	+	12	10
-	+	10	0
-	+	11	4
-	+	10	13
-	+	12	13
-	+	13	0
-	+	11	16
-	+	10	16
-	+	12	16
-	+	16	0
-	+	17	13
-	+	13	0
-	+	40	0
-	+	41	16
-	+	40	19
-	+	42	19
-	+	56	0
-	+	57	12
-	+	56	15
-	+	58	15
-	+	41	10
-	+	40	11
-	+	42	11
-	+	41	8
-	+	40	11
-	+	42	11
-	+	63	0
-	+	64	12
-	+	63	15
-	+	65	15
-	+	88	0
-	+	88	35
-	+	88	1
-	+	88	0
-	+	88	11
-	+	88	15
-	+	88	0
-	+	88	10
-	+	88	14
-	+	89	0
-	+	90	9
-	+	89	13
-	+	91	13
-	+	102	0
-	+	80	0
-	+	88	0
-	+	79	0
-	+	64	21
-	+	88	0
-	+	49	0
-	+	55	0
-	+	88	0
-	+	30	0
-	+	39	0
-	+	102	0
-	+	101	0
-	+	100	0
-	+	89	0
-	+	78	0
-	+	77	0
-	+	89	0
-	+	87	0
-	+	83	0
-	+	88	0
-	+	84	0
-	+	85	8
-	+	84	12
-	+	86	12
-	+	13	47
-	+	16	0
-	+	92	0
-	+	85	11
-	+	84	14
-	+	86	14
-	+	14	25
-	+	13	20
-	+	16	0
-	+	15	0
-	+	11	8
-	+	10	12
-	+	12	12
-	+	52	40
-	+	22	14
-	+	2	0
-	+	38	25
-
 > ~/.config/lemonbar/modules/lemon_window.sh
 	*	1614116317	0
 	"	10	4
@@ -2617,30 +2638,3 @@ ${
 > ~/Documents/dotfiles/cron/crontab/duclos
 	*	1614095289	0
 	"	1	0
-
-> ~/Documents/dotfiles/scripts/default/multiple_monitors.sh
-	*	1614095243	0
-	"	1	0
-
-> ~/.config/tmux/tmux.conf
-	*	1614094752	0
-	"	1	0
-	^	19	23
-	.	16	0
-	+	131	0
-	+	132	10
-	+	131	12
-	+	133	12
-	+	151	22
-	+	150	22
-	+	22	0
-	+	25	0
-	+	23	12
-	+	22	15
-	+	24	15
-	+	17	0
-	+	18	19
-	+	17	22
-	+	19	22
-	+	8	0
-	+	16	0

@@ -102,7 +102,7 @@ syntax match fishRegexArgument "--\w*"      "Matches any word that begins with -
 syntax match fishRegexOption "-\w*[^-]"     "Matches any word that begins with --.
  
 hi FishWords cterm=BOLD ctermfg=NONE ctermbg=NONE gui=BOLD guifg=#00bcd4 guibg=NONE
-hi FishConditionals cterm=BOLD ctermfg=NONE ctermbg=NONE gui=BOLD guifg=#d400bc guibg=NONE
+hi FishConditionals cterm=BOLD ctermfg=NONE ctermbg=NONE gui=BOLD guifg=#00bcd4 guibg=NONE
 hi FishPrintf cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=#d400bc guibg=NONE
 hi FishArgument cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=#588383 guibg=NONE
 hi FishPrivate cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=#00bcd4 guibg=NONE

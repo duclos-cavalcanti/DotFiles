@@ -1,0 +1,188 @@
+ls
+ls
+ll
+ls
+bspc desktop -s 2 --follow
+ls
+ll
+ls
+ls
+cd
+ls
+cd doc
+cd Documents/
+ls
+cd learn/
+ls
+cd intro-ai/
+ls
+ls ai50/
+l
+cd ai50/
+ls
+cd projects/
+ls
+ls
+cd Search/
+ls
+ls
+echo "$gap"
+ls
+vim ~/.config/bash/bashrc 
+ll
+ls
+for file in ls *.bash; do echo "$file"; done
+ls *.bash
+for file in $(ls *.bash); do echo "$file"; done
+l
+for file in $(ls *.bash); do file=$(cut -d '.' -f1 $file); echo $file; done
+for file in $(ls *.bash); do file=$(cut -d '.' -f1 $file); echo $file; done
+for file in $(ls *.bash); do file=$(cut -d '.' -f1 $file); echo $file; done
+ls *.bash
+for file in ls *.bash; do file=$(cut -d '.' -f1 $file); echo $file; done
+man trap
+man $#
+man bash
+a=bla blo bli
+orient="a b c"
+echo "$orient"
+for i in $orient; do echo "$i"; done
+for i in $orient; do echo "Here $i"; done
+exec a=1
+eval a=1
+echo "$a"
+ls
+a="b c d"
+b=2
+for i in $a; do echo %i; done
+for i in $a; do echo $i; done
+for i in $a; do echo eval $i; done
+for i in $a; do echo $(eval $i); done
+man eval
+test -a eval
+man PS2
+man PS4
+ls
+ls
+cd Documents/
+ll
+la
+ls
+ll
+ll
+ll
+ll
+ls
+ll
+ll
+ll
+ls
+l
+ll
+l
+l
+l
+ls
+ls
+ls
+function fun { local a="HELLO"; } ; echo "$a"
+un
+fun
+function fun { local a="HELLO"; } ; echo "$a"
+function fun { local a="HELLO"; } ; echo "$a"
+function fun { if [[ -f ~/.config/bash/bashrc ]]; then local a="HELLO"; fi; echo "$a" } ; fun function fun { if [[ -f ~/.config/bash/bashrc ]]; then local a="HELLO"; fi echo "$a" } ; fun
+function fun { if [[ -f ~/.config/bash/bashrc ]]; then local a="HELLO"; fi; echo "$a" } ; fun function fun { if [[ -f ~/.config/bash/bashrc ]]; then local a="HELLO"; fi ; echo "$a" } ; fun
+function fun() { if [[ -f ~/.config/bash/bashrc ]]; then local a="HELLO"; fi echo "$a"; }
+fun
+man printf
+ls
+touch __cb_char_prompt.sh
+ll
+ls
+ls
+ll
+ls
+ls
+ll
+ls
+ls
+l
+ls
+ls
+ls
+ls
+ls
+cd
+ls
+cd Documents/dotfiles/
+ls
+ls
+ll
+ls
+ll
+ls
+ll
+ll
+ll
+ls
+cd
+cd Documents/dotfiles/
+ls
+echo "$VIRTUAL_ENV"
+[[ -n "$VIRTUAL_ENV" ]] && "hi"
+[[ -n "$VIRTUAL_ENV" ]] \\ "hi"
+[[ -n "$VIRTUAL_ENV" ]] || "hi"
+[[ -n "$VIRTUAL_ENV" ]] || echo "hi"
+l
+ls
+ll
+ll
+ll
+ls
+ll
+ls
+cd
+ls
+cd
+ls
+cd
+cd Documents/
+ls
+ll
+ls
+ll
+ll
+cd
+ls
+ls
+cd Documents/
+ls
+ll
+type -a cd
+type -a mkfifo
+man mkfifo
+ls
+cd
+ls
+cd Documents/dotfiles/
+ls
+cd
+cd Documents/dotfiles/
+ls
+cd
+cd Documents/dotfiles/
+ls
+cd
+cd Documents/work/TensorDSE
+ls
+source venv/bin/activate.fish 
+source venv/bin/activate
+ls
+cd Documents/work/TensorDSE
+ls
+source venv/bin/activate
+sudo pacman -S fzf
+cd Documents/work 
+ls
+ls
+cd work/espl/STM/STM32-uGFX-Cmake

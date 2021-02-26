@@ -6,11 +6,66 @@
 #\____/\_| |_/\____/\_| |_/
 #                          
 
-[ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion
+# Sourcing bash's basic completion
+if [ -r /usr/share/bash-completion/bash_completion ]; then
+  . /usr/share/bash-completion/bash_completion
+fi
 
+# Sourcing fzf keybindings
+if [ -d /usr/share/fzf ]; then
+  . /usr/share/fzf/key-bindings.bash
+  . /usr/share/fzf/completion.bash
+fi
 
-#Sets Prompt to simple Current Directory in Green
-PS1='\[\033[37m\]\[\033[37m\]\$ '
+# Sourcing bash prompt
+if [[ -d $HOME/.config/bash/functions/ ]]; then 
+  . $HOME/.config/bash/functions/__cb_git_prompt.sh
+  . $HOME/.config/bash/functions/__cb_pyenv_prompt.sh
+fi
+
+# Sets Default Interactive Prompt
+if [ -n "$SSH_CONNECTION" ]; then
+	export PS1="\u@\h: \w \$ "
+else
+  if [[ -d $HOME/.config/bash/ ]]; then
+    PS1='\[\033[1;34m\]\W'
+    PS1+='\[\033[1;31m\] $(__cb_git_prompt)'
+    PS1+='\[\033[1;35m\] $(__cb_pyenv_prompt)'
+    PS1+="\[\033[1;34m\]\n\$\[\033[00m\] "
+  else
+    PS1='\[\033[1;34m\]\W'
+    PS1+="\[\033[1;34m\]\n\$\[\033[00m\] "
+  fi
+  export PS1
+fi
+
+# Sets Continuation Interactive prompt
+export PS2="> "
+
+# Sets Debug prompt
+export PS4="> "
+
+# Is executed after every command at prompt, useful to add extra line.
+export PROMPT_COMMAND=echo
+
+PATH=$PATH:${HOME}/.local/bin/:${HOME}/.bin
+export PATH
+
+export WM='bspwm'
+export VISUAL='vim'
+export EDITOR=$VISUAL
+export GIT_EDITOR='vim'
+export DIFFPROG='vim'
+export PAGER='less'
+export READER='zathura'
+export BROWSER='firefox'
+
+export BSPWM_PATH=~/.config/bspwm/scripts
+export TMUX_PATH=~/.config/tmux/scripts
+export TLBX_PATH=~/.scripts
+export POLY_PATH=~/.config/polybar/scripts
+export CUSTOM_DMENU="dmenu_run -h 35" 
+export CUSTOM_DMENU_PROMPT="dmenu -h 35" 
 
 export XDG_DATA_HOME='/home/duclos/.local/'
 export XDG_CACHE_HOME='/home/duclos/.cache/'
@@ -24,32 +79,25 @@ export VIMINIT='source $CUSTOM_VIMRC'
 export CUSTOM_VIMRC='/home/duclos/.config/vim/vimrc'
 export IPYTHONDIR='/home/duclos/.config/ipython/'
 export CARGO_HOME='/home/duclos/.cache/cargo/'
-export HISTFILE='/home/duclos/.config/bash/bash_history'
 export GNUPGHOME='/home/duclos/.cache/gnupg/'
 export IPDB_CONFIG='/home/duclos/.config/ipdb/setup.cfg'
 export LESSHISTFILE=-
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 
-export WM='bspwm'
-export EDITOR='vim'
-export VISUAL='vim'
-export GIT_EDITOR='vim'
-export DIFFPROG='vim'
-export PAGER='less'
-export READER='zathura'
-export BROWSER='qutebrowser'
+# Bash history
+export HISTFILE='/home/duclos/.config/bash/bash_history'
 
-export BSPWM_PATH=~/.config/bspwm/scripts
-export TMUX_PATH=~/.config/tmux/scripts
-export TLBX_PATH=~/.scripts
-export POLY_PATH=~/.config/polybar/scripts
-export CUSTOM_DMENU="dmenu_run -h 30 -x 0 -y 0 -w 1920" 
-export CUSTOM_DMENU_PROMPT="dmenu -h 30 -x 0 -y 0 -w 1920" 
+shopt -s histappend # Append to the history file, dont overwrite
+HISTSIZE=1000
+HISTFILESIZE=2000
 
-#Basic Aliases
+# Aliases
+alias l="ls --color=auto"
 alias ls='ls --color=auto'
+alias la="ls -a --color=auto"
 alias ll='ls -l --color=auto'
-alias l="ls"
+
+alias cdH='cd ~'
 
 alias grep='grep --colour=auto'
 alias egrep='egrep --colour=auto'
@@ -92,6 +140,7 @@ alias gcc="gcc -Wall -g"
 alias gdb="gdb -nx -x /home/duclos/.config/gdb/init"
 alias armgdb="/usr/bin/arm-none-eabi-gdb -nx -x /home/duclos/.config/gdb/init"
 
+alias packo="sudo pacman -Qdt"
 alias aur="sudo pacman -Qqm"
 
 alias t="mux -2 -f ~/.config/tmux/tmux.conf"
@@ -114,6 +163,34 @@ alias cP="vim ~/.config/picom/picom.conf"
 alias cB="vim ~/.config/polybar/config.ini"
 alias cZ="vim ~/.config/zathura/zathurarc"
 
-#Sourcing fzf keybindings
-source /usr/share/fzf/key-bindings.bash
-source /usr/share/fzf/completion.bash
+alias Mc="cmake .. && make"
+
+alias xclipc="xclip -i -sel clip"
+
+# Functions
+# cd and list directories
+function cd() {
+  if [ -n "$1" ]; then
+	  builtin cd "$@" && ls -pvA --color=auto --group-directories-first
+  else
+	  builtin cd ~ && ls -pvA --color=auto --group-directories-first
+  fi
+}
+
+# colored man pages
+function man() {
+	env \
+	  LESS_TERMCAP_mb=$(tput bold; tput setaf 6) \
+	  LESS_TERMCAP_md=$(tput bold; tput setaf 6) \
+	  LESS_TERMCAP_me=$(tput sgr0) \
+	  LESS_TERMCAP_se=$(tput rmso; tput sgr0) \
+	  LESS_TERMCAP_ue=$(tput rmul; tput sgr0) \
+	  LESS_TERMCAP_us=$(tput smul; tput bold; tput setaf 4) \
+	  LESS_TERMCAP_mr=$(tput rev) \
+	  LESS_TERMCAP_mh=$(tput dim) \
+	  LESS_TERMCAP_ZN=$(tput ssubm) \
+	  LESS_TERMCAP_ZV=$(tput rsubm) \
+	  LESS_TERMCAP_ZO=$(tput ssupm) \
+	  LESS_TERMCAP_ZW=$(tput rsupm) \
+	man "$@"
+}

@@ -5,11 +5,13 @@
 DOTFILES_PATH=~/Documents/dotfiles
 
 function backup_fish_shell {
-  cp -r ~/.config/fish/* ${DOTFILES_PATH}/shells/fish/
+  rm -rf ${DOTFILES_PATH}/shells/fish
+  cp -r ~/.config/fish/ ${DOTFILES_PATH}/shells/
 }
 
 function backup_bash_shell {
-  cp ~/.config/bash/bashrc ${DOTFILES_PATH}/shells/bash/
+  rm -rf ${DOTFILES_PATH}/shells/bash/
+  cp -rf ~/.config/bash/ ${DOTFILES_PATH}/shells/
   rm -rf ${DOTFILES_PATH}/scripts/toolbox
   cp -r ~/.scripts/tlbx ${DOTFILES_PATH}/scripts/toolbox
 }

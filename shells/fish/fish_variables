@@ -11,6 +11,7 @@ SETUVAR _fish_abbr_bc:bluetoothctl
 SETUVAR _fish_abbr_bctl:bluetoothctl\x20
 SETUVAR _fish_abbr_boff:bluetoothctl\x20power\x20off
 SETUVAR _fish_abbr_bon:bluetoothctl\x20power\x20on
+SETUVAR _fish_abbr_bsh:bash\x20\x2d\x2dinit\x2dfile\x20/home/duclos/\x2econfig/bash/bashrc
 SETUVAR _fish_abbr_bsoff:bluetoothctl\x20scan\x20off
 SETUVAR _fish_abbr_bson:bluetoothctl\x20scan\x20on
 SETUVAR _fish_abbr_cB:vim\x20\x7e/\x2econfig/polybar/config\x2eini

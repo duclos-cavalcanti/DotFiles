@@ -90,7 +90,7 @@ abbr bc "bluetoothctl"
 abbr bson "bluetoothctl scan on"
 abbr bsoff "bluetoothctl scan off"
 
-abbr bash "bash --init-file /home/duclos/.config/bash/bashrc"
+abbr bsh "bash --init-file /home/duclos/.config/bash/bashrc"
 
 abbr pdb "python -m pdb"
 abbr pd "ipdb3"
@@ -98,14 +98,10 @@ abbr pd "ipdb3"
 abbr gcc "gcc -Wall -g"
 abbr gdb "gdb -nx -x /home/duclos/.config/gdb/init"
 abbr armgdb "/usr/bin/arm-none-eabi-gdb -nx -x /home/duclos/.config/gdb/init"
-abbr rudev "sudo udevadm control --reload-rules && udevadm trigger"
 
 abbr pacup "sudo pacman -Syu"
 abbr packo "sudo pacman -Qdt"
 abbr aur "sudo pacman -Qqm"
-
-abbr sf "scrot ~/Pictures/"
-abbr sc "scrot -s ~/Pictures/"
 
 abbr t "tmux -2 -f ~/.config/tmux/tmux.conf"
 abbr tn "tmux -2 -f ~/.config/tmux/tmux.conf new-session -t"
@@ -128,3 +124,29 @@ abbr cB "vim ~/.config/polybar/config.ini"
 abbr cZ "vim ~/.config/zathura/zathurarc"
 
 abbr Mc "cmake .. && make"
+
+function cd -a direc
+  if [ -n "$direc" ]
+	  builtin cd "$argv" && ls -pvA --color=auto --group-directories-first
+  else
+	  builtin cd ~ && ls -pvA --color=auto --group-directories-first
+  end
+end
+
+# colored man pages
+function man -a target
+	env \
+	  LESS_TERMCAP_mb=(tput bold; tput setaf 6) \
+	  LESS_TERMCAP_md=(tput bold; tput setaf 6) \
+	  LESS_TERMCAP_me=(tput sgr0) \
+	  LESS_TERMCAP_se=(tput rmso; tput sgr0) \
+	  LESS_TERMCAP_ue=(tput rmul; tput sgr0) \
+	  LESS_TERMCAP_us=(tput smul; tput bold; tput setaf 4) \
+	  LESS_TERMCAP_mr=(tput rev) \
+	  LESS_TERMCAP_mh=(tput dim) \
+	  LESS_TERMCAP_ZN=(tput ssubm) \
+	  LESS_TERMCAP_ZV=(tput rsubm) \
+	  LESS_TERMCAP_ZO=(tput ssupm) \
+	  LESS_TERMCAP_ZW=(tput rsupm) \
+	man "$target"
+end

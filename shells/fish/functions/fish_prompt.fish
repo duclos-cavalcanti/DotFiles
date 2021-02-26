@@ -1,11 +1,13 @@
 function fish_prompt
-    __cf_status_value
+  __cf_utils_set_status
 
-    set -l PROMPT_ORDER path git pyenv docker char
+  set -l PROMPT_ORDER path git pyenv char
 
-	for i in $PROMPT_ORDER
-		eval "__cf_"$i"_prompt"
-	end
+  __cf_user_prompt
+  __cf_path_prompt
+  __cf_git_prompt
+  __cf_pyenv_prompt
+  __cf_char_prompt
 
-    set_color normal 
+  set_color normal 
 end

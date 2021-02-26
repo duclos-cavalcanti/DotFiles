@@ -1,0 +1,7 @@
+#
+#
+# ~/.bash_profile
+
+# Load my configs
+[ -f "$HOME"/.bashrc ] && . "$HOME"/.bashrc
+

@@ -12,11 +12,11 @@
 
 # Close/Kill window
 super + {w,shift + q}
-	bspc node {-c,-k}
+  bspc node {-c,-k}
 
 # Move Focus between windows
 super + {h,j,k,l}
-    bspc node -f {west,south,north,east}.local
+  bspc node -f {west,south,north,east}.local
 
 # Preselect splitting window
 super + {H,J,K,L}
@@ -28,7 +28,7 @@ super + e : {1-9}
 
 # Swap Windows
 super + s ; {h,j,k,l}
-    bspc node -s {west,south,north,east}
+  bspc node -s {west,south,north,east}
 
 # Swap Mirror Window/Nodes Group
 super + s ; {H,J,K,L}
@@ -72,7 +72,7 @@ super + minus
 
 # Toggle floating, tiled, pseudo_tiled, full
 super + {f,t,T,F}
-    bspc node -t {floating,tiled,pseudo_tiled,fullscreen ; polybar-msg cmd toggle}
+  bspc node -t {floating,tiled,pseudo_tiled,fullscreen ; polybar-msg cmd toggle}
 
 # ---------------------
 # -- Desktop Configs --
@@ -80,7 +80,7 @@ super + {f,t,T,F}
 
 # Go/Move to Desktop
 super + {_,shift + }{1-9,0}
-	bspc {desktop -f,node -d} '^{1-9,10}'
+  bspc {desktop -f,node -d} '^{1-9,10}'
 
 # Go Prev/Newest/Oldest Desktop
 super + {p,N,O}
@@ -88,7 +88,7 @@ super + {p,N,O}
 
 # Swap Desktops
 alt + super + shift + {1-9,0}
-    ${BSPWM_PATH}/bspwm_swap_desktops.sh '^{1-9,10}'
+  ${BSPWM_PATH}/bspwm_swap_desktops.sh '^{1-9,10}'
 
 # Select previous/next Desktop
 super + {b,n,B,N}
@@ -104,19 +104,19 @@ super + Return
 
 # Tabbed Terminal
 alt + Return
-	tabbed -n tabbed_st -c -r 2 st -w ''
+  tabbed -n tabbed_st -c -r 2 st -w ''
 
 # Scratchpad
 super + shift + Return
-   ${BSPWM_PATH}/bspwm_float_term.sh "scratchterm"
+  ${BSPWM_PATH}/bspwm_float_term.sh "scratchterm"
 
 # Pdf
 super + r
-    zathura
+  zathura
 
 # Tabbed Pdf
 super + alt + r
-	tabbed -n tabbed_zathura -c zathura -e
+  tabbed -n tabbed_zathura -c zathura -e
 
 # Browser
 super + i
@@ -131,7 +131,7 @@ super + m
 
 # Dmenu/Launcher
 alt + space
-    eval $CUSTOM_DMENU
+  eval $CUSTOM_DMENU
 
 # ---------------------
 # -- Dmemu Launchers --
@@ -155,7 +155,7 @@ alt + ctrl + {q,r}
 
 # Start Dunst Daemon
 alt + ctrl + d
-    ${TLBX_PATH}/tlbx_mng_daemon.sh "dunst" ; dunstify " Relaunched Dunst " &
+  ${TLBX_PATH}/tlbx_mng_daemon.sh "dunst" ; dunstify " Relaunched Dunst " &
 
 # Reload sxhkd
 alt + ctrl + s
@@ -179,8 +179,8 @@ alt + ctrl + c
 
 # Lock
 alt + ctrl + l
-    dm-tool lock
+  dm-tool lock
 
 # Toggle Monitor display
 alt + ctrl + m
-    ${TLBX_PATH}/tlbx_configure_monitors.sh ; dunstify " Monitor Readjustment " &
+  ${TLBX_PATH}/tlbx_configure_monitors.sh ; dunstify " Monitor Readjustment " &

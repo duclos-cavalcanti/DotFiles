@@ -9,7 +9,6 @@ number=$(echo $percentage | cut -d '%' -f1)
 if [[ $number -lt 20  ]]; then
   format=" "
   format="%{T4}${format}"
-
   echo "%{F#ff5252}${format}"
 
 elif [[ $number -lt 40  ]]; then

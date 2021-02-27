@@ -32,8 +32,8 @@ function monitors::configuration() {
 
         xrandr --output "${primary}" --auto
         xrandr --output "${secondary}" --mode "1920x1080" --right-of "${primary}"
-        bspc monitor "${primary}" -d 1 
-        bspc monitor "${secondary}" -d 2 3 4 5 6 7 8 9 10
+        bspc monitor "${primary}" -d 1 2
+        bspc monitor "${secondary}" -d 3 4 5 6 7 8 9 10
 
         bspc desktop -f 4
 

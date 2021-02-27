@@ -127,9 +127,9 @@ abbr Mc "cmake .. && make"
 
 function cd -a direc
   if [ -n "$direc" ]
-	  builtin cd "$argv" && ls -pvA --color=auto --group-directories-first
+	  builtin cd "$direc" && ls -a --color=auto
   else
-	  builtin cd ~ && ls -pvA --color=auto --group-directories-first
+	  builtin cd ~ && ls -a --color=auto
   end
 end
 

@@ -95,7 +95,7 @@ function! FileType()
     let l:filetype_var = &filetype
     let l:hi = '%#FileTypeStatusLine#'
     let s:middleSL_len += strlen(l:filetype_var)
-    return l:hi . l:filetype_var
+    return l:hi . '{' . l:filetype_var . '}'
 endfunction
 
 function! LineRatio()
@@ -137,10 +137,11 @@ function! LeftStatusLine()
     let l:str .=  ReturnSpace(3)
 
     let l:str .= ModeStatus()
-    let l:str .= " - "
+    let l:str .= ExtraSpace()
     let l:str .= FileType()
     let l:str .= ExtraSpace()
     let l:str .= FilePath()
+    let l:str .= ExtraSpace()
     let l:str .= GitStatus()
 
     "3 from ReturnSpace + 3 from ' - '
@@ -153,27 +154,27 @@ function! MiddleStatusLine(len_status)
     let l:str = ""
     let l:test = ""
 
-    let l:mid = FindMiddleWin()
-
-    let l:test .= FileType()
-    let l:test .= ExtraSpace()
-    let l:test .= FilePath()
-
-    let s:middleSL_len += 1 "+1 from ExtraSpace()
-
-    let l:num_spaces = float2nr(l:mid - s:leftSL_len - (round(s:middleSL_len/2)))
-    if l:num_spaces > 0
-        let l:str .= ReturnSpace(l:num_spaces)
-        let l:str .= l:test
-    else
-        let l:str = ""
-    endif
+    "let l:test .= FileType()
+    "let l:test .= ExtraSpace()
+    "let l:test .= FilePath()
+    "let l:mid = FindMiddleWin()
 
 
-    let s:leftSL_len = 0
-    let s:middleSL_len = 0
-    "return l:str
-    return ""
+    "let s:middleSL_len += 1 "+1 from ExtraSpace()
+
+    "let l:num_spaces = float2nr(l:mid - s:leftSL_len - (round(s:middleSL_len/2)))
+    "if l:num_spaces > 0
+    "    let l:str .= ReturnSpace(l:num_spaces)
+    "    let l:str .= l:test
+    "else
+    "    let l:str = ""
+    "endif
+
+
+    "let s:leftSL_len = 0
+    "let s:middleSL_len = 0
+
+    return l:str
 endfunction
 
 function! RightStatusLine()

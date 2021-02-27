@@ -41,7 +41,7 @@ fi
 
 # WM
 picom -c -b
-nitrogen --restore --set-scaled &
+nitrogen --restore &
 sxhkd &
 dunst &
 

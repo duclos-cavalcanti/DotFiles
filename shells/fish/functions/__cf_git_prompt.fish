@@ -2,7 +2,7 @@ function __cf_git_prompt -d "Git prompt."
   __cf_utils_git_settings
   __cf_utils_git_parse
 
-  set -l C_GIT_COLOR fb4934
+  set -l C_GIT_COLOR d400bc
   set -l C_GIT_PREFIX "on "
 
   set -l C_GIT_BRANCH ""

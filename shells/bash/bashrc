@@ -20,6 +20,8 @@ fi
 # Sourcing bash prompt
 if [[ -d $HOME/.config/bash/functions/ ]]; then 
   . $HOME/.config/bash/functions/__cb_git_prompt.sh
+  . $HOME/.config/bash/functions/__cb_git_prefix.sh
+  . $HOME/.config/bash/functions/__cb_pyenv_prefix.sh
   . $HOME/.config/bash/functions/__cb_pyenv_prompt.sh
 fi
 
@@ -28,13 +30,17 @@ if [ -n "$SSH_CONNECTION" ]; then
 	export PS1="\u@\h: \w \$ "
 else
   if [[ -d $HOME/.config/bash/ ]]; then
-    PS1='\[\033[1;34m\]\W'
-    PS1+='\[\033[1;31m\] $(__cb_git_prompt)'
-    PS1+='\[\033[1;35m\] $(__cb_pyenv_prompt)'
-    PS1+="\[\033[1;34m\]\n\$\[\033[00m\] "
+    PS1='\[\033[1;34m\]\u'
+    PS1+='\[\033[1;37m\] at '
+    PS1+='\[\033[1;31m\]\W'
+    PS1+='\[\033[1;37m\]$(__cb_git_prefix)'
+    PS1+='\[\033[1;35m\]$(__cb_git_prompt)'
+    PS1+='\[\033[1;37m\]$(__cb_pyenv_prefix)'
+    PS1+='\[\033[1;35m\]$(__cb_pyenv_prompt)'
+    PS1+="\[\033[00;37m\]\n\$\[\033[00m\] "
   else
     PS1='\[\033[1;34m\]\W'
-    PS1+="\[\033[1;34m\]\n\$\[\033[00m\] "
+    PS1+="\[\033[00;37m\]\n\$\[\033[00m\] "
   fi
   export PS1
 fi

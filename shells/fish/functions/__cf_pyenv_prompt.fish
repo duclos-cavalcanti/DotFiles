@@ -1,5 +1,5 @@
 function __cf_pyenv_prompt -d "Pyenv prompt."
-  set -l C_PYENV_COLOR d400bc
+  set -l C_PYENV_COLOR 4db6ac
   set -l C_PYENV_PREFIX "via "
 
   if test -n "$VIRTUAL_ENV"

@@ -10,6 +10,10 @@
 # -- Window Configs --
 # --------------------
 
+# set the node flags
+super + ctrl + {m,x,y,z}
+	bspc node -g {marked,locked,sticky,private}
+
 # Close/Kill window
 super + {w,shift + q}
   bspc node {-c,-k}
@@ -18,20 +22,28 @@ super + {w,shift + q}
 super + {h,j,k,l}
   bspc node -f {west,south,north,east}.local
 
+# Focus last/prev window
+super + shift + p
+	bspc node -f last
+
 # Preselect splitting window
 super + {H,J,K,L}
 	bspc node -p \~{west,south,north,east}
 
 # Preselect the ratio
-super + e : {1-9}
+super + alt + {1-9}
 	bspc node -o 0.{1-9}
 
+# Swap the current node and the biggest window
+super + {g,G}
+	bspc node -s {biggest,smallest}.window.local
+
 # Swap Windows
-super + s ; {h,j,k,l}
+super + ctrl + {h,j,k,l}
   bspc node -s {west,south,north,east}
 
 # Swap Mirror Window/Nodes Group
-super + s ; {H,J,K,L}
+super + ctrl + {H,J,K,L}
 	bspc node @/ -F {vertical,horizontal,horizontal,vertical}
 
 # Expand a window by moving one of its side outward
@@ -42,6 +54,12 @@ super + e : {h,j,k,l}
 super + e : {H,J,K,L}
 	bspc node -z {right -30 0,top 0 30,bottom 0 -30,left 30 0}
 
+# Focus the older or newer node in the focus history
+super + {o,i}
+	bspc wm -h off; \
+	bspc node {older.local,newer.local} -f; \
+	bspc wm -h on 
+
 # Move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
@@ -49,6 +67,10 @@ super + {Left,Down,Up,Right}
 # Circulate leaves of tree
 super + {c,C}
 	bspc node @/ -C {forward,backward}
+
+# Rotate leaves of tree
+super + {r,R}
+	bspc node @/ -R {90,270}
 
 # Balance tree
 super + equal
@@ -63,7 +85,7 @@ alt + {_,shift + }Tab
 # --------------------
 
 # Toggle monocle mode
-super + space
+super + m
 	bspc desktop -l next
 
 # Hide current node
@@ -71,7 +93,7 @@ super + minus
 	bspc node --flag hidden -f
 
 # Toggle floating, tiled, pseudo_tiled, full
-super + {f,t,T,F}
+super + {F,T,P,S}
   bspc node -t {floating,tiled,pseudo_tiled,fullscreen ; polybar-msg cmd toggle}
 
 # ---------------------
@@ -82,17 +104,17 @@ super + {f,t,T,F}
 super + {_,shift + }{1-9,0}
   bspc {desktop -f,node -d} '^{1-9,10}'
 
-# Go Prev/Newest/Oldest Desktop
-super + {p,N,O}
-	bspc desktop -f {last,newer,older}
+# Go Prev/Last Desktop
+super + p
+	bspc desktop -f last
 
 # Swap Desktops
-alt + super + shift + {1-9,0}
+super + alt + {1-9,0}
   ${BSPWM_PATH}/bspwm_swap_desktops.sh '^{1-9,10}'
 
 # Select previous/next Desktop
-super + {b,n,B,N}
-	bspc desktop -f {prev.local.occupied,next.local.occupied,prev.local,next.local} 
+super + {b,n}
+	bspc desktop -f {prev.local.occupied,next.local.occupied}
 
 # --------------------
 # -- Spawn Programs --
@@ -103,7 +125,7 @@ super + Return
 	st
 
 # Tabbed Terminal
-alt + Return
+super + alt + Return
   tabbed -n tabbed_st -c -r 2 st -w ''
 
 # Scratchpad
@@ -111,18 +133,14 @@ super + shift + Return
   ${BSPWM_PATH}/bspwm_float_term.sh "scratchterm"
 
 # Pdf
-super + r
-  zathura
-
-# Tabbed Pdf
-super + alt + r
+super + d
   tabbed -n tabbed_zathura -c zathura -e
 
 # Browser
-super + i
+super + f
 	firefox
 
-super + alt + i
+super + alt + f
 	firefox --private-window
 
 # Filemanager
@@ -130,7 +148,7 @@ super + m
 	pcmanfm
 
 # Dmenu/Launcher
-alt + space
+super + space
   eval $CUSTOM_DMENU
 
 # ---------------------
@@ -138,11 +156,11 @@ alt + space
 # ---------------------
 
 # Dmenu show hidden windows
-super + d ; h
+super + D ; h
 	${BSPWM_PATH}/bspwm_dmenu_hidden_nodes.sh
 
 # Dmenu for Tmux Sessions
-super + d ; p
+super + D ; p
 	${TMUX_PATH}/tmux_dmenu_sessions.sh
 
 # ---------------------

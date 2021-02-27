@@ -72,9 +72,9 @@ hi WildMenu cterm=BOLD ctermfg=NONE ctermbg=NONE gui=BOLD guifg=#ffffff guibg=NO
 hi MatchParen cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=#fb4934 guibg=NONE
 
 "Spelling
-hi SpellBad cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=#fb4934 guibg=NONE
-hi SpellCap cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=#d400bc guibg=NONE
-hi SpellLocal cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=#d400bc guibg=NONE
+hi SpellBad cterm=underline ctermfg=NONE ctermbg=NONE gui=underline guifg=#fb4934 guibg=NONE
+hi SpellCap cterm=underline ctermfg=NONE ctermbg=NONE gui=underline guifg=#d400bc guibg=NONE
+hi SpellLocal cterm=underline ctermfg=NONE ctermbg=NONE gui=underline guifg=#d400bc guibg=NONE
 
 "Cursor
 hi Cursor cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=#ffffff guibg=NONE

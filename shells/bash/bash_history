@@ -186,3 +186,38 @@ cd Documents/work
 ls
 ls
 cd work/espl/STM/STM32-uGFX-Cmake
+ls
+ls
+for line in $(lsblk -l | tail -4); do echo $(echo $line | awk '{ print $1 }') done
+for line in $(lsblk -l | tail -4); do echo $(echo $line | awk '{ print $1 }'); done
+lsblk -l
+lsblk -l
+for line in $(lsblk -l | tail -4); do echo $(echo $line | awk '{ print $1 }'); done
+for line in $(lsblk -l | tail -4); do echo $line; done
+fish
+ls
+ll
+ls
+ls
+ls
+ll
+ls
+ll
+ls
+ll
+ls
+ls
+ll
+ls
+cd Documents/
+ll
+cd work/TensorDSE
+ls
+ls
+ll
+ll
+ls
+ll
+ls
+ls
+ll

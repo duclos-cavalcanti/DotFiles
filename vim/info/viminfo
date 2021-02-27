@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/bash
+~MSle0~/30
 
 # Last Substitute Search Pattern:
 ~MSle0&(
@@ -20,20 +20,90 @@
 ${
 
 # Command Line History (newest to oldest):
-:wqa
-|2,0,1614378821,,"wqa"
+:wq
+|2,0,1614464664,,"wq"
 :w
-|2,0,1614378816,,"w"
+|2,0,1614464658,,"w"
+:q
+|2,0,1614464570,,"q"
+:tabedit ~/.config/bash/bashrc
+|2,0,1614462587,,"tabedit ~/.config/bash/bashrc"
+:ColorschemeGoTo
+|2,0,1614459404,,"ColorschemeGoTo"
+:tae
+|2,0,1614462937,,"tae"
+:wqa
+|2,0,1614457701,,"wqa"
+:StatusLineGoTo
+|2,0,1614457686,,"StatusLineGoTo"
+:'<,'>w !xclip -i -sel clip
+|2,0,1614439248,,"'<,'>w !xclip -i -sel clip"
+:tabedit deploy.py
+|2,0,1614437692,,"tabedit deploy.py"
+:wkkj
+|2,0,1614270779,,"wkkj"
+:tabfind docker.py
+|2,0,1614269165,,"tabfind docker.py"
+:e deploy.py
+|2,0,1614260799,,"e deploy.py"
+:tabfind shark.py
+|2,0,1614251944,,"tabfind shark.py"
+:tabedit shark.py
+|2,0,1614250618,,"tabedit shark.py"
+:e modules/bspwm.ini
+|2,0,1614449722,,"e modules/bspwm.ini"
+:e ~/Documents/dotfiles/bars/polybar/fonts.ini
+|2,0,1614449688,,"e ~/Documents/dotfiles/bars/polybar/fonts.ini"
+:e ~/.config/fon
+|2,0,1614449677,,"e ~/.config/fon"
+:e poly_clock.sh
+|2,0,1614449237,,"e poly_clock.sh"
+:e *clock
+|2,0,1614449229,,"e *clock"
+:b ../fonts.ini
+|2,0,1614449140,,"b ../fonts.ini"
+:e ../modules/date.ini
+|2,0,1614449114,,"e ../modules/date.ini"
+:e ../fonts.ini
+|2,0,1614448861,,"e ../fonts.ini"
+:pwd
+|2,0,1614448857,,"pwd"
+:ls
+|2,0,1614448855,,"ls"
+:e fon
+|2,0,1614448855,,"e fon"
+:e ~/.config/lemonbar/modules/lemon_wifi.sh
+|2,0,1614447662,,"e ~/.config/lemonbar/modules/lemon_wifi.sh"
+:tabedit ~/Documents/dotfiles/bin/update.sh
+|2,0,1614436918,,"tabedit ~/Documents/dotfiles/bin/update.sh"
+:e ~/.config/bspwm/scripts/bspwm_border_change.sh
+|2,0,1614433707,,"e ~/.config/bspwm/scripts/bspwm_border_change.sh"
+:tabedit ~/.config/bspwm/scripts/bspwm_transparent_monocle.sh
+|2,0,1614433643,,"tabedit ~/.config/bspwm/scripts/bspwm_transparent_monocle.sh"
+:tabedit ~/.config/bspwm/scripts/bspwm_node_focus_manager.sh
+|2,0,1614433629,,"tabedit ~/.config/bspwm/scripts/bspwm_node_focus_manager.sh"
+:tabedit stow.sh
+|2,0,1614432939,,"tabedit stow.sh"
+:tabnew 
+|2,0,1614432933,,"tabnew "
+:wI
+|2,0,1614432850,,"wI"
+:tabedit ~/.config/sxhkd/sxhkdrc
+|2,0,1614382710,,"tabedit ~/.config/sxhkd/sxhkdrc"
+:tabedit ~/Documents/sckless/st/normalMode.c
+|2,0,1614431762,,"tabedit ~/Documents/sckless/st/normalMode.c"
+:tabedit ~/Documents/sckless/st/config.h
+|2,0,1614431381,,"tabedit ~/Documents/sckless/st/config.h"
+:b __cf_char_prompt.fish
+|2,0,1614378961,,"b __cf_char_prompt.fish"
+:e __cf_path_prompt.fish
+|2,0,1614378930,,"e __cf_path_prompt.fish"
+:e __cf_user_prompt.fish
+|2,0,1614378859,,"e __cf_user_prompt.fish"
 :e fish_prompt.fish
 |2,0,1614378724,,"e fish_prompt.fish"
-:e __cf_path_prompt.fish
-|2,0,1614378622,,"e __cf_path_prompt.fish"
 :e __cf_char_prompt.fish
 |2,0,1614378531,,"e __cf_char_prompt.fish"
-:wq
-|2,0,1614378367,,"wq"
-:q
-|2,0,1614377847,,"q"
 :qa
 |2,0,1614376738,,"qa"
 :e __cf_status_value.fish
@@ -50,90 +120,56 @@ ${
 |2,0,1614374959,,"e __cf_utils_git_settings.fish"
 :e __cf_utils_git_parse.fish
 |2,0,1614374847,,"e __cf_utils_git_parse.fish"
-:ls
-|2,0,1614374769,,"ls"
-:e __cf_git_prompt.fish
-|2,0,1614374760,,"e __cf_git_prompt.fish"
-:e ~/.config/fish/functions/__cf_utils_print.fish
-|2,0,1614372974,,"e ~/.config/fish/functions/__cf_utils_print.fish"
-:e ~/.config/fish/functions/__cf_docker_prompt.fish
-|2,0,1614372857,,"e ~/.config/fish/functions/__cf_docker_prompt.fish"
-:e ~/.config/fish/config.fish
-|2,0,1614372743,,"e ~/.config/fish/config.fish"
-:e ~/.config/fish/
-|2,0,1614372732,,"e ~/.config/fish/"
-:IconsGoTo
-|2,0,1614372432,,"IconsGoTo"
-:StatusLineGoTo
-|2,0,1614372429,,"StatusLineGoTo"
-:w !sudo tee % > /dev/null
-|2,0,1614367464,,"w !sudo tee % > /dev/null"
-:tabedit ~/.config/bash/bashrc
-|2,0,1614366950,,"tabedit ~/.config/bash/bashrc"
-:e key-bindings.bash
-|2,0,1614366027,,"e key-bindings.bash"
-:b functions/__cb_utils_print.sh
-|2,0,1614365144,,"b functions/__cb_utils_print.sh"
-:b functions/__cb_path_prompt.sh
-|2,0,1614365136,,"b functions/__cb_path_prompt.sh"
-:b functions/__cb_pyenv_prompt.sh
-|2,0,1614365132,,"b functions/__cb_pyenv_prompt.sh"
-:b functions/__cb_git_prompt.sh
-|2,0,1614365023,,"b functions/__cb_git_prompt.sh"
-:b functions/bash_prompt.sh
-|2,0,1614364889,,"b functions/bash_prompt.sh"
-:b functions/bash_prompt.sh
-|2,0,1614364874,,"b functions/bash_prompt.sh"
-:e functions/__cb_pyenv_prompt.sh
-|2,0,1614364787,,"e functions/__cb_pyenv_prompt.sh"
-:e functions/__cb_char_prompt.sh
-|2,0,1614364485,,"e functions/__cb_char_prompt.sh"
-:b 
-|2,0,1614364479,,"b "
-:e functions/__cb_git_prompt.sh
-|2,0,1614364362,,"e functions/__cb_git_prompt.sh"
-:W
-|2,0,1614362170,,"W"
-:e functions/__cb_utils_print.sh
-|2,0,1614362128,,"e functions/__cb_utils_print.sh"
-:b git
-|2,0,1614362007,,"b git"
-:tabedit bashrc
-|2,0,1614361867,,"tabedit bashrc"
-:cd ..
-|2,0,1614361863,,"cd .."
-:tab
-|2,0,1614361862,,"tab"
-:eabedit 
-|2,0,1614361860,,"eabedit "
-:e __cb_char_prompt.sh
-|2,0,1614361377,,"e __cb_char_prompt.sh"
-:e __cb_git_prompt.sh
-|2,0,1614361374,,"e __cb_git_prompt.sh"
-:e __cb_path_prompt.sh
-|2,0,1614361370,,"e __cb_path_prompt.sh"
-:b pyenv
-|2,0,1614361317,,"b pyenv"
-:b __cb_path_prompt.sh
-|2,0,1614361298,,"b __cb_path_prompt.sh"
-:b __cb_git_prompt.sh
-|2,0,1614361210,,"b __cb_git_prompt.sh"
-:b __cb_pyenv_prompt.sh
-|2,0,1614361200,,"b __cb_pyenv_prompt.sh"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1614458701,,"@$"
+?/bracket
+|2,1,1614453542,47,"bracket"
+?/tabbed
+|2,1,1614452566,47,"tabbed"
+?/30
+|2,1,1614450984,47,"30"
+?/op
+|2,1,1614257603,47,"op"
+?/dmenu
+|2,1,1614436678,47,"dmenu"
+?/biggest
+|2,1,1614434743,47,"biggest"
+?/space
+|2,1,1614387879,47,"space"
+?/+ r
+|2,1,1614386845,47,"+ r"
+?/90
+|2,1,1614386832,47,"90"
+?/super + ctrl
+|2,1,1614383852,47,"super + ctrl"
+??swap
+|2,1,1614383738,63,"swap"
+?/prev
+|2,1,1614383456,47,"prev"
+??firefox
+|2,1,1614383147,63,"firefox"
+?/+ o
+|2,1,1614382929,47,"+ o"
+?/ctrl +
+|2,1,1614382864,47,"ctrl +"
+?/swap
+|2,1,1614382813,47,"swap"
+?/zathura
+|2,1,1614431894,47,"zathura"
+?/TOP
+|2,1,1614431814,47,"TOP"
+??+ b
+|2,1,1614388750,63,"+ b"
 ?/bash
 |2,1,1614373519,47,"bash"
-? @$
-|2,1,1614351339,,"@$"
 ? \<set\>
 |2,1,1614350686,,"\\<set\\>"
 ?/WM
 |2,1,1614296667,47,"WM"
 ?/bin
 |2,1,1614296195,47,"bin"
-?/dmenu
-|2,1,1614296190,47,"dmenu"
 ??showbar
 |2,1,1614214272,63,"showbar"
 ??showbat
@@ -186,46 +222,12 @@ ${
 |2,1,1614093797,47,"hred"
 ?/Vert
 |2,1,1614093755,47,"Vert"
-?/wrapp
-|2,1,1614084447,47,"wrapp"
-??main
-|2,1,1614052001,63,"main"
-??int
-|2,1,1614052000,63,"int"
-?/title
-|2,1,1614051795,47,"title"
-?/USB
-|2,1,1614048852,47,"USB"
-?/gdb
-|2,1,1614046209,47,"gdb"
-?/gb
-|2,1,1614046206,47,"gb"
-?/lan
-|2,1,1614045648,47,"lan"
-?/+ m
-|2,1,1613993661,47,"+ m"
-?/pcman
-|2,1,1613993404,47,"pcman"
-? COMPTON
-|2,1,1613950858,,"COMPTON"
-?/Term
-|2,1,1613944438,47,"Term"
-?/onocle
-|2,1,1613941903,47,"onocle"
-?/Monocle
-|2,1,1613941899,47,"Monocle"
-?/quer
-|2,1,1613941843,47,"quer"
-?/tail
-|2,1,1613941698,47,"tail"
-? next_window
-|2,1,1613941659,,"next_window"
-? prev_window
-|2,1,1613941649,,"prev_window"
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@custom_clock.ini
+|2,3,1614446941,,"custom_clock.ini"
 @__cb_utils_print.sh
 |2,3,1614351363,,"__cb_utils_print.sh"
 @__cb_path_prompt.sh
@@ -239,125 +241,35 @@ ${
 
 # Registers:
 "0	LINE	0
-	  __cf_path_prompt
-|3,0,0,1,1,0,1614378728,"  __cf_path_prompt"
+	  stow::x11
+|3,0,0,1,1,0,1614464423,"  stow::x11"
 "1	LINE	0
-	  set -l USER_PREFIX ""
-|3,0,1,1,1,0,1614378629,"  set -l USER_PREFIX \"\""
-"2	BLOCK	0
-	U
-	U
-|3,0,2,2,2,0,1614378579,"U","U"
-"3	BLOCK	4
-	_CHAR
-	_CHAR
-|3,0,3,2,2,4,1614378576,"_CHAR","_CHAR"
+	  stow::bars
+|3,0,1,1,1,0,1614464114,"  stow::bars"
+"2	LINE	0
+	  check_dependency dunst
+|3,0,2,1,1,0,1614463402,"  check_dependency dunst"
+"3	LINE	0
+	    # 31 is red
+|3,0,3,1,1,0,1614462694,"    # 31 is red"
 "4	LINE	0
-	  # '\n âžœ  '
-	  # '\n âœ˜  '
-	  # '\n ï˜½  '
-	
-	  if test $LAST_STATUS != 0
-	    set C_CHAR_COLOR fb4934
-	  else
-	    set C_CHAR_COLOR 446576
-	  end
-	
-|3,0,4,1,10,0,1614378541,"  # '\\n âžœ  '","  # '\\n âœ˜  '","  # '\\n ï˜½  '","","  if test $LAST_STATUS != 0","    set C_CHAR_COLOR fb4934","  else","    set C_CHAR_COLOR 446576","  end",""
+	  local git_branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null | tr -d '\n')
+|3,0,4,1,1,0,1614462682,"  local git_branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null | tr -d '\\n')"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1614378535,""
+	  mkdir -p ${CASA}/.scripts
+|3,0,5,1,1,0,1614460487,"  mkdir -p ${CASA}/.scripts"
 "6	LINE	0
-	usr=duclos
-	dotfiles=~/Documents/dotfiles
-	
-	function _log() {
-	    text=$1
-	    echo "LOG: ${text}..."
-	}
-	
-	function initial_prep() {
-	    _log "Initial Prep"
-	    loadkeys us
-	    systemctl enable --now systemd timesyncd
-	    timedatectl set-ntp true
-	}
-	
-	function pacman_update() {
-	    _log "Updating Pacman"
-	    pacman -Syy archlinux-keyring
-	}
-	
-	function main() {
-	    initial_prep
-	    pacman_update
-	}
-	
-	main
-	
-|3,0,6,1,27,0,1614378366,"usr=duclos","dotfiles=~/Documents/dotfiles","","function _log() {","    text=$1","    echo \"LOG: ${text}...\"","}","","function initial_prep() {","    _log \"Initial Prep\"","    loadkeys us","    systemctl enable --now systemd timesyncd","    timedatectl set-ntp true","}","","function pacman_update() {","    _log \"Updating Pacman\"","    pacman -Syy archlinux-keyring","}","","function main() {","    initial_prep",>19
-|<"    pacman_update","}","","main",""
+	  cp ${CASA}/dotfiles/X11/xprofile  ${CASA}/.xprofile
+|3,0,6,1,1,0,1614460376,"  cp ${CASA}/dotfiles/X11/xprofile  ${CASA}/.xprofile"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1614376513,""
-"8	BLOCK	1
-	  
-	  
-	  
-	  
-	
-	  
-	  
-	
-	  
-	  
-	
-	  
-	  
-	
-	  
-	  
-	
-	  
-	  
-	  
-	
-	  
-	  
-	
-	  
-	  
-	
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	
-	  
-	  
-	  
-	  
-	  
-	
-	  
-	  
-	
-	  
-	  
-|3,0,8,2,47,1,1614376413,"  ","  ","  ","  ","","  ","  ","","  ","  ","","  ","  ","","  ","  ","","  ","  ","  ","","  ","  ","","  ","  ","","  ","  ","  ","  ","  ","  ","  ","  ","","  ","  ","  ","  ","  ","","  ","  ","","  ","  "
-"9	BLOCK	1
-	  
-	  
-	
-	  
-	  
-	
-	  
-|3,0,9,2,7,1,1614376357,"  ","  ","","  ","  ","","  "
+	  stow::check_folder X11
+|3,0,7,1,1,0,1614460300,"  stow::check_folder X11"
+"8	LINE	0
+	  check_dependency zathura
+|3,0,8,1,1,0,1614460101,"  check_dependency zathura"
+"9	LINE	0
+	  echo ""
+|3,0,9,1,1,0,1614460099,"  echo \"\""
 "a@	CHAR	0
 	/_foritemp€kb€kb€kbmp=$(€ýalxA)€ýa€ýak0jj
 |3,2,10,0,1,0,1614114771,"/_foritemp€kb€kb€kbmp=$(€ýalxA)€ýa€ýak0jj"
@@ -369,350 +281,506 @@ ${
 |3,0,20,0,1,0,1613388036,"jk"
 ""-	CHAR	0
 	 
-|3,1,36,0,1,0,1614378815," "
+|3,1,36,0,1,0,1614464648," "
 
 # File marks:
-'0  4  48  ~/.config/fish/functions/__cf_path_prompt.fish
-|4,48,4,48,1614378821,"~/.config/fish/functions/__cf_path_prompt.fish"
-'1  4  0  ~/Documents/dotfiles/bin/stow.sh
-|4,49,4,0,1614378367,"~/Documents/dotfiles/bin/stow.sh"
-'2  3  55  ~/Documents/dotfiles/bin/stow.sh
-|4,50,3,55,1614378360,"~/Documents/dotfiles/bin/stow.sh"
-'3  3  55  ~/Documents/dotfiles/bin/stow.sh
-|4,51,3,55,1614378360,"~/Documents/dotfiles/bin/stow.sh"
-'4  105  78  ~/.config/vim/syntax/fish.vim
-|4,52,105,78,1614377888,"~/.config/vim/syntax/fish.vim"
-'5  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,53,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
-'6  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,54,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
-'7  6  0  ~/.config/fish/config.fish
-|4,55,6,0,1614377096,"~/.config/fish/config.fish"
-'8  2  18  ~/.config/fish/functions/__cf_status_value.fish
-|4,56,2,18,1614376739,"~/.config/fish/functions/__cf_status_value.fish"
-'9  3  1  ~/.config/fish/functions/fish_user_key_bindings.fish
-|4,57,3,1,1614376452,"~/.config/fish/functions/fish_user_key_bindings.fish"
+'0  43  27  ~/.config/bash/bashrc
+|4,48,43,27,1614464664,"~/.config/bash/bashrc"
+'1  19  2  ~/.config/bash/functions/__cb_utils_print.sh
+|4,49,19,2,1614464570,"~/.config/bash/functions/__cb_utils_print.sh"
+'2  3  0  ~/Documents/dotfiles/bin/stow.sh
+|4,50,3,0,1614464458,"~/Documents/dotfiles/bin/stow.sh"
+'3  15  2  ~/.config/bash/functions/__cb_utils_print.sh
+|4,51,15,2,1614463313,"~/.config/bash/functions/__cb_utils_print.sh"
+'4  15  2  ~/.config/bash/functions/__cb_utils_print.sh
+|4,52,15,2,1614463313,"~/.config/bash/functions/__cb_utils_print.sh"
+'5  15  2  ~/.config/bash/functions/__cb_utils_print.sh
+|4,53,15,2,1614463313,"~/.config/bash/functions/__cb_utils_print.sh"
+'6  15  2  ~/.config/bash/functions/__cb_utils_print.sh
+|4,54,15,2,1614463313,"~/.config/bash/functions/__cb_utils_print.sh"
+'7  11  24  ~/.config/bash/functions/__cb_git_prompt.sh
+|4,55,11,24,1614463243,"~/.config/bash/functions/__cb_git_prompt.sh"
+'8  9  19  ~/.config/bash/functions/__cb_pyenv_prompt.sh
+|4,56,9,19,1614463234,"~/.config/bash/functions/__cb_pyenv_prompt.sh"
+'9  7  23  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,57,7,23,1614463219,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
 
 # Jumplist (newest first):
--'  4  48  ~/.config/fish/functions/__cf_path_prompt.fish
-|4,39,4,48,1614378821,"~/.config/fish/functions/__cf_path_prompt.fish"
--'  3  22  ~/.config/fish/functions/__cf_user_prompt.fish
-|4,39,3,22,1614378622,"~/.config/fish/functions/__cf_user_prompt.fish"
--'  1  0  ~/.config/fish/functions/__cf_user_prompt.fish
-|4,39,1,0,1614378519,"~/.config/fish/functions/__cf_user_prompt.fish"
--'  4  0  ~/Documents/dotfiles/bin/stow.sh
-|4,39,4,0,1614378367,"~/Documents/dotfiles/bin/stow.sh"
--'  4  0  ~/Documents/dotfiles/bin/stow.sh
-|4,39,4,0,1614378367,"~/Documents/dotfiles/bin/stow.sh"
--'  5  0  ~/Documents/dotfiles/bin/stow.sh
-|4,39,5,0,1614378365,"~/Documents/dotfiles/bin/stow.sh"
--'  5  0  ~/Documents/dotfiles/bin/stow.sh
-|4,39,5,0,1614378365,"~/Documents/dotfiles/bin/stow.sh"
--'  1  0  ~/Documents/dotfiles/bin/stow.sh
-|4,39,1,0,1614378364,"~/Documents/dotfiles/bin/stow.sh"
--'  1  0  ~/Documents/dotfiles/bin/stow.sh
-|4,39,1,0,1614378364,"~/Documents/dotfiles/bin/stow.sh"
--'  3  55  ~/Documents/dotfiles/bin/stow.sh
-|4,39,3,55,1614378360,"~/Documents/dotfiles/bin/stow.sh"
--'  3  55  ~/Documents/dotfiles/bin/stow.sh
-|4,39,3,55,1614378360,"~/Documents/dotfiles/bin/stow.sh"
--'  3  55  ~/Documents/dotfiles/bin/stow.sh
-|4,39,3,55,1614378360,"~/Documents/dotfiles/bin/stow.sh"
--'  3  55  ~/Documents/dotfiles/bin/stow.sh
-|4,39,3,55,1614378360,"~/Documents/dotfiles/bin/stow.sh"
--'  1  0  ~/Documents/dotfiles/bin/stow.sh
-|4,39,1,0,1614378337,"~/Documents/dotfiles/bin/stow.sh"
--'  1  0  ~/Documents/dotfiles/bin/stow.sh
-|4,39,1,0,1614378337,"~/Documents/dotfiles/bin/stow.sh"
--'  105  78  ~/.config/vim/syntax/fish.vim
-|4,39,105,78,1614377888,"~/.config/vim/syntax/fish.vim"
--'  105  78  ~/.config/vim/syntax/fish.vim
-|4,39,105,78,1614377888,"~/.config/vim/syntax/fish.vim"
--'  105  78  ~/.config/vim/syntax/fish.vim
-|4,39,105,78,1614377888,"~/.config/vim/syntax/fish.vim"
--'  105  78  ~/.config/vim/syntax/fish.vim
-|4,39,105,78,1614377888,"~/.config/vim/syntax/fish.vim"
--'  105  78  ~/.config/vim/syntax/fish.vim
-|4,39,105,78,1614377888,"~/.config/vim/syntax/fish.vim"
--'  105  78  ~/.config/vim/syntax/fish.vim
-|4,39,105,78,1614377888,"~/.config/vim/syntax/fish.vim"
--'  105  78  ~/.config/vim/syntax/fish.vim
-|4,39,105,78,1614377888,"~/.config/vim/syntax/fish.vim"
--'  105  78  ~/.config/vim/syntax/fish.vim
-|4,39,105,78,1614377888,"~/.config/vim/syntax/fish.vim"
--'  11  31  ~/.config/vim/syntax/fish.vim
-|4,39,11,31,1614377871,"~/.config/vim/syntax/fish.vim"
--'  11  31  ~/.config/vim/syntax/fish.vim
-|4,39,11,31,1614377871,"~/.config/vim/syntax/fish.vim"
--'  11  31  ~/.config/vim/syntax/fish.vim
-|4,39,11,31,1614377871,"~/.config/vim/syntax/fish.vim"
--'  11  31  ~/.config/vim/syntax/fish.vim
-|4,39,11,31,1614377871,"~/.config/vim/syntax/fish.vim"
--'  11  31  ~/.config/vim/syntax/fish.vim
-|4,39,11,31,1614377871,"~/.config/vim/syntax/fish.vim"
--'  11  31  ~/.config/vim/syntax/fish.vim
-|4,39,11,31,1614377871,"~/.config/vim/syntax/fish.vim"
--'  11  31  ~/.config/vim/syntax/fish.vim
-|4,39,11,31,1614377871,"~/.config/vim/syntax/fish.vim"
--'  11  31  ~/.config/vim/syntax/fish.vim
-|4,39,11,31,1614377871,"~/.config/vim/syntax/fish.vim"
--'  1  0  ~/.config/vim/syntax/fish.vim
-|4,39,1,0,1614377856,"~/.config/vim/syntax/fish.vim"
--'  1  0  ~/.config/vim/syntax/fish.vim
-|4,39,1,0,1614377856,"~/.config/vim/syntax/fish.vim"
--'  1  0  ~/.config/vim/syntax/fish.vim
-|4,39,1,0,1614377856,"~/.config/vim/syntax/fish.vim"
--'  1  0  ~/.config/vim/syntax/fish.vim
-|4,39,1,0,1614377856,"~/.config/vim/syntax/fish.vim"
--'  1  0  ~/.config/vim/syntax/fish.vim
-|4,39,1,0,1614377856,"~/.config/vim/syntax/fish.vim"
--'  1  0  ~/.config/vim/syntax/fish.vim
-|4,39,1,0,1614377856,"~/.config/vim/syntax/fish.vim"
--'  1  0  ~/.config/vim/syntax/fish.vim
-|4,39,1,0,1614377856,"~/.config/vim/syntax/fish.vim"
--'  1  0  ~/.config/vim/syntax/fish.vim
-|4,39,1,0,1614377856,"~/.config/vim/syntax/fish.vim"
--'  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,39,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
--'  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,39,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
--'  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,39,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
--'  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,39,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
--'  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,39,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
--'  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,39,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
--'  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,39,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
--'  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,39,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
--'  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,39,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
--'  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,39,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
--'  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,39,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
--'  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,39,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
--'  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,39,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
--'  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,39,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
--'  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,39,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
--'  1  0  ~/.config/vim/ftdetect/PKGBUILD.vim
-|4,39,1,0,1614377847,"~/.config/vim/ftdetect/PKGBUILD.vim"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  3  1  ~/.config/fish/conf.d/fish_space.fish
-|4,39,3,1,1614377156,"~/.config/fish/conf.d/fish_space.fish"
--'  1  0  ~/.config/fish/conf.d/fish_space.fish
-|4,39,1,0,1614377151,"~/.config/fish/conf.d/fish_space.fish"
--'  1  0  ~/.config/fish/conf.d/fish_space.fish
-|4,39,1,0,1614377151,"~/.config/fish/conf.d/fish_space.fish"
--'  1  0  ~/.config/fish/conf.d/fish_space.fish
-|4,39,1,0,1614377151,"~/.config/fish/conf.d/fish_space.fish"
--'  1  0  ~/.config/fish/conf.d/fish_space.fish
-|4,39,1,0,1614377151,"~/.config/fish/conf.d/fish_space.fish"
--'  1  0  ~/.config/fish/conf.d/fish_space.fish
-|4,39,1,0,1614377151,"~/.config/fish/conf.d/fish_space.fish"
--'  1  0  ~/.config/fish/conf.d/fish_space.fish
-|4,39,1,0,1614377151,"~/.config/fish/conf.d/fish_space.fish"
--'  1  0  ~/.config/fish/conf.d/fish_space.fish
-|4,39,1,0,1614377151,"~/.config/fish/conf.d/fish_space.fish"
--'  1  0  ~/.config/fish/conf.d/fish_space.fish
-|4,39,1,0,1614377151,"~/.config/fish/conf.d/fish_space.fish"
--'  1  0  ~/.config/fish/conf.d/fish_space.fish
-|4,39,1,0,1614377151,"~/.config/fish/conf.d/fish_space.fish"
--'  1  0  ~/.config/fish/conf.d/fish_space.fish
-|4,39,1,0,1614377151,"~/.config/fish/conf.d/fish_space.fish"
--'  1  0  ~/.config/fish/conf.d/fish_space.fish
-|4,39,1,0,1614377151,"~/.config/fish/conf.d/fish_space.fish"
--'  1  0  ~/.config/fish/conf.d/fish_space.fish
-|4,39,1,0,1614377151,"~/.config/fish/conf.d/fish_space.fish"
--'  1  0  ~/.config/fish/conf.d/fish_space.fish
-|4,39,1,0,1614377151,"~/.config/fish/conf.d/fish_space.fish"
+-'  43  27  ~/.config/bash/bashrc
+|4,39,43,27,1614464664,"~/.config/bash/bashrc"
+-'  40  27  ~/.config/bash/bashrc
+|4,39,40,27,1614464646,"~/.config/bash/bashrc"
+-'  19  2  ~/.config/bash/functions/__cb_utils_print.sh
+|4,39,19,2,1614464570,"~/.config/bash/functions/__cb_utils_print.sh"
+-'  1  0  ~/.config/bash/functions/__cb_utils_print.sh
+|4,39,1,0,1614464557,"~/.config/bash/functions/__cb_utils_print.sh"
+-'  1  0  ~/.config/bash/bashrc
+|4,39,1,0,1614464481,"~/.config/bash/bashrc"
+-'  3  0  ~/Documents/dotfiles/bin/stow.sh
+|4,39,3,0,1614464458,"~/Documents/dotfiles/bin/stow.sh"
+-'  3  0  ~/Documents/dotfiles/bin/stow.sh
+|4,39,3,0,1614464458,"~/Documents/dotfiles/bin/stow.sh"
+-'  3  0  ~/Documents/dotfiles/bin/stow.sh
+|4,39,3,0,1614464458,"~/Documents/dotfiles/bin/stow.sh"
+-'  127  18  ~/Documents/dotfiles/bin/stow.sh
+|4,39,127,18,1614463993,"~/Documents/dotfiles/bin/stow.sh"
+-'  127  18  ~/Documents/dotfiles/bin/stow.sh
+|4,39,127,18,1614463993,"~/Documents/dotfiles/bin/stow.sh"
+-'  127  18  ~/Documents/dotfiles/bin/stow.sh
+|4,39,127,18,1614463993,"~/Documents/dotfiles/bin/stow.sh"
+-'  15  2  ~/.config/bash/functions/__cb_utils_print.sh
+|4,39,15,2,1614463313,"~/.config/bash/functions/__cb_utils_print.sh"
+-'  15  2  ~/.config/bash/functions/__cb_utils_print.sh
+|4,39,15,2,1614463313,"~/.config/bash/functions/__cb_utils_print.sh"
+-'  15  2  ~/.config/bash/functions/__cb_utils_print.sh
+|4,39,15,2,1614463313,"~/.config/bash/functions/__cb_utils_print.sh"
+-'  15  2  ~/.config/bash/functions/__cb_utils_print.sh
+|4,39,15,2,1614463313,"~/.config/bash/functions/__cb_utils_print.sh"
+-'  15  2  ~/.config/bash/functions/__cb_utils_print.sh
+|4,39,15,2,1614463313,"~/.config/bash/functions/__cb_utils_print.sh"
+-'  11  24  ~/.config/bash/functions/__cb_git_prompt.sh
+|4,39,11,24,1614463243,"~/.config/bash/functions/__cb_git_prompt.sh"
+-'  11  24  ~/.config/bash/functions/__cb_git_prompt.sh
+|4,39,11,24,1614463243,"~/.config/bash/functions/__cb_git_prompt.sh"
+-'  11  24  ~/.config/bash/functions/__cb_git_prompt.sh
+|4,39,11,24,1614463243,"~/.config/bash/functions/__cb_git_prompt.sh"
+-'  1  0  ~/.config/bash/functions/__cb_git_prompt.sh
+|4,39,1,0,1614463238,"~/.config/bash/functions/__cb_git_prompt.sh"
+-'  1  0  ~/.config/bash/functions/__cb_git_prompt.sh
+|4,39,1,0,1614463238,"~/.config/bash/functions/__cb_git_prompt.sh"
+-'  1  0  ~/.config/bash/functions/__cb_git_prompt.sh
+|4,39,1,0,1614463238,"~/.config/bash/functions/__cb_git_prompt.sh"
+-'  9  19  ~/.config/bash/functions/__cb_pyenv_prompt.sh
+|4,39,9,19,1614463234,"~/.config/bash/functions/__cb_pyenv_prompt.sh"
+-'  9  19  ~/.config/bash/functions/__cb_pyenv_prompt.sh
+|4,39,9,19,1614463234,"~/.config/bash/functions/__cb_pyenv_prompt.sh"
+-'  9  19  ~/.config/bash/functions/__cb_pyenv_prompt.sh
+|4,39,9,19,1614463234,"~/.config/bash/functions/__cb_pyenv_prompt.sh"
+-'  9  19  ~/.config/bash/functions/__cb_pyenv_prompt.sh
+|4,39,9,19,1614463234,"~/.config/bash/functions/__cb_pyenv_prompt.sh"
+-'  9  19  ~/.config/bash/functions/__cb_pyenv_prompt.sh
+|4,39,9,19,1614463234,"~/.config/bash/functions/__cb_pyenv_prompt.sh"
+-'  9  19  ~/.config/bash/functions/__cb_pyenv_prompt.sh
+|4,39,9,19,1614463234,"~/.config/bash/functions/__cb_pyenv_prompt.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prompt.sh
+|4,39,1,0,1614463223,"~/.config/bash/functions/__cb_pyenv_prompt.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prompt.sh
+|4,39,1,0,1614463223,"~/.config/bash/functions/__cb_pyenv_prompt.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prompt.sh
+|4,39,1,0,1614463223,"~/.config/bash/functions/__cb_pyenv_prompt.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prompt.sh
+|4,39,1,0,1614463223,"~/.config/bash/functions/__cb_pyenv_prompt.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prompt.sh
+|4,39,1,0,1614463223,"~/.config/bash/functions/__cb_pyenv_prompt.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prompt.sh
+|4,39,1,0,1614463223,"~/.config/bash/functions/__cb_pyenv_prompt.sh"
+-'  7  23  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,7,23,1614463219,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  7  23  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,7,23,1614463219,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  7  23  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,7,23,1614463219,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  7  23  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,7,23,1614463219,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  7  23  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,7,23,1614463219,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  7  23  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,7,23,1614463219,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  7  23  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,7,23,1614463219,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  7  23  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,7,23,1614463219,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  7  23  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,7,23,1614463219,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  7  23  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,7,23,1614463219,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  7  23  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,7,23,1614463219,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  7  23  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,7,23,1614463219,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463190,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463190,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463190,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463190,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463190,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463190,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463190,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463190,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463190,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463190,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463190,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463190,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  2  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,2,0,1614463052,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463051,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463051,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463051,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463051,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463051,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463051,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463051,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463051,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463051,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463051,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463051,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  1  0  ~/.config/bash/functions/__cb_pyenv_prefix.sh
+|4,39,1,0,1614463051,"~/.config/bash/functions/__cb_pyenv_prefix.sh"
+-'  3  19  ~/.config/bash/functions/__cb_git_prefix.sh
+|4,39,3,19,1614463047,"~/.config/bash/functions/__cb_git_prefix.sh"
+-'  3  19  ~/.config/bash/functions/__cb_git_prefix.sh
+|4,39,3,19,1614463047,"~/.config/bash/functions/__cb_git_prefix.sh"
+-'  3  19  ~/.config/bash/functions/__cb_git_prefix.sh
+|4,39,3,19,1614463047,"~/.config/bash/functions/__cb_git_prefix.sh"
+-'  3  19  ~/.config/bash/functions/__cb_git_prefix.sh
+|4,39,3,19,1614463047,"~/.config/bash/functions/__cb_git_prefix.sh"
+-'  3  19  ~/.config/bash/functions/__cb_git_prefix.sh
+|4,39,3,19,1614463047,"~/.config/bash/functions/__cb_git_prefix.sh"
+-'  3  19  ~/.config/bash/functions/__cb_git_prefix.sh
+|4,39,3,19,1614463047,"~/.config/bash/functions/__cb_git_prefix.sh"
 
 # History of marks within files (newest to oldest):
 
-> ~/.config/fish/functions/__cf_path_prompt.fish
-	*	1614378820	0
-	"	4	48
-	^	6	27
-	.	4	48
-	+	2	1
-	+	4	2
-	+	5	2
-	+	6	2
-	+	8	0
-	+	2	1
-	+	4	1
-	+	8	1
-	+	6	25
-	+	4	48
-	+	6	26
-	+	4	48
-
-> ~/.config/fish/functions/fish_prompt.fish
-	*	1614378805	0
-	"	6	10
-	^	6	11
-	.	6	10
-	+	12	3
-	+	8	19
-	+	8	0
+> ~/.config/bash/bashrc
+	*	1614464662	0
+	"	43	27
+	^	40	28
+	.	43	27
+	+	95	2
+	+	90	0
+	+	87	13
+	+	168	0
+	+	167	0
+	+	168	31
+	+	171	11
+	+	178	1
+	+	172	8
+	+	173	1
+	+	174	2
+	+	175	1
+	+	176	2
+	+	177	1
+	+	196	1
+	+	181	8
+	+	179	0
+	+	195	1
+	+	184	0
+	+	180	18
+	+	171	24
+	+	170	1
+	+	171	0
+	+	171	4
+	+	171	16
+	+	170	16
+	+	171	0
+	+	94	0
+	+	95	11
+	+	94	15
+	+	95	15
+	+	20	0
+	+	20	11
 	+	9	0
-	+	10	0
-	+	4	39
-	+	10	12
-	+	9	13
-	+	12	0
-	+	8	11
-	+	2	0
-	+	8	0
-	+	11	0
-	+	8	0
-	+	7	2
-	+	8	1
-	+	9	2
-	+	7	2
-	+	8	3
-	+	7	3
-	+	9	2
-	+	7	2
-	+	9	2
-	+	7	2
-	+	9	3
-	+	2	1
-	+	7	2
-	+	2	11
-	+	6	10
+	+	15	29
+	+	17	0
+	+	18	0
+	+	9	0
+	+	197	0
+	+	20	0
+	+	171	0
+	+	170	10
+	+	94	0
+	+	95	0
+	+	94	8
+	+	35	0
+	+	46	0
+	+	35	2
+	+	30	1
+	+	35	43
+	+	46	0
+	+	35	3
+	+	46	0
+	+	35	29
+	+	45	12
+	+	35	23
+	+	40	24
+	+	35	23
+	+	37	5
+	+	40	5
+	+	37	38
+	+	21	7
+	+	25	0
+	+	22	50
+	+	25	49
+	+	40	8
+	+	39	18
+	+	37	22
+	+	39	22
+	+	55	25
+	+	56	0
+	+	53	0
+	+	54	53
+	+	55	0
+	+	54	69
+	+	32	38
+	+	37	0
+	+	44	0
+	+	41	0
+	+	43	0
+	+	42	0
+	+	36	41
+	+	23	47
+	+	33	24
+	+	35	7
+	+	34	27
+	+	36	24
+	+	37	24
+	+	39	24
+	+	38	42
+	+	24	49
+	+	36	20
+	+	38	20
+	+	35	20
+	+	40	20
+	+	43	18
+	+	40	18
+	+	43	21
+	+	40	0
+	+	43	27
 
-> ~/.config/fish/functions/__cf_user_prompt.fish
-	*	1614378799	0
-	"	6	45
-	^	6	46
-	.	6	45
-	+	1	0
-	+	3	0
-	+	2	9
-	+	1	40
-	+	3	0
-	+	3	9
-	+	2	20
-	+	3	0
-	+	4	0
-	+	2	19
-	+	3	20
-	+	6	45
-
-> ~/.config/fish/functions/__cf_char_prompt.fish
-	*	1614378749	0
-	"	4	2
-	^	9	4
-	.	13	30
-	+	4	10
-	+	13	0
-	+	2	0
-	+	7	4
-	+	9	4
-	+	13	30
+> ~/.config/bash/functions/__cb_utils_print.sh
+	*	1614464563	0
+	"	19	2
+	.	40	16
+	+	39	18
+	+	40	16
 
 > ~/Documents/dotfiles/bin/stow.sh
-	*	1614378366	0
-	"	4	0
-	^	3	56
-	.	5	0
-	+	2	0
-	+	3	55
-	+	5	0
+	*	1614464455	0
+	"	3	0
+	^	157	24
+	.	157	23
+	+	92	0
+	+	91	0
+	+	92	21
+	+	93	25
+	+	94	27
+	+	95	27
+	+	96	34
+	+	171	10
+	+	99	22
+	+	105	0
+	+	100	29
+	+	101	23
+	+	103	27
+	+	102	29
+	+	103	5
+	+	104	0
+	+	104	33
+	+	103	35
+	+	104	52
+	+	107	0
+	+	155	0
+	+	107	21
+	+	108	27
+	+	110	26
+	+	111	63
+	+	112	0
+	+	111	40
+	+	168	14
+	+	169	11
+	+	114	0
+	+	113	0
+	+	114	18
+	+	115	24
+	+	109	27
+	+	116	24
+	+	117	58
+	+	174	19
+	+	13	0
+	+	12	0
+	+	15	48
+	+	13	22
+	+	174	32
+	+	175	22
+	+	170	12
+	+	120	0
+	+	119	0
+	+	121	23
+	+	122	25
+	+	123	25
+	+	124	46
+	+	120	19
+	+	135	0
+	+	126	0
+	+	135	18
+	+	136	30
+	+	137	24
+	+	138	47
+	+	139	0
+	+	138	40
+	+	139	40
+	+	140	44
+	+	143	0
+	+	141	0
+	+	142	27
+	+	143	29
+	+	139	0
+	+	143	61
+	+	145	0
+	+	144	0
+	+	145	33
+	+	146	53
+	+	145	49
+	+	146	70
+	+	145	57
+	+	146	74
+	+	147	7
+	+	146	5
+	+	147	45
+	+	149	0
+	+	148	0
+	+	150	51
+	+	149	65
+	+	150	52
+	+	152	0
+	+	151	0
+	+	152	64
+	+	127	0
+	+	134	0
+	+	127	18
+	+	168	11
+	+	128	25
+	+	129	24
+	+	130	24
+	+	131	36
+	+	132	37
+	+	168	0
+	+	164	0
+	+	172	11
+	+	158	0
+	+	157	23
 
-> ~/.config/vim/syntax/fish.vim
-	*	1614377882	0
-	"	105	78
-	^	105	79
-	.	105	78
-	+	105	78
+> ~/.config/bash/functions/__cb_git_prompt.sh
+	*	1614463242	0
+	"	11	24
+	^	11	26
+	.	11	24
+	+	6	89
+	+	6	55
+	+	6	65
+	+	11	15
+	+	6	0
+	+	11	25
+	+	8	0
+	+	11	24
 
-> ~/.config/vim/ftdetect/PKGBUILD.vim
-	*	1614377846	0
-	"	1	0
+> ~/.config/bash/functions/__cb_pyenv_prompt.sh
+	*	1614463232	0
+	"	9	19
+	^	9	19
+	.	9	18
+	+	6	89
+	+	6	0
+	+	9	7
+	+	9	0
+	+	11	0
+	+	6	0
+	+	9	18
 
-> ~/.config/fish/conf.d/fish_space.fish
-	*	1614377155	0
-	"	3	1
-	^	3	2
-	.	3	1
-	+	2	0
-	+	3	1
+> ~/.config/bash/functions/__cb_pyenv_prefix.sh
+	*	1614463218	0
+	"	7	23
+	^	5	26
+	.	5	25
+	+	7	22
+	+	8	20
+	+	3	25
+	+	5	25
+
+> ~/.config/bash/functions/__cb_git_prefix.sh
+	*	1614463047	0
+	"	3	19
+	^	3	20
+	.	3	19
+	+	7	0
+	+	10	0
+	+	5	23
+	+	7	19
+	+	3	19
 
 > ~/.config/fish/config.fish
-	*	1614377093	0
-	"	6	0
-	^	130	3
-	.	130	2
+	*	1614462655	0
+	"	130	22
+	^	132	24
+	.	132	23
 	+	57	54
 	+	58	57
 	+	57	54
@@ -780,160 +848,27 @@ ${
 	+	129	16
 	+	93	7
 	+	129	1
-	+	130	2
+	+	130	20
+	+	57	36
+	+	58	39
+	+	57	36
+	+	58	39
+	+	132	39
+	+	130	30
+	+	132	23
 
-> ~/.config/fish/functions/__cf_status_value.fish
-	*	1614376736	0
-	"	2	18
-	^	1	19
-	.	1	18
-	+	2	0
-	+	3	0
-	+	4	4
-	+	6	4
-	+	8	0
-	+	2	0
-	+	8	0
-	+	1	18
-
-> ~/.config/fish/functions/fish_user_key_bindings.fish
-	*	1614376450	0
-	"	3	1
-	^	6	2
-	.	6	2
-	+	2	2
-	+	5	2
-	+	6	2
-
-> ~/.config/fish/functions/fish_colorscheme.fish
-	*	1614376418	0
-	"	1	0
-	^	2	2
-	.	2	1
-	+	2	1
-
-> ~/.config/fish/functions/__cf_utils_print.fish
-	*	1614376357	0
-	"	2	0
-	.	2	0
-	+	2	0
-
-> ~/.config/fish/functions/__cf_utils_path_parse.fish
-	*	1614376325	0
-	"	2	0
-	^	2	25
-	.	2	0
-	+	1	30
-	+	2	24
-	+	4	0
-	+	3	0
-	+	4	0
-	+	2	0
-
-> ~/.config/fish/functions/__cf_utils_git_settings.fish
-	*	1614376313	0
-	"	2	2
-	^	1	20
-	.	1	19
-	+	2	0
-	+	1	19
-
-> ~/.config/fish/functions/__cf_utils_git_parse.fish
-	*	1614376302	0
-	"	2	0
-	.	2	0
-	+	1	9
-	+	2	0
-
-> ~/.config/fish/functions/__cf_pyenv_prompt.fish
-	*	1614376204	0
-	"	10	2
-	^	5	2
-	.	5	1
-	+	2	1
-	+	3	2
-	+	5	2
-	+	6	6
-	+	7	6
-	+	9	6
-	+	10	2
-	+	6	4
-	+	7	4
-	+	9	4
-	+	5	1
-
-> ~/.config/fish/functions/__cf_git_prompt.fish
-	*	1614376168	0
-	"	1	0
-	^	33	4
-	.	33	3
-	+	2	0
-	+	3	0
-	+	2	1
-	+	17	4
-	+	19	4
-	+	20	5
-	+	21	5
-	+	22	7
-	+	23	7
-	+	25	8
-	+	26	8
-	+	27	9
-	+	28	10
-	+	29	10
-	+	30	8
-	+	31	4
-	+	30	6
-	+	33	4
-	+	5	1
-	+	26	6
-	+	27	8
-	+	28	8
-	+	29	0
-	+	33	3
-
-> ~/.config/vim/ftdetect/fish.vim
-	*	1614374659	0
-	"	1	0
-
-> ~/.config/vim/ftplugin/fish.vim
-	*	1614374643	0
-	"	2	0
-
-> ~/.config/vim/indent/fish.vim
-	*	1614374636	0
-	"	4	20
-	.	4	20
-	+	2	17
-	+	3	21
-	+	4	20
-
-> ~/.config/fish/functions/__cf_git_settings.fish
-	*	1614374484	0
-	"	2	4
-
-> ~/.config/fish/functions/__cf_docker_prompt.fish
-	*	1614374473	0
-	"	8	0
-
-> ~/.config/fish/functions/__cf_git_parse_default.fish
-	*	1614374246	0
-	"	3	4
-	.	3	0
-	+	3	0
-	+	7	0
-	+	3	0
-
-> ~/.config/fish/functions/fish_mode_prompt.fish
-	*	1614374134	0
-	"	1	0
-
-> ~/.config/fish/functions/fish_right_prompt.fish
-	*	1614373907	0
-	"	7	1
+> ~/.config/vim/colors/Custom.vim
+	*	1614459468	0
+	"	77	0
+	^	77	69
+	.	77	68
+	+	75	66
+	+	76	26
+	+	77	93
+	+	77	68
 
 > ~/Documents/dotfiles/bin/update.sh
-	*	1614373697	0
+	*	1614458715	0
 	"	9	2
 	^	8	37
 	.	8	36
@@ -999,121 +934,1219 @@ ${
 	+	9	48
 	+	8	36
 
-> ~/.config/bash/bashrc
-	*	1614373074	0
-	"	4	0
-	^	35	6
-	.	36	0
-	+	31	13
-	+	21	0
-	+	28	0
-	+	27	0
-	+	28	6
-	+	20	26
-	+	40	9
-	+	31	6
-	+	87	0
-	+	86	17
-	+	87	0
-	+	76	0
-	+	82	0
-	+	83	0
-	+	84	63
-	+	82	0
-	+	57	0
-	+	56	0
-	+	63	0
-	+	89	2
-	+	84	0
-	+	81	13
-	+	162	0
-	+	161	0
-	+	162	31
-	+	165	11
-	+	172	1
-	+	166	8
-	+	167	1
-	+	168	2
-	+	169	1
-	+	170	2
-	+	171	1
-	+	190	1
-	+	175	8
-	+	173	0
-	+	189	1
+> ~/.config/vim/plugin/StatusLine.vim
+	*	1614457700	0
+	"	144	4
+	^	98	43
+	.	144	0
+	+	164	0
+	+	157	0
+	+	160	4
+	+	158	0
 	+	178	0
-	+	174	18
-	+	165	24
-	+	164	1
-	+	165	0
-	+	165	4
-	+	165	16
-	+	164	16
-	+	165	0
+	+	177	4
+	+	176	0
+	+	98	42
+	+	141	0
+	+	140	0
+	+	144	0
+
+> ~/.config/bspwm/bspwmrc
+	*	1614453956	0
+	"	75	4
+	^	75	27
+	.	75	26
+	+	16	9
+	+	92	30
 	+	88	0
-	+	89	11
+	+	88	35
+	+	102	0
+	+	102	13
+	+	105	0
+	+	12	10
+	+	10	0
+	+	11	4
+	+	10	13
+	+	12	13
+	+	13	0
+	+	11	16
+	+	10	16
+	+	12	16
+	+	16	0
+	+	17	13
+	+	13	0
+	+	40	0
+	+	41	16
+	+	40	19
+	+	42	19
+	+	56	0
+	+	57	12
+	+	56	15
+	+	58	15
+	+	41	10
+	+	40	11
+	+	42	11
+	+	41	8
+	+	40	11
+	+	42	11
+	+	63	0
+	+	64	12
+	+	63	15
+	+	65	15
+	+	88	0
+	+	88	35
+	+	88	1
+	+	88	0
+	+	88	11
 	+	88	15
-	+	89	15
-	+	20	0
-	+	20	11
-	+	9	0
-	+	15	29
-	+	17	0
-	+	18	0
-	+	9	0
-	+	191	0
-	+	20	0
-	+	165	0
-	+	164	10
 	+	88	0
+	+	88	10
+	+	88	14
 	+	89	0
-	+	88	8
-	+	31	0
-	+	40	0
-	+	31	2
-	+	28	1
-	+	31	43
-	+	40	0
-	+	31	3
-	+	40	0
-	+	31	29
-	+	39	12
-	+	31	23
-	+	34	24
-	+	31	23
-	+	32	5
-	+	34	5
-	+	32	38
-	+	21	7
-	+	23	0
-	+	22	50
-	+	23	49
-	+	34	8
-	+	33	18
-	+	32	22
-	+	33	22
-	+	49	25
-	+	50	0
-	+	47	0
-	+	48	53
+	+	90	9
+	+	89	13
+	+	91	13
+	+	102	0
+	+	80	0
+	+	88	0
+	+	79	0
+	+	64	21
+	+	88	0
 	+	49	0
-	+	48	69
-	+	30	38
-	+	32	0
-	+	38	0
-	+	35	0
-	+	37	0
+	+	55	0
+	+	88	0
+	+	30	0
+	+	39	0
+	+	102	0
+	+	101	0
+	+	100	0
+	+	89	0
+	+	78	0
+	+	77	0
+	+	89	0
+	+	87	0
+	+	83	0
+	+	88	0
+	+	84	0
+	+	85	8
+	+	84	12
+	+	86	12
+	+	13	47
+	+	16	0
+	+	92	0
+	+	85	11
+	+	84	14
+	+	86	14
+	+	14	25
+	+	13	20
+	+	16	0
+	+	15	0
+	+	11	8
+	+	10	12
+	+	12	12
+	+	52	40
+	+	22	14
+	+	2	0
+	+	38	25
+	+	1	10
+	+	14	51
+	+	13	46
+	+	69	16
+	+	22	14
+	+	75	13
+	+	22	14
+	+	75	26
+
+> ~/.scripts/tlbx/tlbx_monitors_functions.sh
+	*	1614453952	0
+	"	36	8
+	^	35	40
+	.	36	39
+	+	47	30
+	+	33	0
+	+	41	42
+	+	5	18
+	+	13	18
+	+	17	18
+	+	21	18
+	+	25	19
+	+	26	21
+	+	27	23
+	+	28	25
+	+	48	0
+	+	2	0
+	+	3	73
+	+	1	10
+	+	35	39
+	+	36	39
+
+> ~/.config/sxhkd/sxhkdrc
+	*	1614453552	0
+	"	117	10
+	^	116	12
+	.	116	11
+	+	95	0
+	+	96	11
+	+	95	22
+	+	97	22
+	+	115	0
+	+	116	18
+	+	115	22
+	+	117	22
+	+	166	0
+	+	167	19
+	+	166	22
+	+	168	22
+	+	154	0
+	+	155	19
+	+	194	0
+	+	195	15
+	+	194	19
+	+	196	19
+	+	205	0
+	+	157	0
+	+	8	0
+	+	129	35
+	+	104	0
+	+	102	0
+	+	103	23
+	+	104	11
+	+	105	28
+	+	104	13
+	+	103	22
+	+	105	33
+	+	104	13
+	+	68	12
+	+	69	18
+	+	165	0
+	+	161	0
+	+	19	1
+	+	23	1
+	+	39	1
+	+	93	1
+	+	101	1
+	+	109	1
+	+	125	1
+	+	129	1
+	+	133	1
+	+	137	1
+	+	152	1
+	+	176	1
+	+	200	1
+	+	204	1
+	+	30	13
+	+	112	6
+	+	144	8
+	+	147	14
+	+	53	11
+	+	53	52
+	+	57	13
+	+	53	2
+	+	144	8
+	+	147	14
+	+	117	57
+	+	116	25
+	+	108	13
+	+	38	10
+	+	42	0
+	+	38	11
+	+	42	11
+	+	109	21
+	+	108	8
+	+	107	13
+	+	75	0
+	+	78	0
+	+	76	8
+	+	75	17
+	+	77	17
+	+	75	11
+	+	76	8
+	+	108	15
+	+	15	43
+	+	13	0
+	+	72	0
+	+	56	34
+	+	54	11
 	+	36	0
+	+	28	0
+	+	35	27
+	+	33	2
+	+	88	8
+	+	26	16
+	+	38	0
+	+	88	8
+	+	38	11
+	+	39	30
+	+	151	4
+	+	34	10
+	+	128	7
+	+	112	12
+	+	96	15
+	+	140	8
+	+	143	14
+	+	116	11
+
+> ~/.config/polybar/config.ini
+	*	1614452474	0
+	"	30	15
+	^	41	67
+	.	30	15
+	+	39	21
+	+	16	10
+	+	55	0
+	+	51	0
+	+	42	0
+	+	12	43
+	+	40	0
+	+	12	0
+	+	39	26
+	+	37	0
+	+	35	0
+	+	36	39
+	+	12	0
+	+	39	28
+	+	40	17
+	+	40	0
+	+	39	28
+	+	40	17
+	+	39	28
+	+	30	15
+	+	31	16
+	+	39	0
+	+	41	28
+	+	30	15
+	+	41	66
+	+	16	10
+	+	30	15
+
+> ~/.config/polybar/modules/bspwm.ini
+	*	1614452437	0
+	"	5	42
+	^	6	46
+	.	6	45
+	+	24	0
+	+	4	0
+	+	5	41
+	+	6	45
+
+> ~/.xprofile
+	*	1614450782	0
+	"	44	18
+	.	44	18
+	+	44	18
+
+> ~/.config/picom/picom.conf
+	*	1614450754	0
+	"	29	4
+
+> ~/.config/polybar/fonts.ini
+	*	1614450407	0
+	"	16	14
+	^	16	15
+	.	16	14
+	+	16	31
+	+	16	20
+	+	16	30
+	+	16	0
+	+	16	63
+	+	16	65
+	+	16	0
+	+	14	0
+	+	11	53
+	+	10	17
+	+	8	53
+	+	10	11
+	+	16	0
+	+	15	0
+	+	16	10
+	+	17	57
+	+	16	14
+
+> ~/.config/polybar/scripts/poly_clock.sh
+	*	1614450394	0
+	"	9	13
+	^	15	42
+	.	8	13
+	+	19	6
+	+	22	3
+	+	3	31
+	+	10	0
+	+	8	15
+	+	15	27
+	+	14	0
+	+	12	0
+	+	8	13
+	+	9	19
+	+	8	13
+	+	15	41
+	+	8	13
+
+> ~/.config/polybar/modules_c/custom_clock.ini
+	*	1614450075	0
+	"	6	38
+	^	6	39
+	.	6	38
+	+	1	19
+	+	13	29
+	+	6	39
+	+	7	35
+	+	4	16
+	+	6	35
+	+	7	38
+	+	4	10
+	+	6	38
+
+> ~/Documents/dotfiles/bars/polybar/fonts.ini
+	*	1614449706	0
+	"	1	0
+
+> ~/.config/polybar/scripts/poly_battery.sh
+	*	1614449329	0
+	"	9	2
+	^	27	2
+	.	12	0
+	+	1	10
+	+	2	0
+	+	3	47
+	+	10	2
+	+	11	2
+	+	12	2
+	+	15	2
+	+	16	2
+	+	17	2
+	+	20	2
+	+	21	2
+	+	22	2
+	+	25	2
+	+	26	2
+	+	27	2
+	+	12	0
+
+> ~/.config/polybar/scripts/*clock
+	*	1614449231	0
+	"	1	0
+
+> ~/.config/polybar/modules/date.ini
+	*	1614449137	0
+	"	4	18
+
+> ~/.config/polybar/include.ini
+	*	1614447884	0
+	"	17	0
+	^	13	59
+	.	17	0
+	+	1	17
+	+	2	0
+	+	12	16
+	+	1	25
+	+	12	24
+	+	1	15
+	+	13	58
+	+	17	0
+
+> ~/.config/polybar/modules_c/custom_battery.ini
+	*	1614447732	0
+	"	13	0
+	.	13	0
+	+	15	12
+	+	7	0
+	+	6	40
+	+	7	0
+	+	8	0
+	+	4	0
+	+	5	0
+	+	4	0
+	+	13	0
+
+> ~/.config/lemonbar/modules/lemon_wifi.sh
+	*	1614447715	0
+	"	17	3
+	^	1	11
+	.	1	10
+	+	20	0
+	+	3	5
+	+	19	0
+	+	20	0
+	+	12	3
+	+	12	0
+	+	19	0
+	+	12	0
+	+	12	64
+	+	13	31
+	+	12	0
+	+	10	0
+	+	14	11
+	+	11	8
+	+	14	27
+	+	8	0
+	+	14	29
+	+	17	0
+	+	18	17
+	+	14	40
+	+	16	17
+	+	13	24
+	+	18	10
+	+	5	0
+	+	8	0
+	+	12	0
+	+	9	0
+	+	14	3
+	+	16	3
+	+	2	0
+	+	1	10
+
+> ~/.config/polybar/scripts/poly_wifi.sh
+	*	1614447714	0
+	"	12	8
+	^	12	9
+	.	12	8
+	+	1	10
+	+	2	0
+	+	3	41
+	+	6	0
+	+	10	2
+	+	12	2
+	+	5	0
+	+	9	0
+	+	12	8
+
+> ~/.config/polybar/modules_c/custom_wifi.ini
+	*	1614447594	0
+	"	1	0
+	^	5	1
+	.	5	0
+	+	16	11
+	+	8	0
+	+	5	0
+
+> ~/.config/polybar/modules_c/custom_bluetooth.ini
+	*	1614447543	0
+	"	14	11
+	^	14	12
+	.	14	11
+	+	14	11
+
+> ~/.config/polybar/modules_c/custom_xwindow.ini
+	*	1614447511	0
+	"	17	0
+	^	8	0
+	.	18	0
+	+	5	0
+	+	8	0
+	+	13	0
+	+	16	0
+	+	18	0
+
+> ~/.config/polybar/modules_c/custom_power.ini
+	*	1614447285	0
+	"	20	0
+
+> ~/.config/polybar/modules_c/custom_menu.ini
+	*	1614447258	0
+	"	11	0
+	.	16	23
+	+	12	22
+	+	16	23
+
+> ~/.config/polybar/colors.ini
+	*	1614447098	0
+	"	9	0
+	^	3	24
+	.	9	0
+	+	4	0
+	+	3	0
+	+	4	0
+	+	6	0
+	+	7	0
+	+	6	0
+	+	9	0
+	+	10	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	3	23
+	+	4	0
+	+	9	0
+
+> ~/.config/polybar/modules_c/custom_text.ini
+	*	1614446874	0
+	"	5	0
+
+> ~/.config/polybar/include_modules.ini
+	*	1614446292	0
+	"	1	0
+	^	10	45
+	.	1	0
+	+	11	50
+	+	12	0
+	+	8	0
+	+	10	44
+	+	11	0
+	+	1	0
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/shark.py
+	*	1614445998	0
+	"	890	4
+	^	894	0
+	.	890	0
+	+	805	12
+	+	805	0
+	+	805	22
+	+	933	36
+	+	933	19
+	+	933	0
+	+	805	24
+	+	805	30
+	+	933	28
+	+	933	22
+	+	933	23
+	+	933	0
+	+	933	44
+	+	933	31
+	+	805	0
+	+	933	23
+	+	933	24
+	+	933	23
+	+	1	0
+	+	933	3
+	+	933	0
+	+	933	4
+	+	933	0
+	+	805	72
+	+	933	0
+	+	933	37
+	+	933	36
+	+	933	69
+	+	933	51
+	+	933	33
+	+	933	63
+	+	933	4
+	+	933	12
+	+	805	68
+	+	805	12
+	+	933	103
+	+	933	13
+	+	933	0
+	+	933	12
+	+	933	0
+	+	805	0
+	+	933	14
+	+	933	23
+	+	933	37
+	+	488	20
+	+	933	0
+	+	488	0
+	+	805	18
+	+	933	0
+	+	808	0
+	+	809	15
+	+	933	45
+	+	933	30
+	+	933	21
+	+	933	61
+	+	805	66
+	+	805	5
+	+	809	0
+	+	805	0
+	+	193	30
+	+	195	58
+	+	198	35
+	+	201	36
+	+	202	62
+	+	201	28
+	+	202	78
+	+	784	0
+	+	201	44
+	+	202	71
+	+	202	0
+	+	971	27
+	+	933	0
+	+	677	0
+	+	676	0
+	+	679	26
+	+	678	67
+	+	967	0
+	+	930	0
+	+	915	39
+	+	916	39
+	+	892	0
+	+	894	0
+	+	890	0
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/deploy.py
+	*	1614445827	0
+	"	34	4
+	^	326	20
+	.	332	0
+	+	322	22
+	+	321	14
+	+	323	0
+	+	346	25
+	+	320	33
+	+	346	16
+	+	346	19
+	+	346	32
+	+	346	22
+	+	346	0
+	+	346	29
+	+	323	59
+	+	346	0
+	+	326	19
+	+	327	0
+	+	332	0
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/docker.py
+	*	1614437563	0
+	"	151	8
+
+> ~/Documents/sckless/tabbed/config.h
+	*	1614437233	0
+	"	53	1
+	^	46	33
+	.	46	33
+	+	7	41
+	+	11	36
+	+	8	0
+	+	20	31
+	+	66	0
+	+	30	0
+	+	34	0
+	+	35	0
+	+	5	41
+	+	6	41
+	+	7	41
+	+	66	28
+	+	35	25
+	+	66	0
+	+	70	60
+	+	69	9
+	+	70	50
+	+	35	22
+	+	62	0
+	+	63	0
+	+	62	0
+	+	60	0
+	+	61	0
+	+	4	48
+	+	62	43
+	+	63	37
+	+	70	0
+	+	63	63
+	+	68	0
+	+	63	37
+	+	44	36
+	+	45	36
+	+	42	36
+	+	43	36
+	+	42	36
+	+	43	36
+	+	42	32
+	+	43	0
+	+	46	33
+
+> ~/Documents/dotfiles/bin/install.sh
+	*	1614433784	0
+	"	36	0
+	^	33	15
+	.	33	14
+	+	1	10
+	+	8	17
+	+	14	12
+	+	13	28
+	+	24	32
+	+	25	15
+	+	41	15
+	+	42	27
+	+	46	7
+	+	25	0
+	+	14	0
+	+	9	0
+	+	41	0
+	+	14	27
+	+	17	0
+	+	16	0
+	+	17	25
+	+	19	0
+	+	20	34
+	+	41	21
+	+	31	1
+	+	2	0
+	+	3	7
+	+	31	1
+	+	34	45
+	+	30	18
+	+	32	23
+	+	34	10
+	+	35	5
+	+	34	16
+	+	37	25
+	+	37	45
+	+	37	41
+	+	42	0
+	+	43	22
+	+	37	26
+	+	37	40
+	+	38	0
+	+	37	40
+	+	34	41
+	+	31	30
+	+	37	3
+	+	33	14
+
+> ~/.config/bspwm/scripts/bspwm_border_change.sh
+	*	1614433714	0
+	"	21	0
+	^	1	11
+	.	1	10
+	+	3	0
+	+	2	0
+	+	3	43
+	+	23	15
+	+	25	3
+	+	26	4
+	+	27	4
+	+	29	4
+	+	30	5
+	+	31	6
+	+	32	4
+	+	34	0
+	+	36	7
+	+	37	0
+	+	30	5
+	+	19	1
+	+	20	1
+	+	14	0
+	+	1	10
+
+> ~/.config/bspwm/scripts/bspwm_node_focus_manager.sh
+	*	1614433692	0
+	"	19	6
+	^	1	11
+	.	1	10
+	+	31	15
+	+	33	0
+	+	32	1
+	+	35	3
+	+	28	1
+	+	27	6
+	+	26	6
+	+	24	6
+	+	23	10
+	+	22	6
+	+	22	10
+	+	20	14
+	+	19	10
+	+	18	10
+	+	6	2
+	+	7	2
+	+	9	2
+	+	10	2
+	+	11	3
+	+	12	4
+	+	13	4
+	+	15	4
+	+	16	6
+	+	18	5
+	+	19	6
+	+	20	7
+	+	22	0
+	+	21	5
+	+	22	4
+	+	23	5
+	+	24	4
+	+	26	4
+	+	27	4
+	+	2	0
+	+	3	79
+	+	1	10
+
+> ~/.config/bspwm/scripts/bspwm_transparent_monocle.sh
+	*	1614433688	0
+	"	78	3
+	^	1	11
+	.	1	10
+	+	2	0
+	+	3	28
+	+	63	1
+	+	64	3
+	+	65	5
+	+	66	6
+	+	67	6
+	+	68	6
+	+	70	3
+	+	71	5
+	+	72	6
+	+	73	8
+	+	74	6
+	+	75	8
+	+	76	6
+	+	77	6
+	+	79	6
+	+	80	8
+	+	81	8
+	+	42	1
+	+	43	3
+	+	44	6
+	+	45	6
+	+	46	6
+	+	47	6
+	+	48	6
+	+	50	4
+	+	51	5
+	+	52	6
+	+	53	6
+	+	54	6
+	+	55	6
+	+	56	2
+	+	58	2
+	+	59	2
+	+	3	86
+	+	15	1
+	+	16	3
+	+	17	5
+	+	18	6
+	+	19	7
+	+	20	9
+	+	21	8
+	+	22	8
+	+	23	6
+	+	22	6
+	+	24	6
+	+	26	4
+	+	27	5
+	+	28	6
+	+	29	7
+	+	30	9
+	+	31	8
+	+	32	6
+	+	33	6
+	+	34	6
+	+	35	2
+	+	37	2
+	+	38	2
+	+	1	10
+
+> ~/.config/dunst/dunstrc
+	*	1614431949	0
+	"	15	18
+	^	16	26
+	.	15	18
+	+	16	25
+	+	15	18
+
+> ~/Documents/sckless/st/normalMode.c
+	*	1614431859	0
+	"	240	67
+	^	240	77
+	.	240	68
+	+	240	68
+
+> ~/Documents/sckless/st/config.h
+	*	1614431746	0
+	"	148	45
+	^	149	37
+	.	148	45
+	+	8	0
+	+	9	23
+	+	96	0
+	+	136	0
+	+	138	0
+	+	137	0
+	+	135	11
+	+	139	0
+	+	145	0
+	+	225	28
+	+	137	0
+	+	136	31
+	+	147	60
+	+	137	33
+	+	148	48
+	+	137	50
+	+	148	68
+	+	136	31
+	+	147	60
+	+	137	52
+	+	164	0
+	+	163	2
+	+	152	0
+	+	63	35
+	+	163	0
+	+	165	0
+	+	8	30
+	+	148	47
+	+	147	60
+	+	149	41
+	+	136	31
+	+	8	44
+	+	147	57
+	+	149	64
+	+	148	45
+	+	149	36
+	+	148	45
+
+> ~/.config/fish/functions/__cf_pyenv_prompt.fish
+	*	1614387743	0
+	"	2	23
+	^	2	30
+	.	2	23
+	+	2	1
+	+	3	2
+	+	5	2
+	+	6	6
+	+	7	6
+	+	9	6
+	+	10	2
+	+	6	4
+	+	7	4
+	+	9	4
+	+	5	1
+	+	2	23
+
+> ~/.config/fish/functions/__cf_git_prompt.fish
+	*	1614387726	0
+	"	5	21
+	^	5	28
+	.	5	21
+	+	2	0
+	+	3	0
+	+	2	1
+	+	17	4
+	+	19	4
+	+	20	5
+	+	21	5
+	+	22	7
+	+	23	7
+	+	25	8
+	+	26	8
+	+	27	9
+	+	28	10
+	+	29	10
+	+	30	8
+	+	31	4
+	+	30	6
+	+	33	4
+	+	5	1
+	+	26	6
+	+	27	8
+	+	28	8
+	+	29	0
+	+	33	3
+	+	5	21
+
+> ~/.config/fish/functions/__cf_path_prompt.fish
+	*	1614387636	0
+	"	5	22
+	^	5	29
+	.	5	22
+	+	2	1
+	+	4	2
+	+	5	2
+	+	6	2
+	+	8	0
+	+	2	1
+	+	4	1
+	+	8	1
+	+	6	25
+	+	4	48
+	+	6	26
+	+	4	48
+	+	5	22
+
+> ~/.config/fish/functions/__cf_char_prompt.fish
+	*	1614379137	0
+	"	6	21
+	^	9	28
+	.	9	21
+	+	4	10
+	+	13	0
+	+	2	0
+	+	7	4
+	+	9	4
+	+	13	30
+	+	9	21
+
+> ~/.config/fish/functions/__cf_user_prompt.fish
+	*	1614378868	0
+	"	3	2
+	^	3	27
+	.	3	20
+	+	1	0
+	+	3	0
+	+	2	9
+	+	1	40
+	+	3	0
+	+	3	9
+	+	2	20
+	+	3	0
+	+	4	0
+	+	2	19
+	+	3	20
+	+	6	45
+	+	3	20
+
+> ~/.config/fish/functions/fish_prompt.fish
+	*	1614378805	0
+	"	6	10
+	^	6	11
+	.	6	10
+	+	12	3
+	+	8	19
+	+	8	0
+	+	9	0
+	+	10	0
+	+	4	39
+	+	10	12
+	+	9	13
+	+	12	0
+	+	8	11
+	+	2	0
+	+	8	0
+	+	11	0
+	+	8	0
+	+	7	2
+	+	8	1
+	+	9	2
+	+	7	2
+	+	8	3
+	+	7	3
+	+	9	2
+	+	7	2
+	+	9	2
+	+	7	2
+	+	9	3
+	+	2	1
+	+	7	2
+	+	2	11
+	+	6	10
+
+> ~/.config/vim/syntax/fish.vim
+	*	1614377882	0
+	"	105	78
+	^	105	79
+	.	105	78
+	+	105	78
+
+> ~/.config/vim/ftdetect/PKGBUILD.vim
+	*	1614377846	0
+	"	1	0
+
+> ~/.config/fish/conf.d/fish_space.fish
+	*	1614377155	0
+	"	3	1
+	^	3	2
+	.	3	1
+	+	2	0
+	+	3	1
+
+> ~/.config/fish/functions/__cf_status_value.fish
+	*	1614376736	0
+	"	2	18
+	^	1	19
+	.	1	18
+	+	2	0
+	+	3	0
+	+	4	4
+	+	6	4
+	+	8	0
+	+	2	0
+	+	8	0
+	+	1	18
+
+> ~/.config/fish/functions/fish_user_key_bindings.fish
+	*	1614376450	0
+	"	3	1
+	^	6	2
+	.	6	2
+	+	2	2
+	+	5	2
+	+	6	2
+
+> ~/.config/fish/functions/fish_colorscheme.fish
+	*	1614376418	0
+	"	1	0
+	^	2	2
+	.	2	1
+	+	2	1
+
+> ~/.config/fish/functions/__cf_utils_print.fish
+	*	1614376357	0
+	"	2	0
+	.	2	0
+	+	2	0
+
+> ~/.config/fish/functions/__cf_utils_path_parse.fish
+	*	1614376325	0
+	"	2	0
+	^	2	25
+	.	2	0
+	+	1	30
+	+	2	24
+	+	4	0
+	+	3	0
+	+	4	0
+	+	2	0
+
+> ~/.config/fish/functions/__cf_utils_git_settings.fish
+	*	1614376313	0
+	"	2	2
+	^	1	20
+	.	1	19
+	+	2	0
+	+	1	19
+
+> ~/.config/fish/functions/__cf_utils_git_parse.fish
+	*	1614376302	0
+	"	2	0
+	.	2	0
+	+	1	9
+	+	2	0
+
+> ~/.config/vim/ftdetect/fish.vim
+	*	1614374659	0
+	"	1	0
+
+> ~/.config/vim/ftplugin/fish.vim
+	*	1614374643	0
+	"	2	0
+
+> ~/.config/vim/indent/fish.vim
+	*	1614374636	0
+	"	4	20
+	.	4	20
+	+	2	17
+	+	3	21
+	+	4	20
+
+> ~/.config/fish/functions/__cf_git_settings.fish
+	*	1614374484	0
+	"	2	4
+
+> ~/.config/fish/functions/__cf_docker_prompt.fish
+	*	1614374473	0
+	"	8	0
+
+> ~/.config/fish/functions/__cf_git_parse_default.fish
+	*	1614374246	0
+	"	3	4
+	.	3	0
+	+	3	0
+	+	7	0
+	+	3	0
+
+> ~/.config/fish/functions/fish_mode_prompt.fish
+	*	1614374134	0
+	"	1	0
+
+> ~/.config/fish/functions/fish_right_prompt.fish
+	*	1614373907	0
+	"	7	1
 
 > ~/.config/vim/plugin/Icons.vim
 	*	1614372446	0
 	"	59	0
 	.	60	0
 	+	60	0
-
-> ~/.config/vim/plugin/StatusLine.vim
-	*	1614372430	0
-	"	3	0
 
 > ~/.config/vim/vimrc
 	*	1614372428	0
@@ -1175,44 +2208,6 @@ ${
 	+	137	0
 	+	81	0
 
-> ~/Documents/sckless/st/config.h
-	*	1614372406	0
-	"	492	1
-	^	8	45
-	.	8	44
-	+	8	0
-	+	9	23
-	+	96	0
-	+	136	0
-	+	138	0
-	+	137	0
-	+	135	11
-	+	139	0
-	+	145	0
-	+	225	28
-	+	137	0
-	+	136	31
-	+	147	60
-	+	137	33
-	+	148	48
-	+	137	50
-	+	148	68
-	+	136	31
-	+	147	60
-	+	137	52
-	+	164	0
-	+	163	2
-	+	152	0
-	+	63	35
-	+	163	0
-	+	165	0
-	+	8	30
-	+	148	47
-	+	147	60
-	+	149	41
-	+	136	31
-	+	8	44
-
 > ~/.config/fish/conf
 	*	1614372134	0
 	"	1	0
@@ -1238,36 +2233,6 @@ ${
 	+	6	58
 	+	6	0
 	+	11	16
-	+	6	0
-
-> ~/.config/bash/functions/__cb_utils_print.sh
-	*	1614365956	0
-	"	4	0
-	.	40	16
-	+	39	18
-	+	40	16
-
-> ~/.config/bash/functions/__cb_pyenv_prompt.sh
-	*	1614365132	0
-	"	6	2
-	^	9	11
-	.	6	0
-	+	6	89
-	+	6	0
-	+	9	7
-	+	9	0
-	+	11	0
-	+	6	0
-
-> ~/.config/bash/functions/__cb_git_prompt.sh
-	*	1614365118	0
-	"	6	2
-	^	12	16
-	.	6	0
-	+	6	89
-	+	6	55
-	+	6	65
-	+	12	15
 	+	6	0
 
 > ~/.config/bash/functions/bash_prompt.sh
@@ -1428,112 +2393,6 @@ ${
 	+	25	26
 	+	28	10
 
-> ~/.config/sxhkd/sxhkdrc
-	*	1614341160	0
-	"	1	0
-	^	186	2
-	.	186	1
-	+	24	0
-	+	25	1
-	+	28	0
-	+	50	11
-	+	51	33
-	+	49	10
-	+	114	8
-	+	118	14
-	+	94	11
-	+	143	0
-	+	147	12
-	+	147	0
-	+	26	10
-	+	70	12
-	+	103	10
-	+	94	9
-	+	122	8
-	+	125	14
-	+	122	8
-	+	1	0
-	+	67	53
-	+	60	0
-	+	60	4
-	+	60	62
-	+	60	8
-	+	60	41
-	+	67	20
-	+	60	0
-	+	129	8
-	+	141	8
-	+	143	8
-	+	145	8
-	+	147	8
-	+	129	8
-	+	82	25
-	+	83	35
-	+	88	0
-	+	90	27
-	+	91	43
-	+	92	0
-	+	103	6
-	+	83	28
-	+	91	44
-	+	14	18
-	+	94	13
-	+	95	0
-	+	10	21
-	+	9	21
-	+	11	21
-	+	61	0
-	+	62	10
-	+	77	0
-	+	78	11
-	+	77	22
-	+	79	22
-	+	97	0
-	+	98	18
-	+	97	22
-	+	99	22
-	+	148	0
-	+	149	19
-	+	148	22
-	+	150	22
-	+	136	0
-	+	137	19
-	+	176	0
-	+	177	15
-	+	176	19
-	+	178	19
-	+	187	0
-	+	139	0
-	+	8	0
-	+	111	35
-	+	86	0
-	+	84	0
-	+	85	23
-	+	86	11
-	+	87	28
-	+	86	13
-	+	85	22
-	+	87	33
-	+	86	13
-	+	54	12
-	+	55	18
-	+	147	0
-	+	143	0
-	+	15	1
-	+	19	1
-	+	31	1
-	+	75	1
-	+	83	1
-	+	91	1
-	+	107	1
-	+	111	1
-	+	115	1
-	+	119	1
-	+	134	1
-	+	158	1
-	+	182	1
-	+	186	1
-
 > ~/.config/vim/ftdetect/sxhkdrc.vim
 	*	1614341112	0
 	"	1	0
@@ -1575,133 +2434,6 @@ ${
 	+	1	10
 	+	3	47
 
-> ~/.config/bspwm/bspwmrc
-	*	1614299828	0
-	"	26	0
-	^	69	17
-	.	69	16
-	+	16	0
-	+	16	7
-	+	16	0
-	+	11	10
-	+	16	9
-	+	92	30
-	+	88	0
-	+	88	35
-	+	102	0
-	+	102	13
-	+	105	0
-	+	12	10
-	+	10	0
-	+	11	4
-	+	10	13
-	+	12	13
-	+	13	0
-	+	11	16
-	+	10	16
-	+	12	16
-	+	16	0
-	+	17	13
-	+	13	0
-	+	40	0
-	+	41	16
-	+	40	19
-	+	42	19
-	+	56	0
-	+	57	12
-	+	56	15
-	+	58	15
-	+	41	10
-	+	40	11
-	+	42	11
-	+	41	8
-	+	40	11
-	+	42	11
-	+	63	0
-	+	64	12
-	+	63	15
-	+	65	15
-	+	88	0
-	+	88	35
-	+	88	1
-	+	88	0
-	+	88	11
-	+	88	15
-	+	88	0
-	+	88	10
-	+	88	14
-	+	89	0
-	+	90	9
-	+	89	13
-	+	91	13
-	+	102	0
-	+	80	0
-	+	88	0
-	+	79	0
-	+	64	21
-	+	88	0
-	+	49	0
-	+	55	0
-	+	88	0
-	+	30	0
-	+	39	0
-	+	102	0
-	+	101	0
-	+	100	0
-	+	89	0
-	+	78	0
-	+	77	0
-	+	89	0
-	+	87	0
-	+	83	0
-	+	88	0
-	+	84	0
-	+	85	8
-	+	84	12
-	+	86	12
-	+	13	47
-	+	16	0
-	+	92	0
-	+	85	11
-	+	84	14
-	+	86	14
-	+	14	25
-	+	13	20
-	+	16	0
-	+	15	0
-	+	11	8
-	+	10	12
-	+	12	12
-	+	52	40
-	+	22	14
-	+	2	0
-	+	38	25
-	+	1	10
-	+	14	51
-	+	13	46
-	+	69	16
-
-> ~/.scripts/tlbx/tlbx_monitors_functions.sh
-	*	1614299819	0
-	"	19	0
-	^	1	11
-	.	1	10
-	+	47	30
-	+	33	0
-	+	41	42
-	+	5	18
-	+	13	18
-	+	17	18
-	+	21	18
-	+	25	19
-	+	26	21
-	+	27	23
-	+	28	25
-	+	48	0
-	+	2	0
-	+	3	73
-	+	1	10
-
 > ~/.config/polybar/launch.sh
 	*	1614299775	0
 	"	1	0
@@ -1711,13 +2443,6 @@ ${
 	+	2	0
 	+	3	15
 	+	10	17
-
-> ~/Documents/dotfiles/bin/install.sh
-	*	1614299687	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	1	10
 
 > ~/.scripts/tlbx/tlbx_mng_daemon.sh
 	*	1614299188	0
@@ -1848,43 +2573,6 @@ ${
 	+	9	1
 	+	11	2
 	+	5	0
-	+	2	0
-	+	1	10
-
-> ~/.config/lemonbar/modules/lemon_wifi.sh
-	*	1614298672	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	20	0
-	+	3	5
-	+	19	0
-	+	20	0
-	+	12	3
-	+	12	0
-	+	19	0
-	+	12	0
-	+	12	64
-	+	13	31
-	+	12	0
-	+	10	0
-	+	14	11
-	+	11	8
-	+	14	27
-	+	8	0
-	+	14	29
-	+	17	0
-	+	18	17
-	+	14	40
-	+	16	17
-	+	13	24
-	+	18	10
-	+	5	0
-	+	8	0
-	+	12	0
-	+	9	0
-	+	14	3
-	+	16	3
 	+	2	0
 	+	1	10
 
@@ -2212,678 +2900,3 @@ ${
 	+	39	8
 	+	18	10
 	+	1	10
-
-> ~/.config/lemonbar/lemon_bar.sh
-	*	1614298624	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	39	17
-	+	38	0
-	+	38	51
-	+	41	10
-	+	32	0
-	+	31	8
-	+	41	27
-	+	41	13
-	+	41	0
-	+	40	16
-	+	57	65
-	+	34	0
-	+	13	0
-	+	15	0
-	+	12	0
-	+	13	0
-	+	32	0
-	+	23	0
-	+	40	17
-	+	37	14
-	+	38	10
-	+	39	26
-	+	40	27
-	+	41	36
-	+	38	21
-	+	57	41
-	+	41	0
-	+	40	24
-	+	41	60
-	+	41	0
-	+	34	0
-	+	41	0
-	+	31	1
-	+	31	3
-	+	31	5
-	+	31	0
-	+	31	5
-	+	31	21
-	+	31	36
-	+	31	25
-	+	31	36
-	+	31	67
-	+	31	22
-	+	31	70
-	+	31	8
-	+	31	41
-	+	72	10
-	+	31	27
-	+	31	0
-	+	31	17
-	+	57	29
-	+	58	19
-	+	59	7
-	+	60	0
-	+	62	0
-	+	60	9
-	+	60	0
-	+	61	0
-	+	31	0
-	+	31	38
-	+	31	9
-	+	39	20
-	+	10	4
-	+	25	0
-	+	26	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	30	0
-	+	26	0
-	+	30	0
-	+	22	0
-	+	21	0
-	+	22	16
-	+	17	0
-	+	18	0
-	+	17	0
-	+	19	0
-	+	20	0
-	+	19	0
-	+	21	0
-	+	20	0
-	+	22	0
-	+	21	0
-	+	69	19
-	+	70	22
-	+	70	0
-	+	24	21
-	+	60	15
-	+	69	13
-	+	7	0
-	+	30	19
-	+	39	21
-	+	35	0
-	+	51	3
-	+	34	0
-	+	1	10
-
-> ~/.config/lemonbar/launch_lemon.sh
-	*	1614298603	0
-	"	3	34
-	^	3	35
-	.	3	34
-	+	14	161
-	+	15	58
-	+	17	73
-	+	5	0
-	+	4	0
-	+	5	17
-	+	14	20
-	+	15	24
-	+	8	20
-	+	15	41
-	+	8	13
-	+	15	58
-	+	17	63
-	+	9	21
-	+	17	43
-	+	17	42
-	+	15	0
-	+	14	0
-	+	8	0
-	+	9	0
-	+	8	0
-	+	1	18
-	+	5	0
-	+	17	43
-	+	8	13
-	+	14	11
-	+	14	0
-	+	14	108
-	+	14	27
-	+	8	13
-	+	8	20
-	+	14	27
-	+	15	63
-	+	17	0
-	+	15	63
-	+	9	0
-	+	6	16
-	+	8	0
-	+	5	25
-	+	6	22
-	+	15	26
-	+	2	0
-	+	13	0
-	+	9	8
-	+	13	7
-	+	9	27
-	+	13	9
-	+	9	48
-	+	17	31
-	+	13	47
-	+	17	0
-	+	13	0
-	+	17	32
-	+	13	46
-	+	13	19
-	+	11	10
-	+	12	10
-	+	15	55
-	+	15	19
-	+	17	43
-	+	14	0
-	+	15	23
-	+	13	0
-	+	15	20
-	+	19	16
-	+	6	0
-	+	7	15
-	+	18	28
-	+	7	19
-	+	16	0
-	+	15	31
-	+	5	0
-	+	19	19
-	+	5	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	15	19
-	+	14	29
-	+	1	10
-	+	3	34
-
-> ~/.config/polybar/scripts/poly_bluetooth.sh
-	*	1614298527	0
-	"	12	2
-	^	8	2
-	.	12	2
-	+	1	10
-	+	2	0
-	+	3	51
-	+	8	2
-	+	9	2
-	+	12	2
-
-> ~/.config/polybar/scripts/poly_xwindow.sh
-	*	1614298491	0
-	"	3	47
-	^	3	48
-	.	3	47
-	+	8	0
-	+	6	37
-	+	6	0
-	+	4	0
-	+	2	1
-	+	3	0
-	+	1	10
-	+	3	47
-
-> ~/.config/polybar/scripts/poly_wifi.sh
-	*	1614298441	0
-	"	12	2
-	^	12	2
-	.	12	2
-	+	1	10
-	+	2	0
-	+	3	41
-	+	6	0
-	+	5	0
-	+	10	2
-	+	12	2
-
-> ~/.config/polybar/scripts/poly_battery.sh
-	*	1614298400	0
-	"	9	1
-	^	28	2
-	.	28	2
-	+	1	10
-	+	2	0
-	+	3	47
-	+	10	2
-	+	11	2
-	+	13	2
-	+	16	2
-	+	17	2
-	+	18	2
-	+	21	2
-	+	22	2
-	+	23	2
-	+	26	2
-	+	27	2
-	+	28	2
-
-> ~/.config/bspwm/scripts/bspwm_layout_manager.sh
-	*	1614298325	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	2	0
-	+	3	71
-	+	6	1
-	+	7	2
-	+	8	3
-	+	9	5
-	+	10	4
-	+	11	5
-	+	12	6
-	+	13	6
-	+	14	7
-	+	15	6
-	+	16	6
-	+	22	0
-	+	23	0
-	+	21	0
-	+	22	0
-	+	21	1
-	+	24	3
-	+	1	10
-
-> ~/.config/bspwm/scripts/bspwm_float_term.sh
-	*	1614298314	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	19	8
-	+	21	8
-	+	18	36
-	+	6	1
-	+	7	1
-	+	9	1
-	+	10	1
-	+	16	1
-	+	18	1
-	+	19	2
-	+	20	2
-	+	21	2
-	+	22	2
-	+	2	0
-	+	3	57
-	+	1	10
-
-> ~/.config/bspwm/scripts/bspwm_swap_desktops.sh
-	*	1614298263	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	2	0
-	+	3	63
-	+	1	10
-
-> ~/.config/bspwm/scripts/bspwm_transparent_monocle.sh
-	*	1614298255	0
-	"	2	0
-	^	1	11
-	.	1	10
-	+	2	0
-	+	3	28
-	+	63	1
-	+	64	3
-	+	65	5
-	+	66	6
-	+	67	6
-	+	68	6
-	+	70	3
-	+	71	5
-	+	72	6
-	+	73	8
-	+	74	6
-	+	75	8
-	+	76	6
-	+	77	6
-	+	79	6
-	+	80	8
-	+	81	8
-	+	42	1
-	+	43	3
-	+	44	6
-	+	45	6
-	+	46	6
-	+	47	6
-	+	48	6
-	+	50	4
-	+	51	5
-	+	52	6
-	+	53	6
-	+	54	6
-	+	55	6
-	+	56	2
-	+	58	2
-	+	59	2
-	+	3	86
-	+	15	1
-	+	16	3
-	+	17	5
-	+	18	6
-	+	19	7
-	+	20	9
-	+	21	8
-	+	22	8
-	+	23	6
-	+	22	6
-	+	24	6
-	+	26	4
-	+	27	5
-	+	28	6
-	+	29	7
-	+	30	9
-	+	31	8
-	+	32	6
-	+	33	6
-	+	34	6
-	+	35	2
-	+	37	2
-	+	38	2
-	+	1	10
-
-> ~/.config/bspwm/scripts/bspwm_node_focus_manager.sh
-	*	1614298250	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	31	15
-	+	33	0
-	+	32	1
-	+	35	3
-	+	28	1
-	+	27	6
-	+	26	6
-	+	24	6
-	+	23	10
-	+	22	6
-	+	22	10
-	+	20	14
-	+	19	10
-	+	18	10
-	+	6	2
-	+	7	2
-	+	9	2
-	+	10	2
-	+	11	3
-	+	12	4
-	+	13	4
-	+	15	4
-	+	16	6
-	+	18	5
-	+	19	6
-	+	20	7
-	+	22	0
-	+	21	5
-	+	22	4
-	+	23	5
-	+	24	4
-	+	26	4
-	+	27	4
-	+	2	0
-	+	3	79
-	+	1	10
-
-> ~/.config/bspwm/scripts/bspwm_kill_floats.sh
-	*	1614298241	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	14	18
-	+	2	0
-	+	3	35
-	+	5	25
-	+	6	0
-	+	11	0
-	+	10	5
-	+	11	0
-	+	9	14
-	+	6	0
-	+	5	0
-	+	17	31
-	+	6	0
-	+	17	0
-	+	5	0
-	+	1	10
-
-> ~/.config/bspwm/scripts/bspwm_border_change.sh
-	*	1614298215	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	3	0
-	+	2	0
-	+	3	43
-	+	23	15
-	+	25	3
-	+	26	4
-	+	27	4
-	+	29	4
-	+	30	5
-	+	31	6
-	+	32	4
-	+	34	0
-	+	36	7
-	+	37	0
-	+	30	5
-	+	19	1
-	+	20	1
-	+	14	0
-	+	1	10
-
-> ~/.config/bspwm/scripts/bspwm_regular_WM_layout.sh
-	*	1614296841	0
-	"	1	0
-
-> ~/.config/bspwm/scripts/bspwm_close_receptacle.sh
-	*	1614296424	0
-	"	7	0
-
-> ~/.scripts/tlbx/tlbx_dmenu_binary.sh
-	*	1614296179	0
-	"	3	29
-	^	3	30
-	.	3	29
-	+	3	29
-
-> ~/.scripts/tlbx/tlbx_example_sync.sh
-	*	1614296025	0
-	"	1	0
-
-> ~/.scripts/tlbx/tlbx_list_sounds.sh
-	*	1614296016	0
-	"	4	0
-
-> ~/.scripts/tlbx/tlbx_mng_spotifyd.sh
-	*	1614295987	0
-	"	10	0
-
-> ~/.scripts/tlbx/tlbx_pacman_fzf.sh
-	*	1614295968	0
-	"	5	4
-
-> ~/.scripts/tlbx/tlbx_screenshot_mgr.sh
-	*	1614295955	0
-	"	8	0
-
-> ~/.config/lemonbar/modules/lemon_date.sh
-	*	1614284644	0
-	"	11	2
-	^	8	10
-	.	8	9
-	+	1	0
-	+	3	5
-	+	7	13
-	+	11	0
-	+	11	11
-	+	12	18
-	+	11	0
-	+	9	18
-	+	10	20
-	+	11	26
-	+	5	4
-	+	7	0
-	+	5	0
-	+	2	0
-	+	8	1
-	+	9	0
-	+	8	9
-
-> ~/.config/vim/ftplugin/sh.vim
-	*	1614283190	0
-	"	1	0
-
-> ~/.config/vim/indent/bash.vim
-	*	1614282928	0
-	"	4	20
-	.	4	20
-	+	2	17
-	+	3	21
-	+	4	20
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/usb/MAX_POOL_2D_36K/Results.csv
-	*	1614254948	0
-	"	2	0
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/deploy.py
-	*	1614248511	0
-	"	1	0
-	^	326	20
-	.	332	0
-	+	322	22
-	+	321	14
-	+	323	0
-	+	346	25
-	+	320	33
-	+	346	16
-	+	346	19
-	+	346	32
-	+	346	22
-	+	346	0
-	+	346	29
-	+	323	59
-	+	346	0
-	+	326	19
-	+	327	0
-	+	332	0
-
-> ~/Documents/learn/intro-ai/ai50/projects/Search/tictactoe/tictactoe.py
-	*	1614246979	0
-	"	154	6
-
-> ~/Documents/sckless/tabbed/README.md
-	*	1614215005	0
-	"	1	0
-	^	9	43
-	.	9	42
-	+	1	0
-	+	2	0
-	+	10	0
-	+	1	6
-	+	3	0
-	+	3	59
-	+	5	20
-	+	10	0
-	+	7	39
-	+	9	0
-	+	8	0
-	+	9	42
-
-> ~/Documents/sckless/tabbed/config.h
-	*	1614214904	0
-	"	46	33
-	^	46	33
-	.	46	33
-	+	7	41
-	+	11	36
-	+	8	0
-	+	20	31
-	+	66	0
-	+	30	0
-	+	34	0
-	+	35	0
-	+	5	41
-	+	6	41
-	+	7	41
-	+	66	28
-	+	35	25
-	+	66	0
-	+	70	60
-	+	69	9
-	+	70	50
-	+	35	22
-	+	62	0
-	+	63	0
-	+	62	0
-	+	60	0
-	+	61	0
-	+	4	48
-	+	62	43
-	+	63	37
-	+	70	0
-	+	63	63
-	+	68	0
-	+	63	37
-	+	44	36
-	+	45	36
-	+	42	36
-	+	43	36
-	+	42	36
-	+	43	36
-	+	42	32
-	+	43	0
-	+	46	33
-
-> ~/Documents/sckless/tabbed/diffs/hidetabs.diff
-	*	1614214639	0
-	"	26	2
-	^	106	0
-	.	105	0
-	+	105	0
-
-> ~/Documents/sckless/tabbed/config.def.h
-	*	1614214001	0
-	"	62	0
-	^	57	0
-	.	57	0
-	+	58	0
-	+	59	0
-	+	58	0
-	+	60	0
-	+	57	0
-
-> ~/Documents/sckless/TAB/config.h
-	*	1614213398	0
-	"	35	0
-
-> ~/Documents/sckless/tabbed/tabbed.c
-	*	1614213162	0
-	"	334	1
-	^	313	29
-	.	313	28
-	+	1	0
-	+	715	0
-	+	704	0
-	+	986	0
-	+	991	0
-	+	714	15
-	+	153	0
-	+	155	0
-	+	170	0
-	+	166	23
-	+	313	0
-	+	314	0
-	+	316	0
-	+	326	0
-	+	313	28
-
-> ~/Documents/sckless/tabbed/diffs/keyrelease.diff
-	*	1614212341	0
-	"	82	7
-	^	97	0
-	.	96	0
-	+	96	0

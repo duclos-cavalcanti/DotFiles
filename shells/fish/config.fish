@@ -127,9 +127,9 @@ abbr Mc "cmake .. && make"
 
 function cd -a direc
   if [ -n "$direc" ]
-	  builtin cd "$direc" && ls -a --color=auto
+	  builtin cd "$direc" && ls --color=auto
   else
-	  builtin cd ~ && ls -a --color=auto
+	  builtin cd ~ && ls --color=auto
   end
 end
 

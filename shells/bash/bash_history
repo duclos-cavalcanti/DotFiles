@@ -221,3 +221,18 @@ ll
 ls
 ls
 ll
+ls
+ll
+select 1) Daniel 2)Roberto
+man select
+type -a select
+help select
+select word "Daniel"; "Calvin"; do echo "$word"
+ll
+ls
+cd
+ls
+select name in "Daniel" "Robert"; do echo "$name"; done
+select name in "Daniel" "Robert"; do echo "$name"; done
+sudo pacman -Qi xdotool
+sudo pacman -Qi xdotools

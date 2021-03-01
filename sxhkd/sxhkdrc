@@ -144,7 +144,7 @@ super + alt + f
 	firefox --private-window
 
 # Filemanager
-super + m
+super + a
 	pcmanfm
 
 # Dmenu/Launcher

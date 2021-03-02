@@ -51,6 +51,9 @@ function stow::vim() {
   cp -r ${CASA}/dotfiles/vim/spell    ${CASA}/.config/vim/
   cp -r ${CASA}/dotfiles/vim/syntax   ${CASA}/.config/vim/
   cp    ${CASA}/dotfiles/vim/RC/vimrc ${CASA}/.config/vim/
+
+  echo "Dont forget to install ycm."
+  echo "Go to ycm and run './install.py --clangd-completer"
 }
 
 function stow::fish() {

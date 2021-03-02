@@ -2,6 +2,11 @@
 #
 # Script to automate the most of my/a arch linux install.
 
+# -- On Thinkpad --
+# Shift goes to Grub
+# F2 goes to BIOS
+# F12 goes to Boot menu
+
 usr=duclos
 dotfiles=~/Documents/dotfiles
 
@@ -145,11 +150,11 @@ function install::system_packages() {
   sudo pacman -S \
     mesa intel-media-driver intel-ucode xf86-video-intel xorg xorg-xinit \
     nitrogen picom firefox bspwm sxhkd fish pcmanfm fzf tree scrot sxiv \
-    zathura zathura-pdf-poppler xclip gimp libre-office docker dunst \
+    zathura zathura-pdf-poppler xclip gimp libre-office docker dunst tmux \
     xdotool xdo jq htop usbutils net-tools wireless_tools lxappearance \
     breeze-icons adapta-gtk-theme kvantum-manager qt5ct bluez bluez-utils \
     pulseaudio pulseaudio-bluetooth openssh pavucontrol tlp lightdm \
-    lightdm-gtk-greeter lightdm-gtk-greeter-settings
+    lightdm-gtk-greeter lightdm-gtk-greeter-settings clang
 
   sudo systemctl enable lightdm
   sudo systemctl enable tlp
@@ -200,12 +205,15 @@ function install::filestructure() {
   git clone https://github.com/duclos-cavalcanti/tabbed.git
 
   cd st
+  git checkout release
   sudo make clean install
 
   cd ../dmenu
+  git checkout release
   sudo make clean install
 
   cd ../tabbed
+  git checkout release
   sudo make clean install
 
   cd /home/duclos/Documents
@@ -238,6 +246,7 @@ function main() {
   install::grub
   
   install::log "Exit now with 'exit' and unmount with umount -R /mnt"
+
   install::system_packages
   install::aur_packages
   install::filestructure

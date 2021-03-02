@@ -98,6 +98,10 @@ function backup_cron {
   sudo chown -R duclos:duclos ${DOTFILES_PATH}/cron/crontab/
 }
 
+function backup_alacritty {
+  cp ~/.config/alacritty/alacritty.yml ${DOTFILES_PATH}/alacritty/
+}
+
 function main {
   backup_fish_shell
   backup_bash_shell
@@ -114,6 +118,7 @@ function main {
   backup_picom
   backup_xfiles
   backup_cron
+  backup_alacritty
 }
 
 main

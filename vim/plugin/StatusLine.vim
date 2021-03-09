@@ -25,7 +25,7 @@ function! LinterStatus() abort
     if l:counts.total == 0
         return ''
     else
-        return l:hi . ' w:e ' . l:all_non_errors . ':' . l:all_errors
+        return l:hi . ' w,e ' . l:all_non_errors . ':' . l:all_errors
     endif
 endfunction
 
@@ -140,7 +140,7 @@ function! LeftStatusLine()
     let l:str .= ExtraSpace()
     let l:str .= FileType()
     let l:str .= ExtraSpace()
-    let l:str .= FilePath()
+    let l:str .= FileName()
     let l:str .= ExtraSpace()
     let l:str .= GitStatus()
 

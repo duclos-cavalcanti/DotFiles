@@ -10,8 +10,9 @@
 # ----------
 # -- Prep --
 # ----------
-[ -f ~/.scripts/tlbx/tlbx_monitors_functions.sh ] \
-&& source ~/.scripts/tlbx/tlbx_monitors_functions.sh
+if [ -f ~/.scripts/tlbx/tlbx_monitors_functions.sh ]; then
+  . ~/.scripts/tlbx/tlbx_monitors_functions.sh
+fi
 
 # ---------------
 # -- Variables --
@@ -19,7 +20,7 @@
 zero=0
 positive_gap=5
 negative_gap=-$positive_gap
-panel_height=35
+panel_height=30
 
 export zero
 export gap
@@ -50,7 +51,7 @@ bspc config bottom_padding $positive_gap
 # -- Windows --
 # -------------
 bspc config automatic_scheme    alternate
-bspc config split_ratio         0.55
+bspc config split_ratio         0.50
 bspc config honor_size_hints    false
 
 # -------------
@@ -63,18 +64,11 @@ bspc config single_monocle true
 # -----------------------
 # -- Monitors/Desktops --
 # -----------------------
+monitors::single_configuration
+. ~/.config/lemonbar/lemon_bar.sh
+
 bspc config remove_disabled_monitors true
 bspc config remove_unplugged_monitors true
-
-if [ $(monitors::count_monitors) -lt 2 ]; then
-    ~/.config/polybar/launch.bash
-
-    bspc monitor -d 1 2 3 4 5 6 7 8 9 10
-    bspc desktop -f 4
-else
-    monitors::configuration
-fi
-
 bspc config pointer_follows_monitor true
 
 bspc desktop 1 --layout monocle
@@ -94,9 +88,15 @@ bspc rule -a Zathura state=tiled
 bspc rule -a Pcmanfm state=floating center=true
 bspc rule -a Nitrogen state=floating center=true
 bspc rule -a Polybar state=floating 
+bspc rule -a Bar state=floating 
+bspc rule -a Bar state=floating 
+bspc rule -a Lemonbar state=floating 
+bspc rule -a lemonbar state=floating 
+bspc rule -a statusbar state=floating 
 bspc rule -a Pavucontrol state=floating center=true
 bspc rule -a Nm-connection-editor state=floating
 bspc rule -a Zoom state=tiled
+
 bspc rule -a scratchterm sticky=on state=floating hidden=on locked=on
 
 # xprop | grep WM_CLASS # finds window class

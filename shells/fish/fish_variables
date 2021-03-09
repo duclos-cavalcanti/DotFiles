@@ -2,7 +2,7 @@
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_Mc:cmake\x20\x2e\x2e\x20\x26\x26\x20make
-SETUVAR _fish_abbr__2E_2E_:clear\x20\x26\x26\x20cd\x20\x2e\x2e\x20\x26\x26\x20ls
+SETUVAR _fish_abbr__2E_2E_:cd\x20\x2e\x2e
 SETUVAR _fish_abbr_armgdb:/usr/bin/arm\x2dnone\x2deabi\x2dgdb\x20\x2dnx\x20\x2dx\x20/home/duclos/\x2econfig/gdb/init
 SETUVAR _fish_abbr_aur:sudo\x20pacman\x20\x2dQqm
 SETUVAR _fish_abbr_aurko:yay\x20\x2dYc
@@ -37,17 +37,19 @@ SETUVAR _fish_abbr_dockrm:docker\x20rm
 SETUVAR _fish_abbr_dockrun:docker\x20run\x20\x2d\x2dname\x20\x3cname\x3e\x20\x2dit\x20\x2dd\x20\x3cimg\x3e
 SETUVAR _fish_abbr_dockstart:docker\x20start\x20debian\x2ddocker
 SETUVAR _fish_abbr_fishG:fish_greeting
-SETUVAR _fish_abbr_gBd:git\x20push\x20\x2d\x2ddelete\x20origin
 SETUVAR _fish_abbr_gada:git\x20add\x20\x2d\x2dall
+SETUVAR _fish_abbr_gbD:git\x20push\x20\x2d\x2ddelete\x20origin
 SETUVAR _fish_abbr_gba:git\x20branch\x20\x2d\x2dall
 SETUVAR _fish_abbr_gbd:git\x20branch\x20\x2dd
 SETUVAR _fish_abbr_gcc:gcc\x20\x2dWall\x20\x2dg
+SETUVAR _fish_abbr_gd:git\x20diff
 SETUVAR _fish_abbr_gdb:gdb\x20\x2dnx\x20\x2dx\x20/home/duclos/\x2econfig/gdb/init
 SETUVAR _fish_abbr_greset:git\x20reset\x20\x2d\x2dhard
 SETUVAR _fish_abbr_gs:git\x20status
 SETUVAR _fish_abbr_ipdb:ipdb3
 SETUVAR _fish_abbr_l:ls
-SETUVAR _fish_abbr_la:ls\x20\x2da
+SETUVAR _fish_abbr_la:ls\x20\x2dA
+SETUVAR _fish_abbr_ls:ls
 SETUVAR _fish_abbr_mypass:\x7e/\x2escripts/mypass\x2esh
 SETUVAR _fish_abbr_mypassin:gpg\x20\x2dr\x20daniel\x2educlos\x2ecavalcanti\x40gmail\x2ecom\x20\x2de\x20file
 SETUVAR _fish_abbr_nmcon:nmcli\x20device\x20wifi\x20connect
@@ -65,6 +67,7 @@ SETUVAR _fish_abbr_pdb:python\x20\x2dm\x20pdb
 SETUVAR _fish_abbr_rmtar:rm\x20\x2a\x2etar\x2a
 SETUVAR _fish_abbr_rmzip:rm\x20\x2a\x2ezip
 SETUVAR _fish_abbr_rudev:sudo\x20udevadm\x20control\x20\x2d\x2dreload\x2drules\x20\x26\x26\x20udevadm\x20trigger
+SETUVAR _fish_abbr_s:ls
 SETUVAR _fish_abbr_sc:scrot\x20\x2ds\x20\x7e/Pictures/
 SETUVAR _fish_abbr_sf:scrot\x20\x7e/Pictures/
 SETUVAR _fish_abbr_spts:/home/duclos/\x2escripts/launch_spotifyd\x2esh

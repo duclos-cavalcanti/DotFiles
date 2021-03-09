@@ -6,11 +6,12 @@ bg="#222d32"
 bg_alt="#00bcd4"
 fg="#ffffff"
 fg_alt="#7c818c"
+primary="#00bcd4"
 problem="#fb4934"
 
-padding=" "
+underline_color="#00bcd4"
 
-function utils::format() {
+function utils::format_colors() {
   if [[ $# -eq 3 ]]; then
     text=$1
     background=$2
@@ -28,15 +29,51 @@ function utils::format() {
   fi
 }
 
-function utils::font() {
+function utils::set_underline() {
+  text="$1"
+  echo -n "%{U${underline_color}}${text}%{U-}"
+}
+
+function utils::format_font() {
   text=$1
   font=$2
   echo -n "%{T${font}}${text}%{T-}"
 }
 
-function utils::padding() {
-  text=$1
-  echo -n "${padding}${text}${padding}"
+
+function utils::format_underline() {
+  text="$1"
+  echo -n "%{+u}${text}%{-u}"
+}
+
+function utils::format_padding() {
+  text="$1"
+  cnt="$2"
+  mode="$3"
+  padding=" "
+
+  i="0"
+  case "$mode" in 
+    l)
+      while [ "$i" -lt "$cnt" ]; do
+        text="${padding}${text}"
+        ((i++))
+      done
+      ;;
+    c)
+      while [ "$i" -lt "$cnt" ]; do
+        text="${padding}${text}${padding}"
+        ((i++))
+      done
+      ;;
+    *|r)
+      while [ "$i" -lt "$cnt" ]; do
+        text="${text}${padding}"
+        ((i++))
+      done
+      ;;
+  esac
+  echo -n "$text"
 }
 
 function utils::source_modules() {

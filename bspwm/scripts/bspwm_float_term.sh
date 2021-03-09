@@ -16,8 +16,8 @@ if [ "$id" != "" ]; then
   bspc node "$id" --flag hidden -f
 else
   if [[ "$program" = "" ]]; then # Floating Term
-	  st -c $class
+	  alacritty --class "$class,$class"
   else
-	  st -c $class -e $program
+	  alacritty --class "$class,$class" -e $program
   fi
 fi

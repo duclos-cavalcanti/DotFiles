@@ -2,32 +2,71 @@
 #
 # Bspwm script module for lemonbar.
 
-bspwm_refresh=1
-
 function bspwm() {
-  source ${LEMON_PATH}/lib/lemon_utils.sh
-  desktops=$(bspc query -D --names)
-  focused=$(bspc query -D --names -d .focused)
+  . ${LEMON_PATH}/lib/lemon_utils.sh
 
-  workspaces=""
-  for desk in $desktops; do
-    tmp=""
-    nodes=$(bspc query -N -d "$desk")
-
-    if [[ "$desk" == "$focused" ]]; then
-      tmp=$(utils::format " $desk " "$bg_alt" "$fg")
-    elif [[ -z "$nodes" ]]; then
-      tmp=$(utils::format "$desk" "$fg_alt")
-    else
-      tmp=$(utils::format "$desk" "$fg")
-    fi
-    echo "$tmp"
-
-    [[ -z "$workspaces" ]] \
-      && workspaces="${tmp}" \
-      || workspaces=" ${workspaces}  ${tmp}"
-
+  bspc subscribe report |  while read -r line; do
+    layout=""
+    workspaces=""
+    IFS=':'
+    set -- ${line#?}
+    while [ "$#" -gt 0 ]; do
+      desk=""
+      item="$1"
+      name="${item#?}"
+      select=$(echo "$item" | head -c 1)
+      case "$select" in
+        m) # monitor
+          on_monitor="$name"
+          ;;
+        M) # focused monitor
+          on_focused_monitor="$name"
+          ;;
+        f) # free desktop
+          desk="$name"
+          desk=$(utils::format_colors "$desk" "$fg_alt")
+          desk=$(utils::format_padding "$desk" "1" "c")
+          workspaces="${workspaces}${desk}"
+          ;;
+        F) # focused desktop
+          ;;
+        o) # occupied unfocused desktop
+          desk="$name"
+          desk=$(utils::format_colors "$desk" "$fg")
+          desk=$(utils::format_padding "$desk" "1" "c")
+          workspaces="${workspaces}${desk}"
+          ;;
+        O) # occupied focused desktop
+          desk="$name"
+          desk=$(utils::format_padding "$desk" "1" "c")
+          desk=$(utils::format_padding "$desk" "1" "c")
+          desk=$(utils::format_underline "$desk")
+          workspaces="${workspaces}${desk}"
+          ;;
+        u) # urgent unfocused desktop
+          ;;
+        U) # urgent focused desktop
+          ;;
+        L) # layout of the focused desktop within a monitor
+          if [ -z "$layout" ]; then
+            case "$name" in
+              T)
+                layout="tiled"
+                ;;
+              M)
+                layout="monocle"
+                ;;
+            esac
+          fi
+          ;;
+        T) # state of the focused node
+          ;;
+        G) # active flags of the focused node
+          ;;
+      esac
+      shift
+    done
+    echo "W${workspaces}"
+    echo "L${layout}"
   done
-  workspaces=$(utils::font "$workspaces" "1")
-  echo -n "$workspaces"
 }

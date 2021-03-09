@@ -6,6 +6,13 @@
 #\_|    \___/\____/\_| |_/
 #                  
 
+# Start X at login
+# if status --is-login
+#   if test -z "$DISPLAY" -a $XDG_VTNR = 1
+#     exec startx -- -keeptty
+#   end
+# end
+
 # Colorscheme
 fish_colorscheme
 
@@ -13,7 +20,7 @@ fish_colorscheme
 fish_user_key_bindings
 
 # Debug variable.
-set -gx PS4 "> "
+set -gx PS4 "+ "
 
 # ENVIRONMENT VARIABLES
 set -gx PATH $PATH /home/duclos/.local/bin/
@@ -38,6 +45,8 @@ set -gx GNUPGHOME '/home/duclos/.cache/gnupg/'
 set -gx IPDB_CONFIG '/home/duclos/.config/ipdb/setup.cfg'
 set -gx LESSHISTFILE -
 set -gx VIRTUAL_ENV_DISABLE_PROMPT 1
+set -gx WINIT_HIDPI_FACTOR 1
+set -gx WINIT_X11_SCALE_FACTOR 1
 
 set -gx WM "bspwm"
 set -gx EDITOR "vim"
@@ -54,20 +63,26 @@ set -x TLBX_PATH ~/.scripts/tlbx
 set -x CRON_PATH ~/.scripts/cron
 set -x POLY_PATH ~/.config/polybar/scripts
 set -x LEMON_PATH ~/.config/lemonbar/
-set -gx CUSTOM_DMENU "dmenu_run -h 35" 
-set -gx CUSTOM_DMENU_PROMPT "dmenu -h 35" 
+set -gx CUSTOM_DMENU "dmenu_run -h 30 -l 5" 
+set -gx CUSTOM_DMENU_PROMPT "dmenu -h 30 -l 5" 
 
 # ALIASES / ABBRs
 abbr l "ls"
-abbr la "ls -a"
+abbr s "ls"
+abbr la "ls -A"
+abbr ls "ls"
+
+abbr .. "cd .."
+
 abbr untar "tar -xf"
 abbr rmtar "rm *.tar*"
 abbr rmzip "rm *.zip"
 
 abbr gs "git status"
+abbr gd "git diff"
 abbr gba "git branch --all"
 abbr gbd "git branch -d"
-abbr gBd "git push --delete origin"
+abbr gbD "git push --delete origin"
 abbr greset "git reset --hard"
 
 abbr vpn "/opt/cisco/anyconnect/bin/vpn"
@@ -127,9 +142,9 @@ abbr Mc "cmake .. && make"
 
 function cd -a direc
   if [ -n "$direc" ]
-	  builtin cd "$direc" && ls --color=auto
+	  builtin cd "$direc" && ls --color=auto --group-directories-first
   else
-	  builtin cd ~ && ls --color=auto
+	  builtin cd ~ && ls --color=auto --group-directories-first
   end
 end
 

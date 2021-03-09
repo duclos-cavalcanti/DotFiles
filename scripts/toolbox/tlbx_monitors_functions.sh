@@ -22,24 +22,37 @@ function monitors::count_monitors() {
   xrandr | grep " connected" | wc -l
 }
 
-function monitors::configuration() {
+function monitors::double_configuration() {
   count=$(monitors::count_monitors)
   primary=$(monitors::primary_monitor)
   secondary=$(monitors::secondary_monitor)
 
 
   if [ $count -gt 1 ]; then
-    xrandr --output "${primary}" --auto
+    xrandr --output "${primary}" --mode "1920x1080"
     xrandr --output "${secondary}" --mode "1920x1080" --right-of "${primary}"
     bspc monitor "${primary}" -d 1 2
     bspc monitor "${secondary}" -d 3 4 5 6 7 8 9 10
     bspc desktop -f 4
 
   else
-    xrandr --output "${primary}" --auto
+    xrandr --output "${primary}" --mode "1920x1080"
     bspc monitor -d 1 2 3 4 5 6 7 8 9 10
     bspc desktop -f 4
   fi
+}
 
-  ~/.config/polybar/launch.sh
+function monitors::single_configuration() {
+  count=$(monitors::count_monitors)
+  primary=$(monitors::primary_monitor)
+  secondary=$(monitors::secondary_monitor)
+
+  if [ $count -gt 1 ]; then
+    xrandr --output "${primary}" --mode "1920x1080"
+    xrandr --output "${secondary}" --mode "1920x1080" --right-of "${primary}"
+  else
+    xrandr --output "${primary}" --mode "1920x1080"
+  fi
+
+  bspc monitor -d 1 2 3 4 5 6 7 8 9 10
 }

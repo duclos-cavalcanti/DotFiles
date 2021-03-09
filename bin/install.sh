@@ -148,13 +148,13 @@ function install::grub() {
 function install::system_packages() {
   install::log "Installing main packages"
   sudo pacman -S \
-    mesa intel-media-driver intel-ucode xf86-video-intel xorg xorg-xinit \
+    mesa intel-media-driver intel-ucode xf86-video-intel xorg xorg-xinit xorg-xwininfo \
     nitrogen picom firefox bspwm sxhkd fish pcmanfm fzf tree scrot sxiv \
     zathura zathura-pdf-poppler xclip gimp libre-office docker dunst tmux \
     xdotool xdo jq htop usbutils net-tools wireless_tools lxappearance \
     breeze-icons adapta-gtk-theme kvantum-manager qt5ct bluez bluez-utils \
     pulseaudio pulseaudio-bluetooth openssh pavucontrol tlp lightdm \
-    lightdm-gtk-greeter lightdm-gtk-greeter-settings clang
+    lightdm-gtk-greeter lightdm-gtk-greeter-settings clang alacritty acpi
 
   sudo systemctl enable lightdm
   sudo systemctl enable tlp
@@ -170,7 +170,7 @@ function install::aur_packages() {
   makepkg -si
 
   install::log "Installing aur packages"
-  yay -S polybar lemonbar zoom
+  yay -S lemonbar zoom spotify
 
   cd $cwd
 }
@@ -200,19 +200,9 @@ function install::filestructure() {
 
   mkdir sckless
   cd sckless
-  git clone https://github.com/duclos-cavalcanti/st.git
   git clone https://github.com/duclos-cavalcanti/dmenu.git
-  git clone https://github.com/duclos-cavalcanti/tabbed.git
 
-  cd st
-  git checkout release
-  sudo make clean install
-
-  cd ../dmenu
-  git checkout release
-  sudo make clean install
-
-  cd ../tabbed
+  cd dmenu
   git checkout release
   sudo make clean install
 

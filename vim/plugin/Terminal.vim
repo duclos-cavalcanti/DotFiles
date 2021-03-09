@@ -11,6 +11,7 @@ function TerminalManager(mode)
         elseif a:mode == "v_current" | execute "vertical term ++kill=term"
         elseif a:mode == "h_current" | execute "split | term ++curwin ++kill=term"
         elseif a:mode == "current" | execute "term ++curwin ++kill=term"
+        elseif a:mode == "tab" | execute "tab term ++kill=term"
         endif
 
         let s:TerminalON = 1
@@ -19,6 +20,7 @@ function TerminalManager(mode)
         elseif a:mode == "v_current" | execute "vsplit | buffer fish"
         elseif a:mode == "h_current" | execute "split | buffer fish"
         elseif a:mode == "current" | execute "buffer fish"
+        elseif a:mode == "tab" | execute "tabnew | buffer fish"
         endif
     endif
 endfunction

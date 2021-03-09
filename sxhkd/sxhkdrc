@@ -27,7 +27,7 @@ super + shift + p
 	bspc node -f last
 
 # Preselect splitting window
-super + {H,J,K,L}
+super + ctrl + {h,j,k,l}
 	bspc node -p \~{west,south,north,east}
 
 # Preselect the ratio
@@ -39,11 +39,11 @@ super + {g,G}
 	bspc node -s {biggest,smallest}.window.local
 
 # Swap Windows
-super + ctrl + {h,j,k,l}
+super + shift + {h,j,k,l}
   bspc node -s {west,south,north,east}
 
 # Swap Mirror Window/Nodes Group
-super + ctrl + {H,J,K,L}
+alt + shift + {h,j,k,l}
 	bspc node @/ -F {vertical,horizontal,horizontal,vertical}
 
 # Expand a window by moving one of its side outward
@@ -93,8 +93,8 @@ super + minus
 	bspc node --flag hidden -f
 
 # Toggle floating, tiled, pseudo_tiled, full
-super + {F,T,P,S}
-  bspc node -t {floating,tiled,pseudo_tiled,fullscreen ; polybar-msg cmd toggle}
+super + {f,t,T,S}
+  bspc node -t {floating,tiled,pseudo_tiled,fullscreen}
 
 # ---------------------
 # -- Desktop Configs --
@@ -109,7 +109,7 @@ super + p
 	bspc desktop -f last
 
 # Swap Desktops
-super + alt + {1-9,0}
+super + ctrl + {1-9,0}
   ${BSPWM_PATH}/bspwm_swap_desktops.sh '^{1-9,10}'
 
 # Select previous/next Desktop
@@ -122,11 +122,7 @@ super + {b,n}
 
 # Terminal
 super + Return
-	st
-
-# Tabbed Terminal
-super + alt + Return
-  tabbed -n tabbed_st -c -r 2 st -w ''
+	alacritty
 
 # Scratchpad
 super + shift + Return
@@ -134,13 +130,13 @@ super + shift + Return
 
 # Pdf
 super + d
-  tabbed -n tabbed_zathura -c zathura -e
+  zathura
 
 # Browser
-super + f
+super + s
 	firefox
 
-super + alt + f
+super + alt + s
 	firefox --private-window
 
 # Filemanager
@@ -169,27 +165,30 @@ super + D ; p
 
 # Quit Bspwm or Restart Bspwm
 alt + ctrl + {q,r}
-	bspc {quit 1 && pkill polybar,wm -r} ; dunstify " Relaunched WM " &
+	bspc {quit 1 && pkill killall lemonbar && killall lemon_bar.sh,wm -r} ; notify-send " Relaunched WM " &
 
 # Start Dunst Daemon
 alt + ctrl + d
-  ${TLBX_PATH}/tlbx_mng_daemon.sh "dunst" ; dunstify " Relaunched Dunst " &
+  ${TLBX_PATH}/tlbx_mng_daemon.sh "dunst" ; notify-send " Relaunched Dunst " &
 
 # Reload sxhkd
 alt + ctrl + s
-	pkill -USR1 -x sxhkd ; dunstify " Relaunched Sxhkd " &
+	pkill -USR1 -x sxhkd ; notify-send " Relaunched Sxhkd " &
 
 # Reload bspwmrc
 alt + ctrl + b
-	bspwmrc ; dunstify " Relaunched Bspwmrc " &
+	bspwmrc ; notify-send " Relaunched Bspwmrc " &
 
 # Reload Polybar
 alt + ctrl + p
-	killall polybar ; $HOME/.config/polybar/launch.sh & ; dunstify " Relaunched Polybar " &
+	killall lemonbar; \ 
+	killall lemon_bar.sh; \ 
+  $HOME/.config/lemonbar/lemon_bar.sh &; \ 
+  notify-send " Relaunched Lemonbar " &
 
 # Reload compositing
 alt + ctrl + c
-	pkill picom ; picom -c -b ; dunstify " Relaunched Picom " &
+	pkill picom ; picom -c -b ; notify-send " Relaunched Picom " &
 
 # -----------------
 # -- Sys Changes --
@@ -201,4 +200,4 @@ alt + ctrl + l
 
 # Toggle Monitor display
 alt + ctrl + m
-  ${TLBX_PATH}/tlbx_configure_monitors.sh ; dunstify " Monitor Readjustment " &
+  ${TLBX_PATH}/tlbx_configure_monitors.sh ; notify-send " Monitor Readjustment " &

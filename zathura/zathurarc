@@ -40,7 +40,7 @@ set notification-fg "#ffffff"
 # ----------
 # -- Font --
 # ----------
-set font "UbuntuMono 16"
+set font "UbuntuMono 14"
 
 # ---------------
 # -- Clipboard --

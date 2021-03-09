@@ -1,77 +1,102 @@
 #!/bin/bash
 #
-# Pipes the actual lemonbar and its modules into the lemonbar binary.
+# Launches lemonbar and its modules.
 
-source ${LEMON_PATH}/lib/lemon_utils.sh
-source ${TLBX_PATH}/tlbx_monitors_functions.sh
-utils::source_modules
+. ${LEMON_PATH}/lib/lemon_utils.sh
 
-mon=$(count_monitors)
-max=5
-cur=0
+lemon_bar_fifo=~/.config/lemonbar/tmp/lemon.fifo
 
-declare -A modules
-modules=([left]="clock bspwm" [center]="xwindow" [right]="bluetooth wifi battery")
+killall -q lemonbar
+killall -q lemonbar.sh
 
-_clock=""
-_bspwm=""
-_xwindow=""
-_bluetooth=""
-_wifi=""
-_battery==""
+font_main='Ubuntu Mono:style=regular:size=11'
+font_alt='Ubuntu Mono:style=regular:size=9'
+font_icons='Ubuntu Nerd Font:style=bold:size=11'
 
+bg="#222d32"
+fg="#ffffff"
 
-function init_refresh {
-  _clock_refresh=$clock_refresh
-  _bspwm_refresh=$bspwm_refresh
-  _xwindow_refresh=$xwindow_refresh
-  _bluetooth_refresh=$bluetooth_refresh
-  _wifi_refresh=$wifi_refresh
-  _battery_refresh=$battery_refresh
-}          
-           
-function update() {
-  if [[ $cur -gt 0 ]]; then
-    for bar in "${!modules[@]}"; do
-      for mod in ${modules[$bar]}; do
-        refresh=_${mod}_refresh
-        val=${!refresh} # evals var into a variable and stores its value
-        if [[ $cur -eq $val ]]; then 
-          eval $refresh=$((${!refresh}*2))
-        fi
-      done
-    done
-  else
-    _clock=$(clock)
-    _bspwm=$(bspwm)
-    _xwindow=$(xwindow)
-    _bluetooth=$(bluetooth)
-    _wifi=$(wifi)
-    _battery=$(battery)
-  fi
+function lemon::fifo() {
+  [ -e "$lemon_bar_fifo" ] && rm "$lemon_bar_fifo"
+  mkfifo $lemon_bar_fifo
+}
 
-  left_modules="%{l}${_clock} ${_bspwm}"
-  center_modules="%{c}${_xwindow}"
-  right_modules="%{r}${_bluetooth}  ${_wifi}  ${_battery}"
+function lemon::modules() {
+  xwindow > "$lemon_bar_fifo" &
+  wifi > "$lemon_bar_fifo" &
+  bluetooth > "$lemon_bar_fifo" &
+  battery > "$lemon_bar_fifo" &
+  clock > "$lemon_bar_fifo" &
+  bspwm > "$lemon_bar_fifo" &
+}
 
-  if [[ $cur -lt 60 ]]; then 
-    cur=$((cur+1)) 
-  else 
-    init_refresh
-    cur=0
-  fi
+function lemon::bar() {
+  while read -r line; do
+    item=${line#?}
+    select=$(echo "${line}" | head -c 1)
 
-  bar="${left_modules} ${center_modules} ${right_modules}"
-  [[ $mon -gt 1 ]] && echo -e "%{S0}${bar}%{S1}${bar}" || echo -e "${bar}"
+    case "$select" in
+      W) # wm - bspwm desktops
+        _wm="${item}"
+        _wm=$(utils::format_padding "$_wm" "2" "l")
+        _wm=$(utils::format_font "${_wm}" "2")
+        ;;
+      L) # wm - bspwm layouts
+        _layout="${item}"
+        _layout=$(utils::format_padding "$_layout" "2" "l")
+        _layout=$(utils::format_font "${_layout}" "1")
+        ;;
+      X) # xwindow
+        _xwin="${item}"
+        _xwin=$(utils::format_font "${_xwin}" "1")
+        ;;
+      T) # bluetooth
+        _bluetooth="${item}"
+        _bluetooth=$(utils::format_padding "$_bluetooth" "3" "l")
+        _bluetooth=$(utils::format_font "$_bluetooth" "3")
+        ;;
+      I) # wifi
+        _wifi="${item}"
+        _wifi=$(utils::format_padding "$_wifi" "3" "l")
+        _wifi=$(utils::format_font "$_wifi" "3")
+        ;;
+      B) # battery
+        _battery="${item}"
+        _battery=$(utils::format_padding "$_battery" "3" "l")
+        _battery=$(utils::format_font "$_battery" "3")
+        ;;
+      C) # clock
+        _clock="${item}"
+        _clock=$(utils::format_padding "$_clock" "3" "c")
+        _clock=$(utils::format_font "$_clock" "1")
+        ;;
+    esac
+
+    bar="%{l}${_wm}${_layout}%{c}${_xwin}%{r}${_bluetooth}${_wifi}${_battery}${_clock}"
+    bar=$(utils::set_underline "$bar")
+
+    printf  "%s\n" "${bar}"
+  done
 }
 
 function main() {
-  init_refresh
-  while true; do
-    update
-    sleep 1s &
-    wait
+  utils::source_modules
+  lemon::fifo
+  lemon::modules
+
+  lemon::bar < "$lemon_bar_fifo" \
+  | lemonbar -p -g x30+0+0 \
+                -F "${fg}" -B "${bg}" -u 3 \
+                -o +0 -f "${font_main}" -o -1 -f "${font_alt}" -o +1 -f "${font_icons}" \
+                -n statusbar \
+  | /usr/bin/bash &
+
+  # Needed for fullscreen hiding of lemonbar
+  until bar_id=$(xdo id -a 'statusbar'); do
+    sleep 0.1s
   done
+
+  xdo below -t $(xdo id -n root) $bar_id &
 }
 
 main

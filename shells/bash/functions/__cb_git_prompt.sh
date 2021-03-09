@@ -7,7 +7,6 @@ function __cb_git_prompt {
   local git_branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null | tr -d '\n')
   
   if [[ -n "$git_flag" ]]; then
-    # 31 is red
     echo -e "$git_branch"
   fi
 }

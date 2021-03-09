@@ -60,7 +60,7 @@ font:
     style: Bold Italic
 
   # Point size
-  size: 12.0
+  size: 14.0
 
   # Offset is the extra space around each character.
   offset:
@@ -139,16 +139,15 @@ colors:
     white:   '#ffffff'
 
   # Dim colors
-  #
-  # dim:
-  #   black:   '#222d32'
-  #   red:     '#fb4934'
-  #   green:   '#00bcd4'
-  #   yellow:  '#00bcd4'
-  #   blue:    '#00bcd4'
-  #   magenta: '#d400bc'
-  #   cyan:    '#4db6ac'
-  #   white:   '#ffffff'
+  #  dim:
+  #    black:   '#222d32'
+  #    red:     '#fb4934'
+  #    green:   '#00bcd4'
+  #    yellow:  '#00bcd4'
+  #    blue:    '#00bcd4'
+  #    magenta: '#d400bc'
+  #    cyan:    '#4db6ac'
+  #    white:   '#ffffff'
 
 
 # Bell

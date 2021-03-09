@@ -95,13 +95,16 @@ nnoremap <C-w>\ <C-w>\|<C-w>_
 nnoremap <C-w>V :vsplit find
 nnoremap <C-w>S :split find
 
-nnoremap <C-p> <C-^>
-nnoremap <silent> <C-n> :bnext<CR>
+nnoremap <C-s><C-p> <C-^>
+
+nnoremap <silent> <C-p> :cprev<CR>
+nnoremap <silent> <C-n> :cnext<CR>
 
 nnoremap <silent> <leader><space> :call TerminalManager("pane")<CR>
 nnoremap <silent> <leader>tt :call TerminalManager("current")<CR>
 nnoremap <silent> <leader>tv :call TerminalManager("v_current")<CR>
 nnoremap <silent> <leader>th :call TerminalManager("h_current")<CR>
+nnoremap <silent> <leader>tn :call TerminalManager("tab")<CR>
 
 nnoremap <silent> <leader>q :call ToggleQuickFix()<CR>
 

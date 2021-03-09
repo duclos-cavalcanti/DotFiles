@@ -2,15 +2,15 @@
 #
 # Bluetooth script module for lemonbar.
 
-bluetooth_refresh=1
-
 function bluetooth {
-  source ${LEMON_PATH}/lib/lemon_utils.sh
-  state=$(bluetoothctl show | grep Powered | cut -d ':' -f2 | grep no)
+  . ${LEMON_PATH}/lib/lemon_utils.sh
   bluetooth=""
-
-  [[ -n "$state" ]] && bluetooth=" " || bluetooth=" "
-  echo -e "${bluetooth}"
+  while true; do
+    state=$(bluetoothctl show | grep Powered | cut -d ':' -f2 | grep no)
+    [[ -n "$state" ]] && bluetooth=" " || bluetooth=" "
+    echo "T${bluetooth}"
+    sleep 1s
+  done
 }
 
 

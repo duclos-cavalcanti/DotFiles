@@ -11,217 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/light
+~MSle0~/lemonbar
 
 # Last Substitute Search Pattern:
-~MSle0&std
+~MSle0&arr
 
 # Last Substitute String:
-$med
+$stats
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1614634746,,"q"
 :wq
-|2,0,1614634745,,"wq"
+|2,0,1615288563,,"wq"
 :w
-|2,0,1614634687,,"w"
-:tabedit ~/.config/bspwm/scripts/bspwm_layout_manager.sh
-|2,0,1614617585,,"tabedit ~/.config/bspwm/scripts/bspwm_layout_manager.sh"
-:'<,'>w !xclip -i -sel clip
-|2,0,1614629841,,"'<,'>w !xclip -i -sel clip"
-:e tlbx_monitors_functions.sh
-|2,0,1614616713,,"e tlbx_monitors_functions.sh"
-:e mon
-|2,0,1614616711,,"e mon"
-:e 
-|2,0,1614616616,,"e "
-:e edge/MOBILENET/Results.csv
-|2,0,1614602708,,"e edge/MOBILENET/Results.csv"
-:e usb/MOBILENET_4.4M/Results.csv
-|2,0,1614602702,,"e usb/MOBILENET_4.4M/Results.csv"
-:b 
-|2,0,1614602697,,"b "
-:e edge/CONV_2D/Results.csv
-|2,0,1614598765,,"e edge/CONV_2D/Results.csv"
-:e util.py
-|2,0,1614593667,,"e util.py"
-:qa!
-|2,0,1614562373,,"qa!"
-:qa
-|2,0,1614562370,,"qa"
-:e MNIST_668K/Results.csv
-|2,0,1614561670,,"e MNIST_668K/Results.csv"
-:cd ..
-|2,0,1614561665,,"cd .."
-:cd .
-|2,0,1614561664,,"cd ."
-:e Results.csv
-|2,0,1614561663,,"e Results.csv"
+|2,0,1615288556,,"w"
+:q
+|2,0,1615246945,,"q"
 :wqa
-|2,0,1614551070,,"wqa"
-:b deploy.py
-|2,0,1614550950,,"b deploy.py"
-:b shark.py
-|2,0,1614548378,,"b shark.py"
-:tabedit deplo
-|2,0,1614547267,,"tabedit deplo"
-:b docker.py
-|2,0,1614546670,,"b docker.py"
-: shell
-|2,0,1614544742,," shell"
-:b plot.py
-|2,0,1614543366,,"b plot.py"
-:tabedit analyze.py
-|2,0,1614540574,,"tabedit analyze.py"
-:tabedit analyze
-|2,0,1614540570,,"tabedit analyze"
-:tabedit cmpile.py
-|2,0,1614540519,,"tabedit cmpile.py"
-:copen
-|2,0,1614540442,,"copen"
-:tabedit utils.py
-|2,0,1614540395,,"tabedit utils.py"
-:'<,'>s/std/med/g
-|2,0,1614538317,,"'<,'>s/std/med/g"
-:b docker
-|2,0,1614537566,,"b docker"
-:b utils.py
-|2,0,1614536997,,"b utils.py"
-:b deplo
-|2,0,1614533605,,"b deplo"
-:tabedit docker.py
-|2,0,1614526319,,"tabedit docker.py"
-:h tab
-|2,0,1614521500,,"h tab"
-:tabedit shark.py
-|2,0,1614521479,,"tabedit shark.py"
-:tab b shark.py
-|2,0,1614521475,,"tab b shark.py"
-:tab
-|2,0,1614521471,,"tab"
-:e utils.py
-|2,0,1614519309,,"e utils.py"
-:tabedit deploy.py
-|2,0,1614453851,,"tabedit deploy.py"
-:e usb/CONV_2D_52K/Results.csv
-|2,0,1614538277,,"e usb/CONV_2D_52K/Results.csv"
-:b config.h
-|2,0,1614465711,,"b config.h"
-:AbbrevsGoTo
-|2,0,1614465395,,"AbbrevsGoTo"
-:237
-|2,0,1614464954,,"237"
-:e normalMode.c
-|2,0,1614464895,,"e normalMode.c"
-:tabedit ~/.config/bash/bashrc
-|2,0,1614462587,,"tabedit ~/.config/bash/bashrc"
-:ColorschemeGoTo
-|2,0,1614459404,,"ColorschemeGoTo"
-:tae
-|2,0,1614462937,,"tae"
+|2,0,1615246812,,"wqa"
+:e modules/lemon_xwindow.sh
+|2,0,1615243580,,"e modules/lemon_xwindow.sh"
+:tabedit lib/lemon_utils.sh
+|2,0,1615243505,,"tabedit lib/lemon_utils.sh"
+:tabedit ~/.on
+|2,0,1615243498,,"tabedit ~/.on"
+:tabedit modules/lemon_bspwm.sh
+|2,0,1615243480,,"tabedit modules/lemon_bspwm.sh"
+:b modules/lemon_bluetooth.sh
+|2,0,1615240819,,"b modules/lemon_bluetooth.sh"
+:b modules/lemon_clock.sh
+|2,0,1615240069,,"b modules/lemon_clock.sh"
+:tabedit ~/.config/polybar/fonts.ini
+|2,0,1615238320,,"tabedit ~/.config/polybar/fonts.ini"
+:e modules/lemon_bluetooth.sh
+|2,0,1615237987,,"e modules/lemon_bluetooth.sh"
+:b 
+|2,0,1615237981,,"b "
+:b lib/lemon_utils.sh
+|2,0,1615235822,,"b lib/lemon_utils.sh"
+:b modules/lemon_xwindow.sh
+|2,0,1615233412,,"b modules/lemon_xwindow.sh"
+:b ~/.config/bspwm/scripts/bspwm_node_focus_manager.sh
+|2,0,1615233409,,"b ~/.config/bspwm/scripts/bspwm_node_focus_manager.sh"
+:tabedit 
+|2,0,1615233404,,"tabedit "
+:tabedit modules/lemon_wifi.sh
+|2,0,1615233013,,"tabedit modules/lemon_wifi.sh"
+:Lw
+|2,0,1615232645,,"Lw"
+:tabedit ~/.config/bspwm/scripts/bspwm_node_focus_manager.sh
+|2,0,1615232120,,"tabedit ~/.config/bspwm/scripts/bspwm_node_focus_manager.sh"
+:tabedit modules/lemon_xwindow.sh
+|2,0,1615232069,,"tabedit modules/lemon_xwindow.sh"
+:tabedit modules/lemon_battery.sh
+|2,0,1615231938,,"tabedit modules/lemon_battery.sh"
+:b modules/lemon_bspwm.sh
+|2,0,1615230570,,"b modules/lemon_bspwm.sh"
+:e modules/lemon_wifi.sh
+|2,0,1615230259,,"e modules/lemon_wifi.sh"
+:e modules/lemon_clock.sh
+|2,0,1615230255,,"e modules/lemon_clock.sh"
+:e modules/lemon_bspwm.sh
+|2,0,1615230244,,"e modules/lemon_bspwm.sh"
+:e modules/lemon_battery.sh
+|2,0,1615230225,,"e modules/lemon_battery.sh"
+:30
+|2,0,1615229185,,"30"
+:b
+|2,0,1615227827,,"b"
+:b modules/lemon_battery.sh
+|2,0,1615227110,,"b modules/lemon_battery.sh"
+:qa!
+|2,0,1615220283,,"qa!"
+:bd! \!/usr/bin/fish\ (1)
+|2,0,1615220279,,"bd! \\!/usr/bin/fish\\ (1)"
+:wqa!
+|2,0,1615220274,,"wqa!"
+:e 
+|2,0,1615218977,,"e "
+:tabnew xwin
+|2,0,1615218973,,"tabnew xwin"
+:tabedit ut
+|2,0,1615209145,,"tabedit ut"
+:b modules/lemon_wifi.sh
+|2,0,1615208954,,"b modules/lemon_wifi.sh"
+:b ~/.config/bspwm/scripts/bspwm_layout_manager.sh
+|2,0,1615208644,,"b ~/.config/bspwm/scripts/bspwm_layout_manager.sh"
+:e m
+|2,0,1615208642,,"e m"
+:bd! lib/melonpanel.sh
+|2,0,1615208397,,"bd! lib/melonpanel.sh"
+::
+|2,0,1615208194,,":"
+::w
+|2,0,1615208149,,":w"
+:tab buffer lemon_bar.sh
+|2,0,1615206697,,"tab buffer lemon_bar.sh"
+:tab !
+|2,0,1615206687,,"tab !"
+:term ++kill=TERM
+|2,0,1615203114,,"term ++kill=TERM"
+:bd! fish
+|2,0,1615203107,,"bd! fish"
+:ls
+|2,0,1615203100,,"ls"
+:bd! \!/usr/bin/fish
+|2,0,1615198983,,"bd! \\!/usr/bin/fish"
+:'<,'>w !xclip -i -sel clip
+|2,0,1615198583,,"'<,'>w !xclip -i -sel clip"
+:tabedit lib/melonpanel.sh
+|2,0,1615198409,,"tabedit lib/melonpanel.sh"
 
 # Search String History (newest to oldest):
-??light
-|2,1,1614633426,63,"light"
-?/read_time
-|2,1,1614538522,47,"read_time"
-? std
-|2,1,1614538317,,"std"
-?/std
-|2,1,1614538016,47,"std"
-?/LOG
-|2,1,1614537568,47,"LOG"
-??clean
-|2,1,1614532556,63,"clean"
-?/valid_data_len
-|2,1,1614528986,47,"valid_data_len"
-??Sin
-|2,1,1614454113,63,"Sin"
-??sin
-|2,1,1614454111,63,"sin"
+?/lemonbar
+|2,1,1615288553,47,"lemonbar"
+?/polybar
+|2,1,1615248069,47,"polybar"
 ? @$
-|2,1,1614538225,,"@$"
-?/VI
-|2,1,1614531025,47,"VI"
-?/pcman
-|2,1,1614465218,47,"pcman"
-?/bracket
-|2,1,1614453542,47,"bracket"
-?/tabbed
-|2,1,1614452566,47,"tabbed"
-?/30
-|2,1,1614450984,47,"30"
-?/op
-|2,1,1614257603,47,"op"
-?/dmenu
-|2,1,1614436678,47,"dmenu"
-?/biggest
-|2,1,1614434743,47,"biggest"
-?/space
-|2,1,1614387879,47,"space"
-?/+ r
-|2,1,1614386845,47,"+ r"
-?/90
-|2,1,1614386832,47,"90"
+|2,1,1615244748,,"@$"
+?/l
+|2,1,1615234380,47,"l"
+? \<bg_main\>
+|2,1,1615239041,,"\\<bg_main\\>"
+?/fontmain
+|2,1,1615238796,47,"fontmain"
+?/mkfifo
+|2,1,1615238748,47,"mkfifo"
+?/rule
+|2,1,1615228947,47,"rule"
+? \<IFS\>
+|2,1,1615199635,,"\\<IFS\\>"
+?/Lemon
+|2,1,1615218743,47,"Lemon"
 ?/super + ctrl
-|2,1,1614383852,47,"super + ctrl"
-??swap
-|2,1,1614383738,63,"swap"
-?/prev
-|2,1,1614383456,47,"prev"
-??firefox
-|2,1,1614383147,63,"firefox"
-?/+ o
-|2,1,1614382929,47,"+ o"
-?/ctrl +
-|2,1,1614382864,47,"ctrl +"
+|2,1,1615218530,47,"super + ctrl"
+? dunstify
+|2,1,1615159270,,"dunstify"
+?/resi
+|2,1,1615158201,47,"resi"
+?/READLINE
+|2,1,1615154583,47,"READLINE"
+?/hist
+|2,1,1615153505,47,"hist"
+??command
+|2,1,1615153050,63,"command"
+?/__fzf_cd
+|2,1,1615152945,47,"__fzf_cd"
+??__fzf__cd
+|2,1,1615152938,63,"__fzf__cd"
+?/cd
+|2,1,1615152926,47,"cd"
+?/bind
+|2,1,1615152909,47,"bind"
+?/PrePr
+|2,1,1615140610,47,"PrePr"
+?/adaptablue
+|2,1,1615135778,47,"adaptablue"
+?/adaptadarkgreen
+|2,1,1615135773,47,"adaptadarkgreen"
+? \<#fb4934\>
+|2,1,1615135660,,"\\<#fb4934\\>"
+?/Pre
+|2,1,1615135618,47,"Pre"
+?/lw'
+|2,1,1615134784,47,"lw'"
+?/xor
+|2,1,1615125708,47,"xor"
+?/presel
+|2,1,1615059356,47,"presel"
+??Swap
+|2,1,1615058103,63,"Swap"
 ?/swap
-|2,1,1614382813,47,"swap"
-?/zathura
-|2,1,1614431894,47,"zathura"
-?/TOP
-|2,1,1614431814,47,"TOP"
-??+ b
-|2,1,1614388750,63,"+ b"
-?/bash
-|2,1,1614373519,47,"bash"
-? \<set\>
-|2,1,1614350686,,"\\<set\\>"
-?/WM
-|2,1,1614296667,47,"WM"
-?/bin
-|2,1,1614296195,47,"bin"
-??showbar
-|2,1,1614214272,63,"showbar"
-??showbat
-|2,1,1614214264,63,"showbat"
-? \<XftColor\>
-|2,1,1614212914,,"\\<XftColor\\>"
-?/>>>
-|2,1,1614212677,47,">>>"
-?/ecalloc
-|2,1,1614212207,47,"ecalloc"
-?/DMEN
-|2,1,1614208798,47,"DMEN"
-?/stcur
-|2,1,1614206973,47,"stcur"
-?/>>>>>
-|2,1,1614203550,47,">>>>>"
-?/>>>>>>>
-|2,1,1614203499,47,">>>>>>>"
-?/Balance
-|2,1,1614202868,47,"Balance"
-?/float
-|2,1,1614202342,47,"float"
-?/st
-|2,1,1614202324,47,"st"
-??DM
-|2,1,1614186650,63,"DM"
-? (
-|2,1,1614122567,,"("
-? )
-|2,1,1614122564,,")"
+|2,1,1615058099,47,"swap"
+?/la
+|2,1,1615047941,47,"la"
+? \<capture_filter\>
+|2,1,1614991648,,"\\<capture_filter\\>"
+?/wap
+|2,1,1615030998,47,"wap"
+?/endpoint
+|2,1,1614989008,47,"endpoint"
+? \<direction\>
+|2,1,1614988607,,"\\<direction\\>"
+? arr
+|2,1,1614973867,,"arr"
+?/sess
+|2,1,1614952936,47,"sess"
+? edge
+|2,1,1614949346,,"edge"
+? cpu
+|2,1,1614948753,,"cpu"
+? \<fi\>
+|2,1,1614989501,,"\\<fi\\>"
+?/String
+|2,1,1614974031,47,"String"
+?/adaptagreen
+|2,1,1614974019,47,"adaptagreen"
+?/DPI
+|2,1,1614956173,47,"DPI"
+?/pycoral
+|2,1,1614954266,47,"pycoral"
+?/ls
+|2,1,1614953411,47,"ls"
+??poly
+|2,1,1614952441,63,"poly"
+?/show
+|2,1,1614952437,47,"show"
+?/super + s
+|2,1,1614952394,47,"super + s"
+?/super +s
+|2,1,1614952390,47,"super +s"
+?/firefox
+|2,1,1614945824,47,"firefox"
 
 # Expression History (newest to oldest):
 
@@ -241,1388 +241,388 @@ $med
 
 # Registers:
 "0	LINE	0
-	  mkdir /home/duclos/.config
-|3,0,0,1,1,0,1614634673,"  mkdir /home/duclos/.config"
+		killall lemonbar; \ 
+|3,0,0,1,1,0,1615248137,"	killall lemonbar; \\ "
 "1	LINE	0
 	
-|3,0,1,1,1,0,1614634526,""
-"2	CHAR	0
-	mkdir -p university/docs
-	  mkdir -p work/espl
-	
-	
-|3,0,2,0,4,0,1614634520,"mkdir -p university/docs","  mkdir -p work/espl","",""
+|3,0,1,1,1,0,1615247484,""
+"2	LINE	0
+	        _clock=$(utils::format_padding "$_clock" "2" "l")
+|3,0,2,1,1,0,1615246274,"        _clock=$(utils::format_padding \"$_clock\" \"2\" \"l\")"
 "3	LINE	0
-	  cd ..
-|3,0,3,1,1,0,1614634517,"  cd .."
+	          desk=$(utils::format_underline "$desk")
+|3,0,3,1,1,0,1615246223,"          desk=$(utils::format_underline \"$desk\")"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1614634491,""
+	        _layout=$(utils::format_padding "$_layout" "2")
+|3,0,4,1,1,0,1615246089,"        _layout=$(utils::format_padding \"$_layout\" \"2\")"
 "5	LINE	0
-	  mkdir -p university/docs
-	  mkdir -p work/espl
-	
-	
-|3,0,5,1,4,0,1614634488,"  mkdir -p university/docs","  mkdir -p work/espl","",""
+	        _wm=$(utils::format_padding "$_wm" "2" "l")
+|3,0,5,1,1,0,1615246084,"        _wm=$(utils::format_padding \"$_wm\" \"2\" \"l\")"
 "6	LINE	0
-	  mkdir aur
-|3,0,6,1,1,0,1614634459,"  mkdir aur"
+	    *)
+|3,0,6,1,1,0,1615245740,"    *)"
 "7	LINE	0
-	  git clone https://github.com/duclos-cavalcanti/dotfiles.git
-|3,0,7,1,1,0,1614634352,"  git clone https://github.com/duclos-cavalcanti/dotfiles.git"
+	
+|3,0,7,1,1,0,1615245575,""
 "8	LINE	0
-	  mkdir sckless
-|3,0,8,1,1,0,1614634346,"  mkdir sckless"
+	
+|3,0,8,1,1,0,1615245566,""
 "9	LINE	0
-	  cd 
-|3,0,9,1,1,0,1614634153,"  cd "
+	
+|3,0,9,1,1,0,1615245473,""
 "a@	CHAR	0
-	/stdcwmed€ýa0
-|3,2,10,0,1,0,1614537991,"/stdcwmed€ýa0"
+	/multivt[yA if len(€ýapA€kb > 0 else €ýapA€kb[0€ýaA = €ýa?tmpvey€ýaA €kb€ýapbi €ýa€ýaj0
+|3,2,10,0,1,0,1614810216,"/multivt[yA if len(€ýapA€kb > 0 else €ýapA€kb[0€ýaA = €ýa?tmpvey€ýaA €kb€ýapbi €ýa€ýaj0"
 "j	CHAR	0
 	kj€ýa€ýa
 |3,0,19,0,1,0,1614191375,"kj€ýa€ýa"
 "k	CHAR	0
-	jk
-|3,0,20,0,1,0,1613388036,"jk"
+	j"q
+|3,0,20,0,1,0,1614723471,"j\"q"
+"q	CHAR	0
+	€ýa
+|3,0,26,0,1,0,1614706644,"€ýa"
 ""-	CHAR	0
-	config
-|3,1,36,0,1,0,1614634675,"config"
+	polybar 
+|3,1,36,0,1,0,1615288556,"polybar "
 
 # File marks:
-'0  7  2  ~/.config/bspwm/scripts/bspwm_layout_manager.sh
-|4,48,7,2,1614634746,"~/.config/bspwm/scripts/bspwm_layout_manager.sh"
-'1  40  21  ~/.config/bash/bashrc
-|4,49,40,21,1614630647,"~/.config/bash/bashrc"
-'2  177  0  /etc/locale.gen
-|4,50,177,0,1614629843,"/etc/locale.gen"
-'3  1  0  /etc/locale.conf
-|4,51,1,0,1614629818,"/etc/locale.conf"
-'4  1  0  /etc/vconsole.conf
-|4,52,1,0,1614629658,"/etc/vconsole.conf"
-'5  130  29  ~/.config/fish/config.fish
-|4,53,130,29,1614617043,"~/.config/fish/config.fish"
-'6  130  29  ~/.config/fish/config.fish
-|4,54,130,29,1614617043,"~/.config/fish/config.fish"
-'7  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,55,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
-'8  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,56,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
-'9  4  0  ~/.scripts/tlbx/tlbx_configure_monitors.sh
-|4,57,4,0,1614616759,"~/.scripts/tlbx/tlbx_configure_monitors.sh"
+'0  173  29  ~/Documents/dotfiles/bin/install.sh
+|4,48,173,29,1615288563,"~/Documents/dotfiles/bin/install.sh"
+'1  187  34  ~/.config/sxhkd/sxhkdrc
+|4,49,187,34,1615248359,"~/.config/sxhkd/sxhkdrc"
+'2  185  20  ~/.config/sxhkd/sxhkdrc
+|4,50,185,20,1615248158,"~/.config/sxhkd/sxhkdrc"
+'3  185  20  ~/.config/sxhkd/sxhkdrc
+|4,51,185,20,1615248158,"~/.config/sxhkd/sxhkdrc"
+'4  4  5  ~/.config/lemonbar/tmp/example.sh
+|4,52,4,5,1615247490,"~/.config/lemonbar/tmp/example.sh"
+'5  22  0  ~/.config/sxhkd/sxhkdrc
+|4,53,22,0,1615246945,"~/.config/sxhkd/sxhkdrc"
+'6  22  0  ~/.config/sxhkd/sxhkdrc
+|4,54,22,0,1615246945,"~/.config/sxhkd/sxhkdrc"
+'7  22  0  ~/.config/sxhkd/sxhkdrc
+|4,55,22,0,1615246945,"~/.config/sxhkd/sxhkdrc"
+'8  22  0  ~/.config/sxhkd/sxhkdrc
+|4,56,22,0,1615246945,"~/.config/sxhkd/sxhkdrc"
+'9  68  32  ~/.config/bspwm/bspwmrc
+|4,57,68,32,1615246895,"~/.config/bspwm/bspwmrc"
 
 # Jumplist (newest first):
--'  7  2  ~/.config/bspwm/scripts/bspwm_layout_manager.sh
-|4,39,7,2,1614634746,"~/.config/bspwm/scripts/bspwm_layout_manager.sh"
--'  40  21  ~/.config/bash/bashrc
-|4,39,40,21,1614630647,"~/.config/bash/bashrc"
--'  1  0  ~/.config/bash/bashrc
-|4,39,1,0,1614630631,"~/.config/bash/bashrc"
--'  177  0  /etc/locale.gen
-|4,39,177,0,1614629843,"/etc/locale.gen"
--'  177  0  /etc/locale.gen
-|4,39,177,0,1614629843,"/etc/locale.gen"
--'  1  0  /etc/locale.gen
-|4,39,1,0,1614629822,"/etc/locale.gen"
--'  1  0  /etc/locale.gen
-|4,39,1,0,1614629822,"/etc/locale.gen"
--'  1  0  /etc/locale.conf
-|4,39,1,0,1614629818,"/etc/locale.conf"
--'  1  0  /etc/locale.conf
-|4,39,1,0,1614629818,"/etc/locale.conf"
--'  1  0  /etc/locale.conf
-|4,39,1,0,1614629818,"/etc/locale.conf"
--'  1  0  /etc/locale.conf
-|4,39,1,0,1614629818,"/etc/locale.conf"
--'  1  0  /etc/vconsole.conf
-|4,39,1,0,1614629658,"/etc/vconsole.conf"
--'  1  0  /etc/vconsole.conf
-|4,39,1,0,1614629658,"/etc/vconsole.conf"
--'  1  0  /etc/vconsole.conf
-|4,39,1,0,1614629658,"/etc/vconsole.conf"
--'  1  0  /etc/vconsole.conf
-|4,39,1,0,1614629658,"/etc/vconsole.conf"
--'  1  0  /etc/vconsole.conf
-|4,39,1,0,1614629658,"/etc/vconsole.conf"
--'  1  0  /etc/vconsole.conf
-|4,39,1,0,1614629658,"/etc/vconsole.conf"
--'  1  0  /etc/vconsole.conf
-|4,39,1,0,1614629658,"/etc/vconsole.conf"
--'  1  0  /etc/vconsole.conf
-|4,39,1,0,1614629658,"/etc/vconsole.conf"
--'  32  11  ~/Documents/dotfiles/bin/install.sh
-|4,39,32,11,1614617585,"~/Documents/dotfiles/bin/install.sh"
+-'  173  29  ~/Documents/dotfiles/bin/install.sh
+|4,39,173,29,1615288563,"~/Documents/dotfiles/bin/install.sh"
 -'  1  0  ~/Documents/dotfiles/bin/install.sh
-|4,39,1,0,1614617060,"~/Documents/dotfiles/bin/install.sh"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  130  29  ~/.config/fish/config.fish
-|4,39,130,29,1614617043,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  1  0  ~/.config/fish/config.fish
-|4,39,1,0,1614617033,"~/.config/fish/config.fish"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  2  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,2,0,1614616855,"~/Documents/dotfiles/bin/update.sh"
--'  1  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,1,0,1614616854,"~/Documents/dotfiles/bin/update.sh"
--'  1  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,1,0,1614616854,"~/Documents/dotfiles/bin/update.sh"
--'  1  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,1,0,1614616854,"~/Documents/dotfiles/bin/update.sh"
--'  1  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,1,0,1614616854,"~/Documents/dotfiles/bin/update.sh"
--'  1  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,1,0,1614616854,"~/Documents/dotfiles/bin/update.sh"
--'  1  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,1,0,1614616854,"~/Documents/dotfiles/bin/update.sh"
--'  1  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,1,0,1614616854,"~/Documents/dotfiles/bin/update.sh"
--'  1  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,1,0,1614616854,"~/Documents/dotfiles/bin/update.sh"
--'  1  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,1,0,1614616854,"~/Documents/dotfiles/bin/update.sh"
--'  1  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,1,0,1614616854,"~/Documents/dotfiles/bin/update.sh"
--'  1  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,1,0,1614616854,"~/Documents/dotfiles/bin/update.sh"
--'  1  0  ~/Documents/dotfiles/bin/update.sh
-|4,39,1,0,1614616854,"~/Documents/dotfiles/bin/update.sh"
+|4,39,1,0,1615288553,"~/Documents/dotfiles/bin/install.sh"
+-'  187  34  ~/.config/sxhkd/sxhkdrc
+|4,39,187,34,1615248359,"~/.config/sxhkd/sxhkdrc"
+-'  187  34  ~/.config/sxhkd/sxhkdrc
+|4,39,187,34,1615248359,"~/.config/sxhkd/sxhkdrc"
+-'  171  0  ~/.config/sxhkd/sxhkdrc
+|4,39,171,0,1615248350,"~/.config/sxhkd/sxhkdrc"
+-'  171  0  ~/.config/sxhkd/sxhkdrc
+|4,39,171,0,1615248350,"~/.config/sxhkd/sxhkdrc"
+-'  1  0  ~/.config/sxhkd/sxhkdrc
+|4,39,1,0,1615248341,"~/.config/sxhkd/sxhkdrc"
+-'  1  0  ~/.config/sxhkd/sxhkdrc
+|4,39,1,0,1615248341,"~/.config/sxhkd/sxhkdrc"
+-'  185  20  ~/.config/sxhkd/sxhkdrc
+|4,39,185,20,1615248158,"~/.config/sxhkd/sxhkdrc"
+-'  185  20  ~/.config/sxhkd/sxhkdrc
+|4,39,185,20,1615248158,"~/.config/sxhkd/sxhkdrc"
+-'  185  20  ~/.config/sxhkd/sxhkdrc
+|4,39,185,20,1615248158,"~/.config/sxhkd/sxhkdrc"
+-'  185  20  ~/.config/sxhkd/sxhkdrc
+|4,39,185,20,1615248158,"~/.config/sxhkd/sxhkdrc"
+-'  169  0  ~/.config/sxhkd/sxhkdrc
+|4,39,169,0,1615248069,"~/.config/sxhkd/sxhkdrc"
+-'  169  0  ~/.config/sxhkd/sxhkdrc
+|4,39,169,0,1615248069,"~/.config/sxhkd/sxhkdrc"
+-'  169  0  ~/.config/sxhkd/sxhkdrc
+|4,39,169,0,1615248069,"~/.config/sxhkd/sxhkdrc"
+-'  169  0  ~/.config/sxhkd/sxhkdrc
+|4,39,169,0,1615248069,"~/.config/sxhkd/sxhkdrc"
+-'  97  54  ~/.config/sxhkd/sxhkdrc
+|4,39,97,54,1615247565,"~/.config/sxhkd/sxhkdrc"
+-'  97  54  ~/.config/sxhkd/sxhkdrc
+|4,39,97,54,1615247565,"~/.config/sxhkd/sxhkdrc"
+-'  97  54  ~/.config/sxhkd/sxhkdrc
+|4,39,97,54,1615247565,"~/.config/sxhkd/sxhkdrc"
+-'  97  54  ~/.config/sxhkd/sxhkdrc
+|4,39,97,54,1615247565,"~/.config/sxhkd/sxhkdrc"
+-'  61  1  ~/.config/sxhkd/sxhkdrc
+|4,39,61,1,1615247555,"~/.config/sxhkd/sxhkdrc"
+-'  61  1  ~/.config/sxhkd/sxhkdrc
+|4,39,61,1,1615247555,"~/.config/sxhkd/sxhkdrc"
+-'  61  1  ~/.config/sxhkd/sxhkdrc
+|4,39,61,1,1615247555,"~/.config/sxhkd/sxhkdrc"
+-'  61  1  ~/.config/sxhkd/sxhkdrc
+|4,39,61,1,1615247555,"~/.config/sxhkd/sxhkdrc"
+-'  1  0  ~/.config/sxhkd/sxhkdrc
+|4,39,1,0,1615247547,"~/.config/sxhkd/sxhkdrc"
+-'  1  0  ~/.config/sxhkd/sxhkdrc
+|4,39,1,0,1615247547,"~/.config/sxhkd/sxhkdrc"
+-'  4  5  ~/.config/lemonbar/tmp/example.sh
+|4,39,4,5,1615247490,"~/.config/lemonbar/tmp/example.sh"
+-'  4  5  ~/.config/lemonbar/tmp/example.sh
+|4,39,4,5,1615247490,"~/.config/lemonbar/tmp/example.sh"
+-'  4  5  ~/.config/lemonbar/tmp/example.sh
+|4,39,4,5,1615247490,"~/.config/lemonbar/tmp/example.sh"
+-'  4  5  ~/.config/lemonbar/tmp/example.sh
+|4,39,4,5,1615247490,"~/.config/lemonbar/tmp/example.sh"
+-'  4  5  ~/.config/lemonbar/tmp/example.sh
+|4,39,4,5,1615247490,"~/.config/lemonbar/tmp/example.sh"
+-'  4  5  ~/.config/lemonbar/tmp/example.sh
+|4,39,4,5,1615247490,"~/.config/lemonbar/tmp/example.sh"
+-'  4  5  ~/.config/lemonbar/tmp/example.sh
+|4,39,4,5,1615247490,"~/.config/lemonbar/tmp/example.sh"
+-'  4  5  ~/.config/lemonbar/tmp/example.sh
+|4,39,4,5,1615247490,"~/.config/lemonbar/tmp/example.sh"
+-'  5  9  ~/.config/lemonbar/modules/lemon_battery.sh
+|4,39,5,9,1615247481,"~/.config/lemonbar/modules/lemon_battery.sh"
+-'  5  9  ~/.config/lemonbar/modules/lemon_battery.sh
+|4,39,5,9,1615247481,"~/.config/lemonbar/modules/lemon_battery.sh"
+-'  5  9  ~/.config/lemonbar/modules/lemon_battery.sh
+|4,39,5,9,1615247481,"~/.config/lemonbar/modules/lemon_battery.sh"
+-'  5  9  ~/.config/lemonbar/modules/lemon_battery.sh
+|4,39,5,9,1615247481,"~/.config/lemonbar/modules/lemon_battery.sh"
+-'  5  9  ~/.config/lemonbar/modules/lemon_battery.sh
+|4,39,5,9,1615247481,"~/.config/lemonbar/modules/lemon_battery.sh"
+-'  5  9  ~/.config/lemonbar/modules/lemon_battery.sh
+|4,39,5,9,1615247481,"~/.config/lemonbar/modules/lemon_battery.sh"
+-'  5  9  ~/.config/lemonbar/modules/lemon_battery.sh
+|4,39,5,9,1615247481,"~/.config/lemonbar/modules/lemon_battery.sh"
+-'  5  9  ~/.config/lemonbar/modules/lemon_battery.sh
+|4,39,5,9,1615247481,"~/.config/lemonbar/modules/lemon_battery.sh"
+-'  4  0  ~/.config/lemonbar/modules/lemon_battery.sh
+|4,39,4,0,1615247476,"~/.config/lemonbar/modules/lemon_battery.sh"
+-'  4  0  ~/.config/lemonbar/modules/lemon_battery.sh
+|4,39,4,0,1615247476,"~/.config/lemonbar/modules/lemon_battery.sh"
+-'  4  0  ~/.config/lemonbar/modules/lemon_battery.sh
+|4,39,4,0,1615247476,"~/.config/lemonbar/modules/lemon_battery.sh"
+-'  4  0  ~/.config/lemonbar/modules/lemon_battery.sh
+|4,39,4,0,1615247476,"~/.config/lemonbar/modules/lemon_battery.sh"
+-'  4  0  ~/.config/lemonbar/modules/lemon_battery.sh
+|4,39,4,0,1615247476,"~/.config/lemonbar/modules/lemon_battery.sh"
+-'  4  0  ~/.config/lemonbar/modules/lemon_battery.sh
+|4,39,4,0,1615247476,"~/.config/lemonbar/modules/lemon_battery.sh"
+-'  4  0  ~/.config/lemonbar/modules/lemon_battery.sh
+|4,39,4,0,1615247476,"~/.config/lemonbar/modules/lemon_battery.sh"
+-'  4  0  ~/.config/lemonbar/modules/lemon_battery.sh
+|4,39,4,0,1615247476,"~/.config/lemonbar/modules/lemon_battery.sh"
+-'  3  10  ~/.config/lemonbar/tmp/example.sh
+|4,39,3,10,1615247475,"~/.config/lemonbar/tmp/example.sh"
+-'  3  10  ~/.config/lemonbar/tmp/example.sh
+|4,39,3,10,1615247475,"~/.config/lemonbar/tmp/example.sh"
+-'  3  10  ~/.config/lemonbar/tmp/example.sh
+|4,39,3,10,1615247475,"~/.config/lemonbar/tmp/example.sh"
+-'  3  10  ~/.config/lemonbar/tmp/example.sh
+|4,39,3,10,1615247475,"~/.config/lemonbar/tmp/example.sh"
+-'  3  10  ~/.config/lemonbar/tmp/example.sh
+|4,39,3,10,1615247475,"~/.config/lemonbar/tmp/example.sh"
+-'  3  10  ~/.config/lemonbar/tmp/example.sh
+|4,39,3,10,1615247475,"~/.config/lemonbar/tmp/example.sh"
+-'  3  10  ~/.config/lemonbar/tmp/example.sh
+|4,39,3,10,1615247475,"~/.config/lemonbar/tmp/example.sh"
+-'  3  10  ~/.config/lemonbar/tmp/example.sh
+|4,39,3,10,1615247475,"~/.config/lemonbar/tmp/example.sh"
+-'  1  0  ~/.config/lemonbar/tmp/example.sh
+|4,39,1,0,1615247154,"~/.config/lemonbar/tmp/example.sh"
+-'  1  0  ~/.config/lemonbar/tmp/example.sh
+|4,39,1,0,1615247154,"~/.config/lemonbar/tmp/example.sh"
+-'  1  0  ~/.config/lemonbar/tmp/example.sh
+|4,39,1,0,1615247154,"~/.config/lemonbar/tmp/example.sh"
+-'  1  0  ~/.config/lemonbar/tmp/example.sh
+|4,39,1,0,1615247154,"~/.config/lemonbar/tmp/example.sh"
+-'  1  0  ~/.config/lemonbar/tmp/example.sh
+|4,39,1,0,1615247154,"~/.config/lemonbar/tmp/example.sh"
+-'  1  0  ~/.config/lemonbar/tmp/example.sh
+|4,39,1,0,1615247154,"~/.config/lemonbar/tmp/example.sh"
+-'  1  0  ~/.config/lemonbar/tmp/example.sh
+|4,39,1,0,1615247154,"~/.config/lemonbar/tmp/example.sh"
+-'  1  0  ~/.config/lemonbar/tmp/example.sh
+|4,39,1,0,1615247154,"~/.config/lemonbar/tmp/example.sh"
+-'  22  0  ~/.config/sxhkd/sxhkdrc
+|4,39,22,0,1615246945,"~/.config/sxhkd/sxhkdrc"
+-'  22  0  ~/.config/sxhkd/sxhkdrc
+|4,39,22,0,1615246945,"~/.config/sxhkd/sxhkdrc"
+-'  22  0  ~/.config/sxhkd/sxhkdrc
+|4,39,22,0,1615246945,"~/.config/sxhkd/sxhkdrc"
+-'  22  0  ~/.config/sxhkd/sxhkdrc
+|4,39,22,0,1615246945,"~/.config/sxhkd/sxhkdrc"
+-'  22  0  ~/.config/sxhkd/sxhkdrc
+|4,39,22,0,1615246945,"~/.config/sxhkd/sxhkdrc"
+-'  22  0  ~/.config/sxhkd/sxhkdrc
+|4,39,22,0,1615246945,"~/.config/sxhkd/sxhkdrc"
+-'  22  0  ~/.config/sxhkd/sxhkdrc
+|4,39,22,0,1615246945,"~/.config/sxhkd/sxhkdrc"
+-'  22  0  ~/.config/sxhkd/sxhkdrc
+|4,39,22,0,1615246945,"~/.config/sxhkd/sxhkdrc"
+-'  1  0  ~/.config/sxhkd/sxhkdrc
+|4,39,1,0,1615246927,"~/.config/sxhkd/sxhkdrc"
+-'  1  0  ~/.config/sxhkd/sxhkdrc
+|4,39,1,0,1615246927,"~/.config/sxhkd/sxhkdrc"
+-'  1  0  ~/.config/sxhkd/sxhkdrc
+|4,39,1,0,1615246927,"~/.config/sxhkd/sxhkdrc"
+-'  1  0  ~/.config/sxhkd/sxhkdrc
+|4,39,1,0,1615246927,"~/.config/sxhkd/sxhkdrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
+-'  68  32  ~/.config/bspwm/bspwmrc
+|4,39,68,32,1615246895,"~/.config/bspwm/bspwmrc"
 
 # History of marks within files (newest to oldest):
 
-> ~/.config/bspwm/scripts/bspwm_layout_manager.sh
-	*	1614634745	0
-	"	7	2
-
 > ~/Documents/dotfiles/bin/install.sh
-	*	1614634744	0
-	"	244	0
-	^	183	25
-	.	183	24
-	+	168	7
-	+	167	27
-	+	159	30
-	+	168	8
-	+	171	0
-	+	168	29
-	+	150	75
-	+	151	69
-	+	152	51
-	+	154	30
-	+	155	26
-	+	241	0
-	+	242	22
-	+	243	23
-	+	173	35
-	+	174	42
-	+	177	29
-	+	176	0
-	+	179	0
-	+	180	0
-	+	176	27
-	+	179	28
-	+	180	26
-	+	178	29
-	+	170	8
-	+	175	10
-	+	185	26
-	+	196	11
-	+	196	57
-	+	188	10
-	+	189	12
-	+	196	14
-	+	196	17
-	+	196	11
-	+	197	11
-	+	198	0
-	+	217	0
-	+	198	46
-	+	217	45
-	+	196	11
-	+	198	12
-	+	199	0
-	+	200	0
-	+	217	0
-	+	198	50
-	+	199	53
-	+	200	54
-	+	202	8
-	+	203	24
-	+	205	12
-	+	206	0
-	+	208	0
-	+	207	0
-	+	208	13
-	+	209	0
-	+	216	8
-	+	189	7
-	+	195	0
-	+	189	31
-	+	195	31
-	+	195	24
-	+	196	9
-	+	196	0
-	+	195	0
-	+	189	13
-	+	191	0
-	+	190	9
-	+	191	63
-	+	193	0
-	+	195	0
-	+	193	56
-	+	195	0
-	+	192	63
-	+	196	9
-	+	195	0
-	+	194	0
-	+	196	0
-	+	187	0
-	+	188	0
-	+	194	7
-	+	188	0
-	+	186	0
-	+	196	0
-	+	202	0
-	+	202	2
-	+	201	0
-	+	203	0
-	+	216	0
-	+	213	1
-	+	215	0
-	+	210	0
-	+	212	0
-	+	211	26
-	+	202	2
-	+	182	27
-	+	183	24
-
-> ~/.config/bash/bashrc
-	*	1614630645	0
-	"	40	21
-	^	40	28
-	.	40	21
-	+	90	0
-	+	87	13
-	+	168	0
-	+	167	0
-	+	168	31
-	+	171	11
-	+	178	1
-	+	172	8
-	+	173	1
-	+	174	2
-	+	175	1
-	+	176	2
-	+	177	1
-	+	196	1
-	+	181	8
-	+	179	0
-	+	195	1
+	*	1615288560	0
+	"	173	29
+	^	173	30
+	.	173	29
+	+	178	35
+	+	179	42
+	+	182	29
+	+	181	0
 	+	184	0
-	+	180	18
-	+	171	24
-	+	170	1
-	+	171	0
-	+	171	4
-	+	171	16
-	+	170	16
-	+	171	0
-	+	94	0
-	+	95	11
-	+	94	15
-	+	95	15
-	+	20	0
-	+	20	11
-	+	9	0
-	+	15	29
-	+	17	0
-	+	18	0
-	+	9	0
-	+	197	0
-	+	20	0
-	+	171	0
-	+	170	10
-	+	94	0
-	+	95	0
-	+	94	8
-	+	35	0
-	+	46	0
-	+	35	2
-	+	30	1
-	+	35	43
-	+	46	0
-	+	35	3
-	+	46	0
-	+	35	29
-	+	45	12
-	+	35	23
-	+	40	24
-	+	35	23
-	+	37	5
-	+	40	5
-	+	37	38
-	+	21	7
-	+	25	0
-	+	22	50
-	+	25	49
-	+	40	8
-	+	39	18
-	+	37	22
-	+	39	22
-	+	55	25
-	+	56	0
-	+	53	0
-	+	54	53
-	+	55	0
-	+	54	69
-	+	32	38
-	+	37	0
-	+	44	0
-	+	41	0
-	+	43	0
-	+	42	0
-	+	36	41
-	+	23	47
-	+	33	24
-	+	35	7
-	+	34	27
-	+	36	24
-	+	37	24
-	+	39	24
-	+	38	42
-	+	24	49
-	+	36	20
-	+	38	20
-	+	35	20
-	+	40	20
-	+	43	18
-	+	40	18
-	+	43	21
-	+	40	0
-	+	43	27
-	+	40	21
-
-> /etc/locale.gen
-	*	1614629842	0
-	"	177	0
-
-> /etc/locale.conf
-	*	1614629817	0
-	"	1	0
-
-> /etc/vconsole.conf
-	*	1614629656	0
-	"	1	0
-
-> ~/.config/fish/config.fish
-	*	1614617041	0
-	"	130	29
-	^	132	24
-	.	130	29
-	+	57	54
-	+	58	57
-	+	57	54
-	+	58	57
-	+	57	36
-	+	58	39
-	+	63	0
-	+	54	31
-	+	21	0
-	+	20	42
-	+	21	0
-	+	20	33
-	+	43	0
-	+	44	17
-	+	42	15
-	+	43	17
-	+	45	21
-	+	46	19
-	+	47	17
-	+	48	21
-	+	49	22
-	+	19	42
-	+	57	36
-	+	58	39
-	+	57	36
-	+	58	39
-	+	62	13
-	+	53	0
-	+	22	23
-	+	57	36
-	+	58	39
-	+	57	36
-	+	58	39
-	+	56	0
-	+	42	17
-	+	43	19
-	+	44	19
-	+	45	23
-	+	46	21
-	+	47	20
-	+	48	23
-	+	49	24
-	+	22	22
-	+	56	37
-	+	57	37
-	+	58	40
-	+	57	37
-	+	101	0
-	+	106	0
-	+	152	0
-	+	127	0
-	+	128	13
-	+	134	2
-	+	137	14
-	+	152	2
-	+	133	4
-	+	129	16
-	+	130	19
-	+	139	19
-	+	151	10
-	+	128	11
-	+	137	21
-	+	151	12
-	+	128	14
-	+	129	16
-	+	93	7
-	+	129	1
-	+	130	20
-	+	57	36
-	+	58	39
-	+	57	36
-	+	58	39
-	+	132	39
-	+	130	30
-	+	132	22
-	+	130	29
-
-> ~/Documents/dotfiles/bin/update.sh
-	*	1614616854	0
-	"	2	0
-	^	8	37
-	.	8	36
-	+	91	0
-	+	118	0
-	+	9	0
-	+	42	33
-	+	97	37
-	+	41	57
-	+	42	52
-	+	42	58
-	+	42	65
-	+	42	57
-	+	42	56
-	+	43	0
-	+	48	0
-	+	44	24
-	+	47	0
-	+	46	28
-	+	47	0
-	+	118	14
-	+	16	1
-	+	14	1
-	+	9	1
-	+	1	10
-	+	2	0
-	+	3	21
-	+	20	0
-	+	34	0
-	+	41	0
-	+	46	0
-	+	50	0
-	+	16	56
-	+	42	0
-	+	41	48
-	+	56	0
-	+	57	3
-	+	58	4
-	+	59	4
-	+	60	4
-	+	69	2
-	+	73	2
-	+	77	2
-	+	81	2
-	+	85	2
-	+	89	0
-	+	94	0
-	+	117	0
-	+	118	0
-	+	102	0
-	+	117	0
-	+	103	0
-	+	119	3
-	+	97	6
-	+	40	37
-	+	45	38
-	+	51	38
-	+	35	29
-	+	15	9
-	+	96	9
-	+	13	9
-	+	14	49
-	+	9	48
-	+	8	36
-
-> ~/.scripts/tlbx/tlbx_configure_monitors.sh
-	*	1614616758	0
-	"	4	0
-
-> ~/.scripts/tlbx/tlbx_monitors_functions.sh
-	*	1614616725	0
-	"	37	0
-	^	14	2
-	.	6	2
-	+	44	30
-	+	32	0
-	+	39	42
-	+	5	18
-	+	13	18
-	+	17	18
-	+	21	18
-	+	25	19
-	+	26	21
-	+	27	23
-	+	28	25
-	+	45	0
-	+	2	0
-	+	3	73
-	+	1	10
-	+	34	39
-	+	35	39
-	+	36	0
-	+	41	0
-	+	32	6
-	+	33	6
-	+	34	6
-	+	35	6
-	+	36	6
-	+	39	6
-	+	40	6
-	+	41	6
-	+	26	2
-	+	27	2
-	+	22	2
-	+	18	2
-	+	14	2
-	+	6	2
-
-> ~/.config/bspwm/bspwmrc
-	*	1614616696	0
-	"	75	18
-	^	75	27
-	.	75	26
-	+	16	9
-	+	92	30
-	+	88	0
-	+	88	35
-	+	102	0
-	+	102	13
-	+	105	0
-	+	12	10
-	+	10	0
-	+	11	4
-	+	10	13
-	+	12	13
-	+	13	0
-	+	11	16
-	+	10	16
-	+	12	16
-	+	16	0
-	+	17	13
-	+	13	0
-	+	40	0
-	+	41	16
-	+	40	19
-	+	42	19
-	+	56	0
-	+	57	12
-	+	56	15
-	+	58	15
-	+	41	10
-	+	40	11
-	+	42	11
-	+	41	8
-	+	40	11
-	+	42	11
-	+	63	0
-	+	64	12
-	+	63	15
-	+	65	15
-	+	88	0
-	+	88	35
-	+	88	1
-	+	88	0
-	+	88	11
-	+	88	15
-	+	88	0
-	+	88	10
-	+	88	14
-	+	89	0
-	+	90	9
-	+	89	13
-	+	91	13
-	+	102	0
-	+	80	0
-	+	88	0
-	+	79	0
-	+	64	21
-	+	88	0
-	+	49	0
-	+	55	0
-	+	88	0
-	+	30	0
-	+	39	0
-	+	102	0
-	+	101	0
-	+	100	0
-	+	89	0
-	+	78	0
-	+	77	0
-	+	89	0
-	+	87	0
-	+	83	0
-	+	88	0
-	+	84	0
-	+	85	8
-	+	84	12
-	+	86	12
-	+	13	47
-	+	16	0
-	+	92	0
-	+	85	11
-	+	84	14
-	+	86	14
-	+	14	25
-	+	13	20
-	+	16	0
-	+	15	0
-	+	11	8
-	+	10	12
-	+	12	12
-	+	52	40
-	+	22	14
-	+	2	0
-	+	38	25
-	+	1	10
-	+	14	51
-	+	13	46
-	+	69	16
-	+	22	14
-	+	75	13
-	+	22	14
-	+	75	26
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/usb/MOBILENET_4.4M/Results.csv
-	*	1614602920	0
-	"	11	0
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/edge/MOBILENET/Results.csv
-	*	1614602717	0
-	"	10	2
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/edge/CONV_2D/Results.csv
-	*	1614599357	0
-	"	1	0
-	^	1	1
-	.	1	0
-	+	1	0
-
-> ~/Documents/learn/intro-ai/ai50/projects/Search/degrees/util.py
-	*	1614593756	0
-	"	36	12
-
-> ~/Documents/learn/intro-ai/ai50/projects/Search/degrees/helpers.py
-	*	1614593663	0
-	"	1	0
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/usb/CONV_2D_52K/Results.csv
-	*	1614591810	0
-	"	7	0
-	^	2	2
-	.	2	1
-	+	2	1
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/usb/MNIST_668K/Results.csv
-	*	1614561682	0
-	"	2	0
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/edge/MNIST/Results.csv
-	*	1614551963	0
-	"	100	0
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/shark.py
-	*	1614551069	0
-	"	749	0
-	^	698	8
-	.	795	0
-	+	449	43
-	+	391	0
-	+	390	36
-	+	391	28
-	+	448	63
-	+	237	27
-	+	238	26
-	+	237	56
-	+	238	53
-	+	237	59
-	+	238	86
-	+	239	54
-	+	240	77
-	+	241	82
-	+	237	96
-	+	242	90
-	+	739	0
-	+	739	33
-	+	739	57
-	+	711	9
-	+	686	0
-	+	684	4
-	+	739	0
-	+	246	50
-	+	247	55
-	+	362	55
-	+	700	0
-	+	669	8
-	+	670	8
-	+	706	20
-	+	705	22
-	+	711	36
-	+	802	15
-	+	719	0
-	+	735	52
-	+	736	53
-	+	864	0
-	+	246	60
-	+	230	12
-	+	246	47
-	+	230	15
-	+	247	68
-	+	370	20
-	+	803	13
-	+	908	0
-	+	916	0
-	+	925	0
-	+	917	0
-	+	920	0
-	+	911	87
-	+	864	0
-	+	851	0
-	+	864	15
-	+	839	32
-	+	848	0
-	+	850	41
-	+	851	0
-	+	833	17
-	+	850	15
-	+	941	16
-	+	512	68
-	+	941	0
-	+	581	15
-	+	833	0
-	+	803	12
-	+	490	0
-	+	489	0
-	+	481	17
-	+	492	26
-	+	808	0
-	+	706	0
-	+	627	0
-	+	629	9
-	+	750	37
-	+	677	25
-	+	795	50
-	+	795	0
-	+	795	44
-	+	795	24
-	+	795	45
-	+	795	44
-	+	795	45
-	+	750	33
-	+	677	13
-	+	795	33
-	+	698	27
-	+	698	23
-	+	698	9
-	+	683	16
-	+	698	48
-	+	637	59
-	+	853	55
-	+	698	49
-	+	698	19
-	+	698	51
-	+	698	9
-	+	698	0
-	+	750	0
-	+	795	0
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/deploy.py
-	*	1614550978	0
-	"	104	4
-	^	207	10
-	.	195	46
-	+	274	91
-	+	276	92
-	+	280	87
-	+	209	4
-	+	147	55
-	+	162	0
-	+	126	54
-	+	123	4
-	+	72	0
-	+	58	56
-	+	55	69
-	+	39	55
-	+	50	0
-	+	299	58
-	+	299	28
-	+	298	25
-	+	299	28
-	+	296	24
-	+	297	0
-	+	296	0
-	+	282	0
-	+	280	34
-	+	281	0
-	+	282	46
-	+	277	0
-	+	275	0
-	+	58	33
-	+	55	62
-	+	54	31
-	+	55	0
-	+	55	22
-	+	147	59
-	+	144	36
-	+	185	63
 	+	185	0
-	+	187	0
-	+	186	0
-	+	79	24
-	+	80	48
-	+	81	49
-	+	83	0
-	+	76	81
-	+	81	69
-	+	170	0
-	+	167	81
-	+	104	18
-	+	106	0
-	+	280	44
-	+	282	45
-	+	280	45
-	+	282	58
-	+	280	57
-	+	82	82
-	+	81	53
-	+	83	0
-	+	82	43
-	+	306	54
-	+	101	0
-	+	103	0
-	+	105	18
-	+	106	0
-	+	74	17
-	+	108	8
-	+	108	17
-	+	109	0
-	+	122	9
-	+	121	0
-	+	122	14
-	+	121	17
-	+	122	0
-	+	121	68
+	+	181	27
+	+	184	28
+	+	185	26
+	+	183	29
+	+	175	8
+	+	180	10
+	+	190	26
+	+	201	11
+	+	201	57
+	+	193	10
+	+	194	12
+	+	201	14
+	+	201	17
+	+	201	11
+	+	202	11
+	+	203	0
+	+	215	0
+	+	203	46
+	+	215	45
+	+	201	11
+	+	203	12
+	+	203	0
+	+	204	0
+	+	215	0
+	+	203	50
+	+	203	53
+	+	204	54
+	+	205	8
+	+	205	24
+	+	205	12
 	+	207	0
+	+	209	0
+	+	208	0
+	+	209	13
+	+	209	0
+	+	214	8
+	+	194	7
+	+	200	0
+	+	194	31
+	+	200	31
+	+	200	24
+	+	201	9
+	+	201	0
+	+	200	0
+	+	194	13
 	+	196	0
-	+	192	20
-	+	188	0
-	+	164	17
-	+	121	41
-	+	123	12
-	+	209	0
-	+	207	41
-	+	105	37
-	+	123	0
-	+	209	0
-	+	121	9
-	+	108	56
-	+	195	0
-	+	291	0
-	+	291	53
-	+	292	0
-	+	304	69
-	+	306	75
-	+	304	69
-	+	291	26
-	+	264	38
-	+	108	47
-	+	105	36
-	+	207	9
-	+	195	46
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/docker.py
-	*	1614550947	0
-	"	72	4
-	^	94	62
-	.	94	61
-	+	80	0
-	+	77	0
-	+	80	0
-	+	79	0
-	+	80	0
-	+	77	0
-	+	78	0
-	+	86	26
-	+	88	18
-	+	84	19
-	+	88	0
-	+	85	0
-	+	83	32
-	+	84	32
-	+	85	32
-	+	86	31
-	+	87	32
-	+	82	32
-	+	88	32
-	+	82	0
-	+	86	114
-	+	78	70
-	+	79	73
-	+	75	23
-	+	76	23
-	+	77	23
-	+	78	23
-	+	79	23
-	+	71	23
-	+	72	27
-	+	71	27
-	+	73	27
-	+	75	27
-	+	76	27
-	+	77	27
-	+	78	27
-	+	79	27
-	+	68	0
-	+	92	0
-	+	79	55
-	+	76	56
-	+	77	56
-	+	76	62
-	+	77	62
-	+	79	0
-	+	79	84
-	+	78	89
-	+	22	42
-	+	9	0
-	+	83	31
-	+	94	61
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/plot.py
-	*	1614550930	0
-	"	132	16
-	.	392	0
-	+	449	0
-	+	451	0
-	+	442	0
-	+	451	44
-	+	450	0
-	+	452	0
-	+	494	0
-	+	482	26
-	+	470	69
-	+	442	46
-	+	451	42
-	+	455	36
-	+	456	0
-	+	442	36
-	+	442	0
-	+	442	36
-	+	442	0
-	+	442	56
-	+	442	0
-	+	442	49
-	+	442	22
-	+	442	0
-	+	442	15
-	+	145	0
-	+	441	0
-	+	493	19
-	+	217	45
-	+	217	30
-	+	217	35
-	+	217	29
-	+	217	30
-	+	217	29
-	+	217	25
-	+	217	0
-	+	363	0
-	+	362	0
-	+	217	0
-	+	217	16
-	+	217	20
-	+	217	21
-	+	217	20
-	+	217	26
-	+	217	21
-	+	217	0
-	+	31	0
-	+	30	0
-	+	31	0
-	+	217	0
-	+	296	0
-	+	217	0
-	+	216	0
-	+	293	0
-	+	275	0
-	+	217	0
-	+	145	0
-	+	155	0
-	+	145	0
-	+	157	0
-	+	156	0
+	+	195	9
+	+	196	63
+	+	198	0
+	+	200	0
+	+	198	56
+	+	200	0
+	+	197	63
+	+	201	9
+	+	200	0
 	+	199	0
-	+	198	23
-	+	145	0
-	+	198	8
-	+	196	69
-	+	197	58
-	+	483	16
-	+	487	11
-	+	484	21
-	+	483	44
-	+	485	43
-	+	487	43
-	+	485	0
-	+	486	21
-	+	486	0
-	+	490	41
-	+	492	8
-	+	491	8
-	+	493	33
-	+	133	0
-	+	290	0
-	+	390	0
-	+	392	42
-	+	394	0
-	+	393	23
-	+	392	0
-	+	393	81
-	+	392	0
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/analyze.py
-	*	1614545769	0
-	"	192	4
-	^	214	38
-	.	214	37
-	+	213	36
-	+	219	26
-	+	214	37
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/utils.py
-	*	1614544746	0
-	"	198	8
-	^	180	4
-	.	342	0
-	+	102	0
-	+	101	0
-	+	41	0
-	+	40	0
-	+	59	0
-	+	87	0
-	+	79	40
-	+	89	0
-	+	90	0
-	+	46	0
-	+	47	0
-	+	180	0
-	+	342	0
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/usb/mobilenet08-15_23-30opt_4.4M/Results.csv
-	*	1614543955	0
-	"	14	0
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/analyze
-	*	1614540570	0
-	"	1	0
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/cmpile.py
-	*	1614540551	0
-	"	172	4
-
-> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/usb/mobilenet00-07_16-23opt_4.3M/Results.csv
-	*	1614538279	0
-	"	2	0
-
-> ~/Documents/sckless/st/normalMode.c
-	*	1614531068	0
-	"	241	62
-	^	240	78
-	.	240	62
-	+	240	3
-	+	240	62
-
-> ~/Documents/sckless/st/config.h
-	*	1614531018	0
-	"	124	0
-	^	99	9
-	.	99	8
-	+	8	0
-	+	9	23
-	+	96	0
-	+	136	0
-	+	138	0
-	+	137	0
-	+	135	11
-	+	139	0
-	+	145	0
-	+	225	28
-	+	137	0
-	+	136	31
-	+	147	60
-	+	137	33
-	+	148	48
-	+	137	50
-	+	148	68
-	+	136	31
-	+	147	60
-	+	137	52
-	+	164	0
-	+	163	2
-	+	152	0
-	+	63	35
-	+	163	0
-	+	165	0
-	+	8	30
-	+	148	47
-	+	147	60
-	+	149	41
-	+	136	31
-	+	8	44
-	+	147	57
-	+	149	64
-	+	148	45
-	+	149	36
-	+	148	45
-	+	99	8
-
-> ~/.config/vim/vimrc
-	*	1614465439	0
-	"	89	0
-	^	81	1
-	.	81	0
-	+	146	68
-	+	70	55
-	+	170	0
-	+	172	0
-	+	140	0
-	+	172	0
-	+	150	71
-	+	150	0
-	+	168	0
-	+	166	6
-	+	150	0
-	+	109	0
-	+	147	70
-	+	148	70
-	+	70	0
-	+	41	0
-	+	168	0
-	+	151	0
-	+	170	16
-	+	172	66
-	+	158	7
-	+	20	0
-	+	87	0
-	+	86	41
-	+	87	48
-	+	87	0
-	+	86	41
-	+	87	0
-	+	103	27
-	+	104	27
-	+	102	52
-	+	13	0
-	+	16	11
-	+	13	14
-	+	16	14
-	+	27	0
-	+	28	8
-	+	27	12
-	+	29	12
-	+	78	0
-	+	79	10
-	+	78	13
-	+	80	13
-	+	78	0
-	+	27	0
-	+	14	0
-	+	13	0
-	+	8	0
-	+	134	0
-	+	135	14
-	+	134	17
-	+	136	17
-	+	137	0
-	+	81	0
-
-> ~/.config/vim/plugin/Abbreviations.vim
-	*	1614465403	0
-	"	1	0
+	+	201	0
+	+	192	0
+	+	193	0
+	+	199	7
+	+	193	0
+	+	191	0
+	+	201	0
+	+	205	0
+	+	205	2
+	+	204	0
+	+	205	0
+	+	214	0
+	+	211	1
+	+	213	0
+	+	209	0
+	+	210	0
+	+	209	26
+	+	205	2
+	+	187	27
+	+	188	24
+	+	6	19
+	+	5	18
+	+	7	3
+	+	8	22
+	+	153	72
+	+	239	0
+	+	205	21
+	+	206	0
+	+	209	0
+	+	157	57
+	+	203	0
+	+	204	0
+	+	205	5
+	+	209	0
+	+	157	72
+	+	35	0
+	+	151	72
+	+	173	29
 
 > ~/.config/sxhkd/sxhkdrc
-	*	1614465269	0
-	"	147	8
-	^	116	12
-	.	147	8
-	+	96	11
-	+	95	22
-	+	97	22
-	+	115	0
-	+	116	18
-	+	115	22
-	+	117	22
-	+	166	0
-	+	167	19
-	+	166	22
-	+	168	22
-	+	154	0
-	+	155	19
-	+	194	0
-	+	195	15
-	+	194	19
-	+	196	19
-	+	205	0
-	+	157	0
-	+	8	0
-	+	129	35
-	+	104	0
-	+	102	0
-	+	103	23
-	+	104	11
+	*	1615248358	0
+	"	187	34
+	^	187	35
+	.	187	34
 	+	105	28
 	+	104	13
 	+	103	22
@@ -1630,8 +630,8 @@ $med
 	+	104	13
 	+	68	12
 	+	69	18
-	+	165	0
 	+	161	0
+	+	157	0
 	+	19	1
 	+	23	1
 	+	39	1
@@ -1639,23 +639,23 @@ $med
 	+	101	1
 	+	109	1
 	+	125	1
+	+	126	1
 	+	129	1
 	+	133	1
-	+	137	1
-	+	152	1
-	+	176	1
-	+	200	1
-	+	204	1
+	+	148	1
+	+	172	1
+	+	199	1
+	+	203	1
 	+	30	13
 	+	112	6
-	+	144	8
-	+	147	14
+	+	140	8
+	+	143	14
 	+	53	11
 	+	53	52
 	+	57	13
 	+	53	2
-	+	144	8
-	+	147	14
+	+	140	8
+	+	143	14
 	+	117	57
 	+	116	25
 	+	108	13
@@ -1689,209 +689,2089 @@ $med
 	+	88	8
 	+	38	11
 	+	39	30
-	+	151	4
+	+	147	4
 	+	34	10
-	+	128	7
+	+	126	7
 	+	112	12
 	+	96	15
-	+	140	8
-	+	143	14
+	+	136	8
+	+	139	14
 	+	116	11
-	+	147	8
+	+	143	8
+	+	125	9
+	+	126	0
+	+	133	9
+	+	96	13
+	+	136	8
+	+	139	14
+	+	136	8
+	+	139	14
+	+	96	15
+	+	30	16
+	+	42	12
+	+	46	21
+	+	168	0
+	+	112	11
+	+	97	54
+	+	168	62
+	+	184	20
+	+	186	2
+	+	184	17
+	+	186	42
+	+	187	0
+	+	185	0
+	+	186	39
+	+	185	20
+	+	187	34
+
+> ~/.config/lemonbar/tmp/example.sh
+	*	1615247489	0
+	"	4	5
+	^	4	6
+	.	4	5
+	+	3	11
+	+	1	10
+	+	2	0
+	+	3	18
+	+	6	14
+	+	7	5
+	+	6	11
+	+	8	0
+	+	9	13
+	+	10	10
+	+	11	8
+	+	15	6
+	+	14	13
+	+	15	23
+	+	18	3
+	+	16	0
+	+	14	6
+	+	15	18
+	+	12	0
+	+	7	0
+	+	17	5
+	+	1	10
+	+	3	50
+	+	6	0
+	+	5	0
+	+	6	0
+	+	4	5
+
+> ~/.config/lemonbar/modules/lemon_battery.sh
+	*	1615247480	0
+	"	5	9
+	^	18	25
+	.	29	0
+	+	7	15
+	+	9	0
+	+	27	5
+	+	26	11
+	+	25	13
+	+	5	0
+	+	25	10
+	+	26	13
+	+	27	27
+	+	6	2
+	+	27	6
+	+	25	9
+	+	14	23
+	+	16	24
+	+	18	24
+	+	25	0
+	+	29	0
+
+> ~/.config/bspwm/bspwmrc
+	*	1615246883	0
+	"	68	32
+	^	68	33
+	.	68	32
+	+	42	8
+	+	41	11
+	+	43	11
+	+	64	0
+	+	65	12
+	+	64	15
+	+	66	15
+	+	82	0
+	+	82	35
+	+	82	1
+	+	82	0
+	+	82	11
+	+	82	15
+	+	82	0
+	+	82	10
+	+	82	14
+	+	83	0
+	+	84	9
+	+	83	13
+	+	85	13
+	+	102	0
+	+	74	0
+	+	82	0
+	+	73	0
+	+	65	21
+	+	82	0
+	+	50	0
+	+	56	0
+	+	82	0
+	+	31	0
+	+	40	0
+	+	102	0
+	+	101	0
+	+	100	0
+	+	83	0
+	+	72	0
+	+	83	0
+	+	81	0
+	+	77	0
+	+	82	0
+	+	78	0
+	+	79	8
+	+	78	12
+	+	80	12
+	+	13	47
+	+	17	0
+	+	86	0
+	+	79	11
+	+	78	14
+	+	80	14
+	+	13	83
+	+	13	20
+	+	17	0
+	+	16	0
+	+	11	8
+	+	10	12
+	+	12	12
+	+	53	40
+	+	23	14
+	+	2	0
+	+	39	25
+	+	1	10
+	+	13	109
+	+	13	46
+	+	72	16
+	+	23	14
+	+	72	13
+	+	23	14
+	+	72	26
+	+	99	0
+	+	1	9
+	+	23	14
+	+	54	35
+	+	72	0
+	+	16	0
+	+	72	0
+	+	96	20
+	+	13	57
+	+	13	58
+	+	14	1
+	+	15	1
+	+	16	0
+	+	72	0
+	+	16	0
+	+	16	1
+	+	16	0
+	+	67	0
+	+	69	0
+	+	70	0
+	+	72	0
+	+	68	28
+	+	96	13
+	+	96	21
+	+	91	15
+	+	96	0
+	+	92	0
+	+	94	20
+	+	93	13
+	+	95	21
+	+	68	32
+
+> ~/.config/lemonbar/lemon_bar.sh
+	*	1615246743	0
+	"	46	8
+	^	46	57
+	.	46	56
+	+	15	4
+	+	12	16
+	+	90	56
+	+	66	51
+	+	61	45
+	+	56	55
+	+	42	43
+	+	90	56
+	+	12	23
+	+	90	0
+	+	12	21
+	+	15	0
+	+	12	18
+	+	90	34
+	+	11	0
+	+	12	7
+	+	15	21
+	+	90	86
+	+	15	0
+	+	12	3
+	+	13	0
+	+	90	58
+	+	42	43
+	+	13	38
+	+	13	0
+	+	90	89
+	+	53	6
+	+	44	0
+	+	44	6
+	+	39	29
+	+	44	28
+	+	43	9
+	+	47	0
+	+	47	47
+	+	47	48
+	+	47	46
+	+	75	27
+	+	68	6
+	+	90	63
+	+	71	47
+	+	13	38
+	+	90	62
+	+	13	39
+	+	14	31
+	+	90	91
+	+	14	45
+	+	90	37
+	+	12	43
+	+	51	42
+	+	14	50
+	+	90	66
+	+	13	38
+	+	90	66
+	+	13	38
+	+	88	16
+	+	53	6
+	+	68	6
+	+	14	50
+	+	13	38
+	+	90	43
+	+	13	38
+	+	90	43
+	+	89	41
+	+	13	33
+	+	90	77
+	+	14	9
+	+	12	43
+	+	42	44
+	+	47	52
+	+	55	58
+	+	60	48
+	+	65	54
+	+	70	50
+	+	6	0
+	+	55	58
+	+	60	48
+	+	65	54
+	+	70	50
+	+	7	49
+	+	21	24
+	+	7	48
+	+	70	54
+	+	65	58
+	+	60	52
+	+	55	62
+	+	42	0
+	+	43	0
+	+	47	0
+	+	41	44
+	+	70	54
+	+	55	58
+	+	60	48
+	+	65	54
+	+	70	50
+	+	12	4
+	+	13	4
+	+	90	20
+	+	41	44
+	+	46	56
+
+> ~/.config/lemonbar/lib/lemon_utils.sh
+	*	1615246409	0
+	"	52	2
+	^	80	36
+	.	80	36
+	+	84	1
+	+	84	28
+	+	85	19
+	+	3	44
+	+	4	0
+	+	5	0
+	+	4	0
+	+	32	0
+	+	48	0
+	+	32	24
+	+	34	26
+	+	85	0
+	+	34	21
+	+	33	10
+	+	34	0
+	+	32	19
+	+	44	0
+	+	43	0
+	+	44	22
+	+	53	13
+	+	13	0
+	+	49	22
+	+	14	28
+	+	46	28
+	+	32	0
+	+	36	0
+	+	37	22
+	+	31	0
+	+	34	0
+	+	12	23
+	+	46	0
+	+	9	15
+	+	53	11
+	+	76	0
+	+	51	7
+	+	76	0
+	+	51	9
+	+	50	10
+	+	76	9
+	+	55	5
+	+	76	30
+	+	76	3
+	+	76	5
+	+	76	15
+	+	76	4
+	+	76	0
+	+	52	9
+	+	56	18
+	+	76	0
+	+	75	0
+	+	76	0
+	+	74	7
+	+	68	7
+	+	62	7
+	+	58	0
+	+	76	0
+	+	58	0
+	+	58	5
+	+	59	14
+	+	64	0
+	+	65	22
+	+	70	0
+	+	59	31
+	+	71	14
+	+	76	0
+	+	56	0
+	+	54	0
+	+	80	37
+	+	69	5
+	+	69	0
+	+	80	36
+
+> ~/.config/lemonbar/modules/lemon_bspwm.sh
+	*	1615246408	0
+	"	28	10
+	^	41	53
+	.	28	0
+	+	5	1
+	+	8	0
+	+	5	0
+	+	29	43
+	+	37	0
+	+	44	0
+	+	37	0
+	+	35	0
+	+	44	0
+	+	41	0
+	+	29	0
+	+	5	19
+	+	5	27
+	+	5	3
+	+	5	0
+	+	5	27
+	+	29	30
+	+	35	23
+	+	29	17
+	+	41	0
+	+	5	20
+	+	41	51
+	+	5	13
+	+	5	10
+	+	5	28
+	+	5	0
+	+	5	24
+	+	5	0
+	+	70	0
+	+	5	6
+	+	5	0
+	+	5	5
+	+	5	0
+	+	5	7
+	+	5	19
+	+	5	0
+	+	5	3
+	+	5	0
+	+	5	4
+	+	29	0
+	+	35	0
+	+	41	0
+	+	44	0
+	+	41	0
+	+	41	46
+	+	41	0
+	+	29	0
+	+	5	0
+	+	5	1
+	+	5	3
+	+	5	1
+	+	5	8
+	+	35	0
+	+	37	0
+	+	5	9
+	+	5	19
+	+	29	11
+	+	35	11
+	+	37	0
+	+	29	0
+	+	41	11
+	+	41	45
+	+	37	0
+	+	29	0
+	+	41	0
+	+	35	0
+	+	29	0
+	+	69	29
+	+	70	0
+	+	5	0
+	+	69	25
+	+	69	42
+	+	37	0
+	+	35	0
+	+	29	0
+	+	35	0
+	+	41	0
+	+	27	0
+	+	69	28
+	+	70	10
+	+	69	8
+	+	70	8
+	+	69	10
+	+	70	18
+	+	41	0
+	+	35	0
+	+	27	0
+	+	41	48
+	+	41	23
+	+	14	12
+	+	41	16
+	+	41	0
+	+	43	0
+	+	42	0
+	+	36	0
+	+	28	0
+
+> ~/.config/lemonbar/modules/lemon_xwindow.sh
+	*	1615243616	0
+	"	9	56
+	^	9	57
+	.	9	56
+	+	10	0
+	+	9	15
+	+	11	1
+	+	9	0
+	+	11	11
+	+	10	10
+	+	11	12
+	+	11	24
+	+	9	0
+	+	6	0
+	+	11	6
+	+	5	0
+	+	10	9
+	+	7	0
+	+	11	0
+	+	7	45
+	+	9	45
+	+	10	29
+	+	8	41
+	+	10	18
+	+	8	4
+	+	10	21
+	+	9	56
+
+> ~/.config/lemonbar/modules/lemon_bluetooth.sh
+	*	1615240823	0
+	"	11	10
+	^	6	3
+	.	11	10
+	+	10	0
+	+	11	8
+	+	8	15
+	+	13	1
+	+	10	0
+	+	7	2
+	+	8	0
+	+	12	11
+	+	5	0
+	+	12	12
+	+	13	27
+	+	6	2
+	+	13	6
+	+	11	10
+
+> ~/.config/lemonbar/modules/lemon_clock.sh
+	*	1615240817	0
+	"	11	10
+	^	13	28
+	.	11	10
+	+	11	19
+	+	7	15
+	+	5	0
+	+	9	0
+	+	13	5
+	+	12	13
+	+	13	24
+	+	6	2
+	+	13	6
+	+	11	10
+
+> ~/.config/lemonbar/melonpanel.sh
+	*	1615239180	0
+	"	349	15
+	^	349	44
+	.	349	44
+	+	362	40
+	+	231	54
+	+	350	60
+	+	78	0
+	+	77	0
+	+	79	0
+	+	77	25
+	+	78	0
+	+	337	0
+	+	338	0
+	+	337	8
+	+	77	26
+	+	78	26
+	+	350	52
+	+	349	42
+	+	350	0
+	+	349	44
+
+> ~/.config/polybar/fonts.ini
+	*	1615238323	0
+	"	14	0
+	^	8	53
+	.	17	53
+	+	16	31
+	+	16	20
+	+	16	30
+	+	16	0
+	+	16	63
+	+	16	65
+	+	16	0
+	+	14	0
+	+	11	53
+	+	10	17
+	+	8	53
+	+	10	11
+	+	16	0
+	+	15	0
+	+	16	10
+	+	17	57
+	+	16	14
+	+	5	52
+	+	8	52
+	+	17	53
+
+> ~/.config/lemonbar/modules/lemon_wifi.sh
+	*	1615233409	0
+	"	17	10
+	^	19	28
+	.	17	10
+	+	5	0
+	+	7	15
+	+	9	0
+	+	17	10
+	+	19	5
+	+	18	12
+	+	17	13
+	+	6	2
+	+	19	6
+	+	17	10
+
+> ~/.config/bspwm/scripts/bspwm_node_focus_manager.sh
+	*	1615232190	0
+	"	10	30
+
+> ~/.config/bspwm/scripts/bspwm_layout_manager.sh
+	*	1615229531	0
+	"	17	0
+
+> ~/.config/bspwm/scripts/bspwm_swap_desktops.sh
+	*	1615218642	0
+	"	5	5
+	^	5	6
+	.	5	5
+	+	10	38
+	+	13	79
+	+	14	79
+	+	10	0
+	+	13	65
+	+	7	20
+	+	5	5
+
+> ~/.config/lemonbar/lib/example.sh
+	*	1615209081	0
+	"	5	9
+	^	5	10
+	.	5	9
+	+	1	10
+	+	6	3
+	+	4	15
+	+	5	9
+
+> ~/.config/lemonbar/lib/melonpanel.sh
+	*	1615208389	0
+	"	275	12
+	^	373	0
+	.	372	40
+	+	372	40
+
+> ~/.config/fish/config.fish
+	*	1615206082	0
+	"	23	13
+	^	49	30
+	.	23	13
+	+	27	42
+	+	28	0
+	+	27	33
+	+	52	0
+	+	53	17
+	+	51	15
+	+	52	17
+	+	54	21
+	+	55	19
+	+	56	17
+	+	57	21
+	+	58	22
+	+	26	42
+	+	66	36
+	+	67	39
+	+	66	36
+	+	67	39
+	+	72	13
+	+	62	0
+	+	29	23
+	+	66	36
+	+	67	39
+	+	66	36
+	+	67	39
+	+	65	0
+	+	51	17
+	+	52	19
+	+	53	19
+	+	54	23
+	+	55	21
+	+	56	20
+	+	57	23
+	+	58	24
+	+	29	22
+	+	65	37
+	+	66	37
+	+	67	40
+	+	66	37
+	+	116	0
+	+	121	0
+	+	167	0
+	+	142	0
+	+	143	13
+	+	149	2
+	+	152	14
+	+	167	2
+	+	148	4
+	+	144	16
+	+	145	19
+	+	154	19
+	+	166	10
+	+	143	11
+	+	152	21
+	+	166	12
+	+	143	14
+	+	144	16
+	+	108	7
+	+	144	1
+	+	145	20
+	+	66	36
+	+	67	39
+	+	66	36
+	+	67	39
+	+	147	39
+	+	145	30
+	+	147	22
+	+	145	29
+	+	82	16
+	+	85	7
+	+	46	41
+	+	66	41
+	+	67	44
+	+	71	5
+	+	73	6
+	+	72	13
+	+	73	36
+	+	72	39
+	+	71	7
+	+	70	7
+	+	147	59
+	+	145	42
+	+	70	30
+	+	72	34
+	+	73	31
+	+	147	54
+	+	145	61
+	+	76	0
+	+	75	13
+	+	14	2
+	+	11	0
+	+	46	0
+	+	66	36
+	+	67	39
+	+	70	10
+	+	71	10
+	+	73	11
+	+	48	25
+	+	49	29
+	+	72	14
+	+	23	13
+
+> !/usr/bin/fish
+	*	1615203097	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.config/bash/functions/__cb_char_prompt.sh
+	*	1615159650	0
+	"	8	17
+	^	8	18
+	.	8	17
+	+	3	12
+	+	7	13
+	+	9	0
+	+	9	17
+	+	9	21
+	+	9	0
+	+	9	24
+	+	5	17
+	+	9	13
+	+	11	0
+	+	5	29
+	+	11	32
+	+	11	13
+	+	9	13
+	+	9	9
+	+	11	9
+	+	11	0
+	+	5	25
+	+	9	0
+	+	10	0
+	+	9	7
+	+	10	0
+	+	9	3
+	+	10	0
+	+	9	2
+	+	7	2
+	+	7	0
+	+	9	8
+	+	7	3
+	+	9	0
+	+	9	16
+	+	9	0
+	+	9	3
+	+	9	16
+	+	7	2
+	+	9	0
+	+	6	15
+	+	7	3
+	+	6	3
+	+	7	3
+	+	8	17
+
+> ~/.config/bash/bashrc
+	*	1615159557	0
+	"	41	4
+	.	42	0
+	+	38	38
+	+	21	7
+	+	25	0
+	+	22	50
+	+	25	49
+	+	43	8
+	+	40	18
+	+	38	22
+	+	40	22
+	+	57	25
+	+	58	0
+	+	55	0
+	+	56	53
+	+	57	0
+	+	56	69
+	+	33	38
+	+	38	0
+	+	46	0
+	+	43	0
+	+	45	0
+	+	44	0
+	+	37	41
+	+	23	47
+	+	34	24
+	+	36	7
+	+	35	27
+	+	37	24
+	+	38	24
+	+	40	24
+	+	39	42
+	+	24	49
+	+	37	20
+	+	39	20
+	+	36	20
+	+	43	20
+	+	45	18
+	+	43	18
+	+	45	21
+	+	43	0
+	+	45	27
+	+	43	18
+	+	43	0
+	+	43	5
+	+	43	0
+	+	43	21
+	+	35	0
+	+	41	19
+	+	43	25
+	+	45	18
+	+	44	19
+	+	41	17
+	+	43	18
+	+	44	17
+	+	45	18
+	+	34	4
+	+	41	0
+	+	43	5
+	+	41	0
+	+	41	10
+	+	26	51
+	+	41	10
+	+	43	0
+	+	43	10
+	+	41	47
+	+	43	0
+	+	41	43
+	+	38	20
+	+	40	20
+	+	38	20
+	+	17	0
+	+	41	18
+	+	16	35
+	+	41	18
+	+	43	26
+	+	41	17
+	+	43	18
+	+	41	19
+	+	43	19
+	+	34	16
+	+	36	0
+	+	41	18
+	+	43	0
+	+	41	18
+	+	43	0
+	+	41	21
+	+	43	9
+	+	41	21
+	+	43	19
+	+	41	18
+	+	43	18
+	+	43	0
+	+	41	19
+	+	43	0
+	+	41	0
+	+	42	9
+	+	42	0
+	+	41	5
+	+	42	26
+	+	41	4
+	+	42	0
+
+> ~/.config/dunst/dunstrc
+	*	1615159303	0
+	"	7	26
+	.	7	26
+	+	7	26
+
+> ~/.config/alacritty/alacritty.yml
+	*	1615158856	0
+	"	1	0
+	^	81	24
+	.	81	0
+	+	99	4
+	+	100	4
+	+	101	4
+	+	100	0
+	+	103	4
+	+	102	0
+	+	104	25
+	+	105	25
+	+	111	0
+	+	115	2
+	+	116	2
+	+	117	2
+	+	116	17
+	+	117	23
+	+	121	22
+	+	120	2
+	+	121	2
+	+	132	0
+	+	131	2
+	+	142	0
+	+	152	0
+	+	155	0
+	+	156	0
+	+	171	0
+	+	172	2
+	+	173	2
+	+	174	2
+	+	175	0
+	+	177	0
+	+	180	2
+	+	182	2
+	+	179	0
+	+	181	0
+	+	184	0
+	+	186	2
+	+	187	0
+	+	192	4
+	+	188	0
+	+	201	15
+	+	203	0
+	+	204	0
+	+	205	0
+	+	204	0
+	+	203	0
+	+	209	2
+	+	212	0
+	+	214	0
+	+	216	2
+	+	220	23
+	+	223	0
+	+	222	2
+	+	223	4
+	+	228	4
+	+	229	0
+	+	232	0
+	+	253	0
+	+	254	0
+	+	272	0
+	+	271	0
+	+	273	0
+	+	289	0
+	+	290	0
+	+	374	0
+	+	275	0
+	+	274	0
+	+	273	0
+	+	271	0
+	+	270	1
+	+	214	0
+	+	88	0
+	+	89	2
+	+	90	2
+	+	121	21
+	+	299	2
+	+	348	2
+	+	361	3
+	+	142	0
+	+	143	0
+	+	142	2
+	+	77	8
+	+	9	8
+	+	10	8
+	+	84	4
+	+	85	4
+	+	84	0
+	+	121	20
+	+	143	0
+	+	120	0
+	+	89	0
+	+	80	2
+	+	95	19
+	+	63	9
+	+	142	2
+	+	143	2
+	+	142	3
+	+	143	0
+	+	63	9
+	+	122	0
+	+	63	9
+	+	81	0
 
 > ~/.config/bash/functions/__cb_utils_print.sh
-	*	1614464563	0
-	"	19	2
-	.	40	16
-	+	39	18
-	+	40	16
+	*	1615155533	0
+	"	28	2
 
-> ~/Documents/dotfiles/bin/stow.sh
-	*	1614464455	0
-	"	3	0
-	^	157	24
-	.	157	23
-	+	92	0
-	+	91	0
-	+	92	21
-	+	93	25
-	+	94	27
-	+	95	27
-	+	96	34
-	+	171	10
-	+	99	22
-	+	105	0
-	+	100	29
-	+	101	23
-	+	103	27
-	+	102	29
-	+	103	5
-	+	104	0
-	+	104	33
-	+	103	35
-	+	104	52
-	+	107	0
-	+	155	0
-	+	107	21
-	+	108	27
-	+	110	26
-	+	111	63
-	+	112	0
-	+	111	40
-	+	168	14
-	+	169	11
-	+	114	0
-	+	113	0
-	+	114	18
-	+	115	24
-	+	109	27
-	+	116	24
-	+	117	58
-	+	174	19
-	+	13	0
+> /usr/share/fzf/completion.bash
+	*	1615155486	0
+	"	2	0
+
+> ~/.config/bash/functions/bash_fzf_commands.sh
+	*	1615155480	0
+	"	11	14
+	^	10	15
+	.	10	14
+	+	1	10
+	+	2	0
+	+	3	59
+	+	5	24
+	+	6	63
+	+	7	6
+	+	6	36
+	+	7	6
+	+	6	67
+	+	9	0
+	+	10	14
+
+> /usr/share/fzf/key-bindings.bash
+	*	1615155478	0
+	"	77	0
+
+> ~/.config/bash/bash_history
+	*	1615153497	0
+	"	392	0
+
+> ~/.config/bash/inputrc
+	*	1615152024	0
+	"	9	0
+	^	6	0
+	.	6	0
+	+	7	28
+	+	8	0
+	+	7	0
+	+	5	0
+	+	11	22
 	+	12	0
-	+	15	48
-	+	13	22
-	+	174	32
-	+	175	22
-	+	170	12
-	+	120	0
-	+	119	0
-	+	121	23
-	+	122	25
-	+	123	25
-	+	124	46
-	+	120	19
-	+	135	0
-	+	126	0
-	+	135	18
-	+	136	30
-	+	137	24
-	+	138	47
-	+	139	0
-	+	138	40
-	+	139	40
-	+	140	44
-	+	143	0
-	+	141	0
-	+	142	27
-	+	143	29
-	+	139	0
-	+	143	61
-	+	145	0
-	+	144	0
-	+	145	33
-	+	146	53
-	+	145	49
-	+	146	70
-	+	145	57
-	+	146	74
-	+	147	7
-	+	146	5
-	+	147	45
-	+	149	0
-	+	148	0
-	+	150	51
-	+	149	65
-	+	150	52
-	+	152	0
-	+	151	0
-	+	152	64
-	+	127	0
-	+	134	0
-	+	127	18
-	+	168	11
-	+	128	25
-	+	129	24
-	+	130	24
-	+	131	36
-	+	132	37
-	+	168	0
-	+	164	0
-	+	172	11
-	+	158	0
-	+	157	23
+	+	11	0
+	+	12	0
+	+	3	0
+	+	12	0
+	+	13	0
+	+	3	0
+	+	11	17
+	+	7	0
+	+	9	0
+	+	7	0
+	+	5	0
+	+	6	0
+
+> /usr/share/bash-completion/completions/alacritty
+	*	1615151874	0
+	"	52	0
+
+> /etc/inputrc
+	*	1615151801	0
+	"	34	0
+
+> /usr/share/fzf/completion.
+	*	1615151647	0
+	"	1	0
+
+> ~/Documents/dotfiles/README.md
+	*	1615151377	0
+	"	5	0
+
+> ~/.config/bash/B
+	*	1615143630	0
+	"	1	0
+
+> ~/.config/bash/bash
+	*	1615143454	0
+	"	1	0
 
 > ~/.config/bash/functions/__cb_git_prompt.sh
-	*	1614463242	0
-	"	11	24
-	^	11	26
-	.	11	24
-	+	6	89
-	+	6	55
-	+	6	65
-	+	11	15
-	+	6	0
-	+	11	25
-	+	8	0
-	+	11	24
-
-> ~/.config/bash/functions/__cb_pyenv_prompt.sh
-	*	1614463232	0
-	"	9	19
-	^	9	19
-	.	9	18
-	+	6	89
-	+	6	0
-	+	9	7
-	+	9	0
-	+	11	0
-	+	6	0
-	+	9	18
-
-> ~/.config/bash/functions/__cb_pyenv_prefix.sh
-	*	1614463218	0
-	"	7	23
-	^	5	26
-	.	5	25
-	+	7	22
-	+	8	20
-	+	3	25
-	+	5	25
-
-> ~/.config/bash/functions/__cb_git_prefix.sh
-	*	1614463047	0
-	"	3	19
-	^	3	20
-	.	3	19
-	+	7	0
+	*	1615143378	0
+	"	6	4
+	.	10	0
 	+	10	0
-	+	5	23
-	+	7	19
-	+	3	19
+
+> ~/.config/fish/functions/__cf_char_prompt.fish
+	*	1615142325	0
+	"	13	26
+	^	9	28
+	.	9	21
+	+	4	10
+	+	13	0
+	+	2	0
+	+	7	4
+	+	9	4
+	+	13	30
+	+	9	21
+
+> ~/.config/vim/vimrc
+	*	1615140635	0
+	"	175	0
+	^	107	55
+	.	107	54
+	+	151	68
+	+	70	55
+	+	175	0
+	+	177	0
+	+	145	0
+	+	177	0
+	+	155	71
+	+	155	0
+	+	173	0
+	+	171	6
+	+	155	0
+	+	114	0
+	+	152	70
+	+	153	70
+	+	70	0
+	+	41	0
+	+	173	0
+	+	156	0
+	+	175	16
+	+	177	66
+	+	163	7
+	+	20	0
+	+	87	0
+	+	86	41
+	+	87	48
+	+	87	0
+	+	86	41
+	+	87	0
+	+	108	27
+	+	109	27
+	+	106	52
+	+	13	0
+	+	16	11
+	+	13	14
+	+	16	14
+	+	27	0
+	+	28	8
+	+	27	12
+	+	29	12
+	+	78	0
+	+	79	10
+	+	78	13
+	+	80	13
+	+	78	0
+	+	27	0
+	+	14	0
+	+	13	0
+	+	8	0
+	+	139	0
+	+	140	14
+	+	139	17
+	+	141	17
+	+	142	0
+	+	81	0
+	+	102	0
+	+	100	0
+	+	102	12
+	+	100	32
+	+	101	28
+	+	98	0
+	+	99	0
+	+	98	19
+	+	107	54
 
 > ~/.config/vim/colors/Custom.vim
-	*	1614459468	0
-	"	77	0
-	^	77	69
-	.	77	68
+	*	1615140634	0
+	"	34	0
+	^	40	70
+	.	40	69
 	+	75	66
 	+	76	26
 	+	77	93
 	+	77	68
+	+	123	58
+	+	29	68
+	+	36	0
+	+	40	69
 
-> ~/.config/vim/plugin/StatusLine.vim
-	*	1614457700	0
-	"	144	4
-	^	98	43
-	.	144	0
+> ~/.config/vim/plugin/Abbreviations.vim
+	*	1615139224	0
+	"	1	0
+	^	14	26
+	.	37	0
+	+	48	0
+	+	21	0
+	+	21	23
+	+	15	18
+	+	1	0
+	+	15	33
+	+	19	0
+	+	16	0
+	+	19	0
+	+	16	33
+	+	1	0
+	+	14	0
+	+	15	0
+	+	21	0
+	+	17	0
+	+	48	0
+	+	17	20
+	+	21	21
+	+	22	21
+	+	23	19
+	+	48	0
+	+	21	0
+	+	20	16
+	+	21	0
+	+	19	0
+	+	5	0
+	+	6	0
+	+	24	0
+	+	25	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	25	27
+	+	28	26
+	+	29	28
+	+	30	21
+	+	31	27
+	+	32	29
+	+	33	0
+	+	33	27
+	+	35	27
+	+	37	0
+	+	37	31
+	+	38	31
+	+	39	0
+	+	37	23
+	+	38	22
+	+	39	32
+	+	40	33
+	+	41	31
+	+	42	33
+	+	43	31
+	+	46	25
+	+	47	30
+	+	37	0
+	+	36	0
+	+	37	29
+	+	37	0
+	+	34	0
+	+	37	0
+	+	44	0
+	+	48	0
+	+	27	0
+	+	26	31
+	+	15	0
+	+	44	25
+	+	18	23
+	+	17	21
+	+	16	23
+	+	15	23
+	+	14	25
+	+	12	0
+	+	37	0
+
+> ~/Documents/learn/intro-ai/ai50/projects/Search/tictactoe/runner.py
+	*	1615135760	0
+	"	146	4
+
+> ~/Documents/learn/intro-ai/ai50/projects/Search/tictactoe/tictactoe.py
+	*	1615125109	0
+	"	1	0
+
+> ~/Documents/learn/data-structures/data-structures/src/tree.c
+	*	1615075559	0
+	"	88	16
+	.	88	0
+	+	23	31
+	+	25	17
+	+	16	33
+	+	23	19
+	+	22	0
+	+	21	18
+	+	22	20
+	+	21	25
+	+	22	27
+	+	51	45
+	+	51	0
+	+	59	27
+	+	16	52
+	+	22	28
+	+	23	0
+	+	19	0
+	+	23	23
+	+	22	27
+	+	16	33
+	+	59	34
+	+	59	0
+	+	55	0
+	+	59	0
+	+	51	0
+	+	50	73
+	+	16	10
+	+	84	13
+	+	28	70
+	+	37	0
+	+	31	37
+	+	37	24
+	+	37	0
+	+	37	7
+	+	32	40
+	+	35	29
+	+	33	41
+	+	34	30
+	+	28	0
+	+	33	39
+	+	34	46
+	+	30	31
+	+	32	0
+	+	38	0
+	+	39	16
+	+	40	36
+	+	41	37
+	+	34	46
+	+	76	28
+	+	74	41
+	+	79	36
+	+	20	0
+	+	59	54
+	+	59	0
+	+	54	0
+	+	53	0
+	+	59	0
+	+	56	0
+	+	28	45
+	+	28	0
+	+	59	0
+	+	57	0
+	+	28	19
+	+	57	22
+	+	45	57
+	+	47	30
+	+	58	34
+	+	59	0
+	+	58	20
+	+	52	0
+	+	28	11
+	+	57	14
+	+	28	36
+	+	30	19
+	+	31	45
+	+	41	0
+	+	89	41
+	+	94	0
+	+	90	0
+	+	94	0
+	+	90	53
+	+	91	88
+	+	93	0
+	+	94	0
+	+	92	23
+	+	93	0
+	+	92	50
+	+	91	0
+	+	96	62
+	+	89	25
+	+	96	60
+	+	56	1
+	+	56	0
+	+	57	26
+	+	95	40
+	+	97	0
+	+	98	0
+	+	84	14
+	+	96	0
+	+	98	0
+	+	88	0
+
+> ~/Documents/learn/data-structures/data-structures/src/main.c
+	*	1615075541	0
+	"	28	8
+	^	11	4
+	.	11	3
+	+	27	25
+	+	29	0
+	+	22	0
+	+	11	16
+	+	21	15
+	+	14	14
+	+	14	25
+	+	14	31
+	+	14	0
+	+	13	0
+	+	14	0
+	+	21	0
+	+	15	0
+	+	13	15
+	+	14	24
+	+	15	36
+	+	17	34
+	+	16	28
+	+	17	37
+	+	15	53
+	+	27	37
+	+	29	0
+	+	21	0
+	+	5	15
+	+	20	0
+	+	11	12
+	+	27	23
+	+	11	12
+	+	14	21
+	+	14	0
+	+	15	0
+	+	14	20
+	+	21	21
+	+	19	39
+	+	18	27
+	+	19	55
+	+	18	34
+	+	19	56
+	+	20	0
+	+	18	0
+	+	27	28
+	+	19	0
+	+	18	16
+	+	28	16
+	+	26	0
+	+	27	23
+	+	11	43
+	+	14	0
+	+	52	0
+	+	21	0
+	+	11	3
+
+> ~/.config/fish/functions/fish_user_key_bindings.fish
+	*	1615075480	0
+	"	7	0
+	.	7	0
+	+	7	0
+
+> ~/Documents/learn/data-structures/data-structures/CMakeLists.txt
+	*	1615064869	0
+	"	22	0
+	.	22	0
+	+	22	0
+
+> ~/Documents/learn/data-structures/data-structures/include/tree.h
+	*	1615064272	0
+	"	18	13
+	^	18	14
+	.	18	13
+	+	12	0
+	+	21	0
+	+	12	0
+	+	22	0
+	+	4	0
+	+	3	0
+	+	11	0
+	+	12	24
+	+	12	0
+	+	21	19
+	+	7	23
+	+	10	0
+	+	12	24
+	+	21	0
+	+	13	24
+	+	14	19
+	+	14	13
+	+	14	0
+	+	9	14
+	+	9	0
+	+	13	24
+	+	9	0
+	+	8	0
+	+	16	0
+	+	15	0
+	+	16	29
+	+	5	13
+	+	17	33
+	+	19	82
+	+	19	3
+	+	17	0
+	+	20	0
+	+	18	13
+
+> ~/.config/polybar/launch.sh
+	*	1615063740	0
+	"	1	0
+
+> ~/.scripts/tlbx/tlbx_monitors_functions.sh
+	*	1615063683	0
+	"	56	0
+	.	56	0
+	+	43	30
+	+	33	0
+	+	40	42
+	+	5	18
+	+	13	18
+	+	17	18
+	+	21	18
+	+	25	19
+	+	26	21
+	+	27	23
+	+	28	25
+	+	43	0
+	+	2	0
+	+	3	73
+	+	1	10
+	+	34	39
+	+	35	39
+	+	36	0
+	+	41	0
+	+	33	6
+	+	34	6
+	+	35	6
+	+	36	6
+	+	40	6
+	+	41	6
+	+	26	2
+	+	27	2
+	+	22	2
+	+	18	2
+	+	14	2
+	+	6	2
+	+	33	50
+	+	43	8
+	+	33	0
+	+	32	0
+	+	39	0
+	+	43	0
+	+	25	25
+	+	44	0
+	+	45	24
+	+	50	0
+	+	56	0
+
+> ~/.scripts/tlbx/tlbx_monitors_display.sh
+	*	1615063571	0
+	"	7	0
+	.	19	0
+	+	1	10
+	+	2	0
+	+	3	127
+	+	22	0
+	+	23	0
+	+	7	0
+	+	4	0
+	+	7	0
+	+	8	17
+	+	14	0
+	+	23	0
+	+	14	1
+	+	15	0
+	+	7	0
+	+	9	1
+	+	10	0
+	+	12	0
+	+	6	40
+	+	14	0
+	+	13	0
+	+	15	0
+	+	16	0
+	+	18	0
+	+	17	0
+	+	14	49
+	+	21	3
+	+	17	33
+	+	14	38
+	+	17	38
+	+	14	33
+	+	17	33
+	+	19	2
+	+	18	0
+	+	19	0
+
+> ~/Documents/dotfiles/bin/update.sh
+	*	1615062397	0
+	"	45	9
+	^	121	18
+	.	121	17
+	+	91	0
+	+	123	0
+	+	9	0
+	+	42	33
+	+	97	37
+	+	41	57
+	+	42	52
+	+	42	58
+	+	42	65
+	+	42	57
+	+	42	56
+	+	43	0
+	+	48	0
+	+	44	24
+	+	47	0
+	+	46	28
+	+	47	0
+	+	123	14
+	+	16	1
+	+	14	1
+	+	9	1
+	+	1	10
+	+	2	0
+	+	3	21
+	+	20	0
+	+	34	0
+	+	41	0
+	+	46	0
+	+	50	0
+	+	16	56
+	+	42	0
+	+	41	48
+	+	56	0
+	+	57	3
+	+	58	4
+	+	59	4
+	+	60	4
+	+	69	2
+	+	73	2
+	+	77	2
+	+	81	2
+	+	85	2
+	+	89	0
+	+	94	0
+	+	122	0
+	+	123	0
+	+	106	0
+	+	122	0
+	+	107	0
+	+	124	3
+	+	97	6
+	+	40	37
+	+	45	38
+	+	51	38
+	+	35	29
+	+	15	9
+	+	96	9
+	+	13	9
+	+	14	49
+	+	9	48
+	+	8	36
+	+	101	0
+	+	100	0
+	+	101	24
+	+	102	0
+	+	103	0
+	+	102	27
+	+	102	65
+	+	121	17
+
+> ~/.config/lemonbar/launch_lemon.sh
+	*	1615061815	0
+	"	4	0
+	.	5	0
+	+	5	0
+
+> ~/.config/lemonbar/tmp/exq
+	*	1615056548	0
+	"	1	0
+
+> ~/.config/vim/plugin/Terminal.vim
+	*	1615049354	0
+	"	23	61
+	^	23	62
+	.	23	61
+	+	14	51
+	+	23	61
+
+> /usr/share/vim/vim82/doc/scroll.txt
+	*	1615049236	0
+	"	89	3
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/usb/FULLY_CONNECTED_relu_640K/Results.csv
+	*	1615046101	0
+	"	1	0
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/edge/mobilenet00-03_08-11_16-19_24-27opt/Firsts.csv
+	*	1615038779	0
+	"	1	0
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/edge/mobilenet00-03_08-11_16-19_24-27opt/Results.csv
+	*	1615038775	0
+	"	1	0
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/shark.py
+	*	1615038668	0
+	"	984	8
+	^	1002	34
+	.	997	0
+	+	985	0
+	+	807	0
+	+	815	0
+	+	852	0
+	+	741	30
+	+	981	55
+	+	741	20
+	+	709	79
+	+	713	0
+	+	712	0
+	+	126	0
+	+	126	26
+	+	126	31
+	+	126	33
+	+	126	31
+	+	126	12
+	+	126	46
+	+	741	40
+	+	741	0
+	+	741	52
+	+	741	53
+	+	741	56
+	+	741	0
+	+	126	29
+	+	126	35
+	+	126	47
+	+	1113	42
+	+	126	0
+	+	126	66
+	+	741	0
+	+	741	27
+	+	981	51
+	+	126	0
+	+	741	0
+	+	709	58
+	+	725	27
+	+	729	25
+	+	811	23
+	+	812	19
+	+	819	0
+	+	818	0
+	+	820	19
+	+	810	0
+	+	839	27
+	+	840	23
+	+	874	27
+	+	875	23
+	+	858	25
+	+	894	27
+	+	895	23
+	+	914	27
+	+	915	23
+	+	920	23
+	+	919	0
+	+	921	19
+	+	125	66
+	+	789	79
+	+	815	27
+	+	852	0
+	+	1113	38
+	+	815	0
+	+	852	0
+	+	791	0
+	+	933	0
+	+	933	30
+	+	933	0
+	+	933	7
+	+	933	0
+	+	933	34
+	+	933	3
+	+	933	35
+	+	614	25
+	+	615	7
+	+	614	26
+	+	616	8
+	+	617	7
+	+	616	8
+	+	985	41
+	+	614	0
+	+	613	0
+	+	815	27
+	+	789	58
+	+	125	61
+	+	933	0
+	+	615	35
+	+	815	0
+	+	1003	91
+	+	1003	39
+	+	998	31
+	+	1003	11
+	+	1001	16
+	+	1000	39
+	+	1001	8
+	+	998	0
+	+	999	11
+	+	1002	33
+	+	1004	0
+	+	997	0
+	o	960	36
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/__vista__
+	*	1615038667	0
+	"	1	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/plot.py
+	*	1615038661	0
+	"	327	4
+	^	39	23
+	.	39	22
+	+	268	0
+	+	285	0
+	+	297	0
+	+	285	54
+	+	286	55
+	+	285	59
+	+	286	59
+	+	287	59
+	+	288	59
+	+	289	59
+	+	296	0
+	+	291	56
+	+	292	0
+	+	293	0
+	+	294	0
+	+	295	0
+	+	292	57
+	+	293	50
+	+	290	0
+	+	294	51
+	+	245	0
+	+	45	0
+	+	51	0
+	+	245	31
+	+	64	0
+	+	19	0
+	+	26	0
+	+	3	0
+	+	11	0
+	+	10	0
+	+	11	0
+	+	56	38
+	+	58	51
+	+	59	52
+	+	60	38
+	+	61	46
+	+	62	46
+	+	56	0
+	+	50	0
+	+	277	0
+	+	161	0
+	+	162	0
+	+	163	0
 	+	164	0
-	+	157	0
-	+	160	4
-	+	158	0
+	+	165	0
+	+	177	0
 	+	178	0
-	+	177	4
-	+	176	0
-	+	98	42
-	+	141	0
-	+	140	0
-	+	144	0
+	+	179	0
+	+	180	0
+	+	181	0
+	+	193	0
+	+	194	0
+	+	195	0
+	+	196	0
+	+	197	0
+	+	209	0
+	+	210	0
+	+	211	0
+	+	212	0
+	+	213	0
+	+	225	0
+	+	226	0
+	+	227	0
+	+	228	0
+	+	325	32
+	+	152	39
+	+	119	107
+	+	120	49
+	+	134	0
+	+	332	73
+	+	334	0
+	+	295	30
+	+	296	0
+	+	295	34
+	+	336	0
+	+	295	51
+	+	46	25
+	+	285	61
+	+	286	62
+	+	287	63
+	+	286	64
+	+	285	64
+	+	287	64
+	+	288	63
+	+	289	63
+	+	288	64
+	+	289	64
+	+	283	39
+	+	283	0
+	+	282	32
+	+	281	75
+	+	282	69
+	+	40	0
+	+	31	90
+	+	40	20
+	+	21	54
+	+	23	80
+	+	39	22
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/usb/mobilenet00-09_21-30opt_4.4M/Results.csv
+	*	1614985560	0
+	"	2	0
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/usb/mobilenet00-09_21-30opt_4.4M/Firsts.csv
+	*	1614985559	0
+	"	6	0
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/edge/mobilenet00-09_21-30opt/Firsts.csv
+	*	1614985273	0
+	"	5	0
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/edge/mobilenet00-09_21-30opt/Results.csv
+	*	1614985272	0
+	"	1	0
+
+> ~/.config/vim/after/syntax/python.vim
+	*	1614984357	0
+	"	28	75
+	^	28	76
+	.	28	75
+	+	18	33
+	+	39	0
+	+	39	75
+	+	18	56
+	+	39	75
+	+	31	0
+	+	32	73
+	+	39	0
+	+	34	75
+	+	29	0
+	+	28	0
+	+	33	0
+	+	32	73
+	+	33	75
+	+	32	73
+	+	33	75
+	+	38	78
+	+	32	73
+	+	33	75
+	+	38	78
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	4	29
+	+	5	30
+	+	7	28
+	+	6	32
+	+	11	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	12	30
+	+	13	30
+	+	14	30
+	+	15	29
+	+	16	0
+	+	39	0
+	+	40	0
+	+	43	0
+	+	40	0
+	+	16	30
+	+	28	75
+
+> ~/Documents/work/TensorDSE/shark/shark
+	*	1614983124	0
+	"	10	0
+
+> ~/Documents/learn/intro-ai/ai50/projects/Search/degrees/degrees.py
+	*	1614974753	0
+	"	1	0
+
+> /usr/share/tlbx_monitors_display.sh
+	*	1614965195	0
+	"	1	0
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/usb/mobilenet00-07_16-23opt_4.3M/Firsts.csv
+	*	1614957842	0
+	"	2	2
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/usb/mobilenet00-07_16-23opt_4.3M/Results.csv
+	*	1614957453	0
+	"	2	199
+
+> ~/.mozilla/firefox/pjb9jim6.default-release/chrome/userChrome.css
+	*	1614957199	0
+	"	19	16
+	.	19	16
+	+	19	16
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/edge/mobilenet00-07_16-23opt/Results.csv
+	*	1614954900	0
+	"	2	5
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/edge/mobilenet00-07_16-23opt/Firsts.csv
+	*	1614954889	0
+	"	2	0
+
+> ~/Documents/work/TensorDSE/docker/docker
+	*	1614954663	0
+	"	57	0
+
+> ~/Documents/work/pycoral/examples/install_requirements.sh
+	*	1614954275	0
+	"	1	0
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/edge/SOFTMAX/Results.csv
+	*	1614951023	0
+	"	1	0
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/usb/SOFTMAX_44K/Firsts.csv
+	*	1614948044	0
+	"	2	0
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/edge/SOFTMAX/Firsts.csv
+	*	1614944883	0
+	"	1	0
+
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/edge/SOFTMAX/Temp.csv
+	*	1614944866	0
+	"	1	0
+
+> /usr/share/vim/vim82/doc/cmdline.txt
+	*	1614906171	0
+	"	116	0
+
+> /usr/share/vim/vim82/doc/editing.txt
+	*	1614906015	0
+	"	275	7
+
+> /usr/share/vim/vim82/doc/gui_w32.txt
+	*	1614905942	0
+	"	258	27
+
+> /usr/share/vim/vim82/doc/motion.txt
+	*	1614905896	0
+	"	164	23
+
+> ~/.config/gdb/init
+	*	1614905688	0
+	"	1	0
+	^	41	2
+	.	41	1
+	+	23	1
+	+	30	1
+	+	37	1
+	+	41	1
+
+> ~/Documents/learn/data-structures/starters/starters_edx/week1_basic_data_structures_starters/tree_height/tree-height.cpp
+	*	1614904071	0
+	"	41	0
 
 > ~/.config/polybar/config.ini
-	*	1614452474	0
-	"	30	15
+	*	1614896154	0
+	"	3	0
 	^	41	67
-	.	30	15
+	.	16	10
 	+	39	21
 	+	16	10
 	+	55	0
@@ -1919,53 +2799,11 @@ $med
 	+	41	66
 	+	16	10
 	+	30	15
-
-> ~/.config/polybar/modules/bspwm.ini
-	*	1614452437	0
-	"	5	42
-	^	6	46
-	.	6	45
-	+	24	0
-	+	4	0
-	+	5	41
-	+	6	45
-
-> ~/.xprofile
-	*	1614450782	0
-	"	44	18
-	.	44	18
-	+	44	18
-
-> ~/.config/picom/picom.conf
-	*	1614450754	0
-	"	29	4
-
-> ~/.config/polybar/fonts.ini
-	*	1614450407	0
-	"	16	14
-	^	16	15
-	.	16	14
-	+	16	31
-	+	16	20
-	+	16	30
-	+	16	0
-	+	16	63
-	+	16	65
-	+	16	0
-	+	14	0
-	+	11	53
-	+	10	17
-	+	8	53
-	+	10	11
-	+	16	0
-	+	15	0
 	+	16	10
-	+	17	57
-	+	16	14
 
 > ~/.config/polybar/scripts/poly_clock.sh
-	*	1614450394	0
-	"	9	13
+	*	1614896150	0
+	"	7	0
 	^	15	42
 	.	8	13
 	+	19	6
@@ -1983,8 +2821,8 @@ $med
 	+	8	13
 
 > ~/.config/polybar/modules_c/custom_clock.ini
-	*	1614450075	0
-	"	6	38
+	*	1614896117	0
+	"	13	9
 	^	6	39
 	.	6	38
 	+	1	19
@@ -1997,708 +2835,51 @@ $med
 	+	4	10
 	+	6	38
 
-> ~/Documents/dotfiles/bars/polybar/fonts.ini
-	*	1614449706	0
-	"	1	0
-
-> ~/.config/polybar/scripts/poly_battery.sh
-	*	1614449329	0
-	"	9	2
-	^	27	2
-	.	12	0
-	+	1	10
-	+	2	0
-	+	3	47
-	+	10	2
-	+	11	2
-	+	12	2
-	+	15	2
-	+	16	2
-	+	17	2
-	+	20	2
-	+	21	2
-	+	22	2
-	+	25	2
-	+	26	2
-	+	27	2
-	+	12	0
-
-> ~/.config/polybar/scripts/*clock
-	*	1614449231	0
-	"	1	0
-
-> ~/.config/polybar/modules/date.ini
-	*	1614449137	0
-	"	4	18
-
-> ~/.config/polybar/include.ini
-	*	1614447884	0
-	"	17	0
-	^	13	59
-	.	17	0
-	+	1	17
-	+	2	0
-	+	12	16
-	+	1	25
-	+	12	24
-	+	1	15
-	+	13	58
-	+	17	0
-
-> ~/.config/polybar/modules_c/custom_battery.ini
-	*	1614447732	0
-	"	13	0
-	.	13	0
-	+	15	12
-	+	7	0
-	+	6	40
-	+	7	0
-	+	8	0
-	+	4	0
-	+	5	0
-	+	4	0
-	+	13	0
-
-> ~/.config/lemonbar/modules/lemon_wifi.sh
-	*	1614447715	0
-	"	17	3
-	^	1	11
-	.	1	10
-	+	20	0
-	+	3	5
-	+	19	0
-	+	20	0
-	+	12	3
-	+	12	0
-	+	19	0
-	+	12	0
-	+	12	64
-	+	13	31
-	+	12	0
-	+	10	0
-	+	14	11
-	+	11	8
-	+	14	27
-	+	8	0
-	+	14	29
-	+	17	0
-	+	18	17
-	+	14	40
-	+	16	17
-	+	13	24
-	+	18	10
-	+	5	0
-	+	8	0
-	+	12	0
-	+	9	0
-	+	14	3
-	+	16	3
-	+	2	0
-	+	1	10
-
-> ~/.config/polybar/scripts/poly_wifi.sh
-	*	1614447714	0
-	"	12	8
-	^	12	9
-	.	12	8
-	+	1	10
-	+	2	0
-	+	3	41
-	+	6	0
-	+	10	2
-	+	12	2
-	+	5	0
-	+	9	0
-	+	12	8
-
-> ~/.config/polybar/modules_c/custom_wifi.ini
-	*	1614447594	0
-	"	1	0
-	^	5	1
-	.	5	0
-	+	16	11
-	+	8	0
-	+	5	0
-
-> ~/.config/polybar/modules_c/custom_bluetooth.ini
-	*	1614447543	0
-	"	14	11
-	^	14	12
-	.	14	11
-	+	14	11
-
-> ~/.config/polybar/modules_c/custom_xwindow.ini
-	*	1614447511	0
-	"	17	0
-	^	8	0
-	.	18	0
-	+	5	0
-	+	8	0
-	+	13	0
-	+	16	0
-	+	18	0
-
-> ~/.config/polybar/modules_c/custom_power.ini
-	*	1614447285	0
-	"	20	0
-
-> ~/.config/polybar/modules_c/custom_menu.ini
-	*	1614447258	0
-	"	11	0
-	.	16	23
-	+	12	22
-	+	16	23
-
-> ~/.config/polybar/colors.ini
-	*	1614447098	0
-	"	9	0
-	^	3	24
-	.	9	0
-	+	4	0
-	+	3	0
-	+	4	0
-	+	6	0
-	+	7	0
-	+	6	0
-	+	9	0
-	+	10	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	3	23
-	+	4	0
-	+	9	0
-
-> ~/.config/polybar/modules_c/custom_text.ini
-	*	1614446874	0
+> /etc/lightdm/lightdm-gtk-greeter.conf
+	*	1614895861	0
 	"	5	0
 
-> ~/.config/polybar/include_modules.ini
-	*	1614446292	0
-	"	1	0
-	^	10	45
-	.	1	0
-	+	11	50
-	+	12	0
-	+	8	0
-	+	10	44
-	+	11	0
-	+	1	0
+> /etc/lightdm/lightdm.conf
+	*	1614895860	0
+	"	74	57
+	^	74	58
+	.	74	57
+	+	74	57
 
-> ~/Documents/sckless/tabbed/config.h
-	*	1614437233	0
-	"	53	1
-	^	46	33
-	.	46	33
-	+	7	41
-	+	11	36
-	+	8	0
-	+	20	31
-	+	66	0
-	+	30	0
-	+	34	0
-	+	35	0
-	+	5	41
-	+	6	41
-	+	7	41
-	+	66	28
-	+	35	25
-	+	66	0
-	+	70	60
-	+	69	9
-	+	70	50
-	+	35	22
-	+	62	0
-	+	63	0
-	+	62	0
-	+	60	0
-	+	61	0
-	+	4	48
-	+	62	43
-	+	63	37
-	+	70	0
-	+	63	63
-	+	68	0
-	+	63	37
-	+	44	36
-	+	45	36
-	+	42	36
-	+	43	36
-	+	42	36
-	+	43	36
-	+	42	32
-	+	43	0
-	+	46	33
+> /usr/share/lightdm-gtk-greeter-settings/MultiheadSetupDialog.ui
+	*	1614894542	0
+	"	59	16
 
-> ~/.config/bspwm/scripts/bspwm_border_change.sh
-	*	1614433714	0
-	"	21	0
-	^	1	11
-	.	1	10
-	+	3	0
-	+	2	0
-	+	3	43
-	+	23	15
-	+	25	3
-	+	26	4
-	+	27	4
-	+	29	4
-	+	30	5
-	+	31	6
-	+	32	4
-	+	34	0
-	+	36	7
-	+	37	0
-	+	30	5
-	+	19	1
-	+	20	1
-	+	14	0
-	+	1	10
+> ~/.xprofile
+	*	1614893551	0
+	"	48	0
+	.	44	18
+	+	44	18
 
-> ~/.config/bspwm/scripts/bspwm_node_focus_manager.sh
-	*	1614433692	0
-	"	19	6
-	^	1	11
-	.	1	10
-	+	31	15
-	+	33	0
-	+	32	1
-	+	35	3
-	+	28	1
-	+	27	6
-	+	26	6
-	+	24	6
-	+	23	10
-	+	22	6
-	+	22	10
-	+	20	14
-	+	19	10
-	+	18	10
-	+	6	2
-	+	7	2
-	+	9	2
-	+	10	2
-	+	11	3
-	+	12	4
-	+	13	4
-	+	15	4
-	+	16	6
-	+	18	5
-	+	19	6
-	+	20	7
-	+	22	0
-	+	21	5
-	+	22	4
-	+	23	5
-	+	24	4
-	+	26	4
-	+	27	4
-	+	2	0
-	+	3	79
-	+	1	10
-
-> ~/.config/bspwm/scripts/bspwm_transparent_monocle.sh
-	*	1614433688	0
-	"	78	3
-	^	1	11
-	.	1	10
-	+	2	0
-	+	3	28
-	+	63	1
-	+	64	3
-	+	65	5
-	+	66	6
-	+	67	6
-	+	68	6
-	+	70	3
-	+	71	5
-	+	72	6
-	+	73	8
-	+	74	6
-	+	75	8
-	+	76	6
-	+	77	6
-	+	79	6
-	+	80	8
-	+	81	8
-	+	42	1
-	+	43	3
-	+	44	6
-	+	45	6
-	+	46	6
-	+	47	6
-	+	48	6
-	+	50	4
-	+	51	5
-	+	52	6
-	+	53	6
-	+	54	6
-	+	55	6
-	+	56	2
-	+	58	2
-	+	59	2
-	+	3	86
-	+	15	1
-	+	16	3
-	+	17	5
-	+	18	6
-	+	19	7
-	+	20	9
-	+	21	8
-	+	22	8
-	+	23	6
-	+	22	6
-	+	24	6
-	+	26	4
-	+	27	5
-	+	28	6
-	+	29	7
-	+	30	9
-	+	31	8
-	+	32	6
-	+	33	6
-	+	34	6
-	+	35	2
-	+	37	2
-	+	38	2
-	+	1	10
-
-> ~/.config/dunst/dunstrc
-	*	1614431949	0
-	"	15	18
-	^	16	26
-	.	15	18
-	+	16	25
-	+	15	18
-
-> ~/.config/fish/functions/__cf_pyenv_prompt.fish
-	*	1614387743	0
-	"	2	23
-	^	2	30
-	.	2	23
-	+	2	1
-	+	3	2
-	+	5	2
-	+	6	6
-	+	7	6
-	+	9	6
-	+	10	2
-	+	6	4
-	+	7	4
-	+	9	4
-	+	5	1
-	+	2	23
-
-> ~/.config/fish/functions/__cf_git_prompt.fish
-	*	1614387726	0
-	"	5	21
-	^	5	28
-	.	5	21
-	+	2	0
-	+	3	0
-	+	2	1
-	+	17	4
-	+	19	4
-	+	20	5
-	+	21	5
-	+	22	7
-	+	23	7
-	+	25	8
-	+	26	8
-	+	27	9
-	+	28	10
-	+	29	10
-	+	30	8
-	+	31	4
-	+	30	6
-	+	33	4
-	+	5	1
-	+	26	6
-	+	27	8
-	+	28	8
-	+	29	0
-	+	33	3
-	+	5	21
-
-> ~/.config/fish/functions/__cf_path_prompt.fish
-	*	1614387636	0
-	"	5	22
-	^	5	29
-	.	5	22
-	+	2	1
-	+	4	2
-	+	5	2
-	+	6	2
-	+	8	0
-	+	2	1
-	+	4	1
-	+	8	1
-	+	6	25
-	+	4	48
-	+	6	26
-	+	4	48
-	+	5	22
-
-> ~/.config/fish/functions/__cf_char_prompt.fish
-	*	1614379137	0
-	"	6	21
-	^	9	28
-	.	9	21
-	+	4	10
-	+	13	0
-	+	2	0
-	+	7	4
-	+	9	4
-	+	13	30
-	+	9	21
-
-> ~/.config/fish/functions/__cf_user_prompt.fish
-	*	1614378868	0
-	"	3	2
-	^	3	27
-	.	3	20
-	+	1	0
-	+	3	0
-	+	2	9
-	+	1	40
-	+	3	0
-	+	3	9
-	+	2	20
-	+	3	0
+> ~/Documents/learn/data-structures/data-structures/include/main.h
+	*	1614881447	0
+	"	5	0
+	.	4	0
 	+	4	0
-	+	2	19
-	+	3	20
-	+	6	45
-	+	3	20
 
-> ~/.config/fish/functions/fish_prompt.fish
-	*	1614378805	0
-	"	6	10
-	^	6	11
-	.	6	10
-	+	12	3
-	+	8	19
-	+	8	0
-	+	9	0
-	+	10	0
-	+	4	39
-	+	10	12
-	+	9	13
-	+	12	0
-	+	8	11
-	+	2	0
-	+	8	0
-	+	11	0
-	+	8	0
-	+	7	2
-	+	8	1
-	+	9	2
-	+	7	2
-	+	8	3
-	+	7	3
-	+	9	2
-	+	7	2
-	+	9	2
-	+	7	2
-	+	9	3
-	+	2	1
-	+	7	2
-	+	2	11
-	+	6	10
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/edge/CONV_2D/Results.csv
+	*	1614863277	0
+	"	2	21
+	^	1	1
+	.	1	0
+	+	1	0
 
-> ~/.config/vim/syntax/fish.vim
-	*	1614377882	0
-	"	105	78
-	^	105	79
-	.	105	78
-	+	105	78
-
-> ~/.config/vim/ftdetect/PKGBUILD.vim
-	*	1614377846	0
-	"	1	0
-
-> ~/.config/fish/conf.d/fish_space.fish
-	*	1614377155	0
-	"	3	1
-	^	3	2
-	.	3	1
-	+	2	0
-	+	3	1
-
-> ~/.config/fish/functions/__cf_status_value.fish
-	*	1614376736	0
-	"	2	18
-	^	1	19
-	.	1	18
-	+	2	0
-	+	3	0
-	+	4	4
-	+	6	4
-	+	8	0
-	+	2	0
-	+	8	0
-	+	1	18
-
-> ~/.config/fish/functions/fish_user_key_bindings.fish
-	*	1614376450	0
-	"	3	1
-	^	6	2
-	.	6	2
-	+	2	2
-	+	5	2
-	+	6	2
-
-> ~/.config/fish/functions/fish_colorscheme.fish
-	*	1614376418	0
-	"	1	0
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/usb/CONV_2D_52K/Results.csv
+	*	1614863272	0
+	"	2	108
 	^	2	2
 	.	2	1
 	+	2	1
 
-> ~/.config/fish/functions/__cf_utils_print.fish
-	*	1614376357	0
-	"	2	0
-	.	2	0
-	+	2	0
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/usb/MAX_POOL_2D_36K/Results.csv
+	*	1614863244	0
+	"	3	0
 
-> ~/.config/fish/functions/__cf_utils_path_parse.fish
-	*	1614376325	0
-	"	2	0
-	^	2	25
-	.	2	0
-	+	1	30
-	+	2	24
-	+	4	0
-	+	3	0
-	+	4	0
-	+	2	0
-
-> ~/.config/fish/functions/__cf_utils_git_settings.fish
-	*	1614376313	0
-	"	2	2
-	^	1	20
-	.	1	19
-	+	2	0
-	+	1	19
-
-> ~/.config/fish/functions/__cf_utils_git_parse.fish
-	*	1614376302	0
-	"	2	0
-	.	2	0
-	+	1	9
-	+	2	0
-
-> ~/.config/vim/ftdetect/fish.vim
-	*	1614374659	0
-	"	1	0
-
-> ~/.config/vim/ftplugin/fish.vim
-	*	1614374643	0
-	"	2	0
-
-> ~/.config/vim/indent/fish.vim
-	*	1614374636	0
-	"	4	20
-	.	4	20
-	+	2	17
-	+	3	21
-	+	4	20
-
-> ~/.config/fish/functions/__cf_git_settings.fish
-	*	1614374484	0
-	"	2	4
-
-> ~/.config/fish/functions/__cf_docker_prompt.fish
-	*	1614374473	0
-	"	8	0
-
-> ~/.config/fish/functions/__cf_git_parse_default.fish
-	*	1614374246	0
-	"	3	4
-	.	3	0
-	+	3	0
-	+	7	0
-	+	3	0
-
-> ~/.config/fish/functions/fish_mode_prompt.fish
-	*	1614374134	0
-	"	1	0
-
-> ~/.config/fish/functions/fish_right_prompt.fish
-	*	1614373907	0
-	"	7	1
-
-> ~/.config/vim/plugin/Icons.vim
-	*	1614372446	0
-	"	59	0
-	.	60	0
-	+	60	0
-
-> ~/.config/fish/conf
-	*	1614372134	0
-	"	1	0
-
-> /usr/share/fzf/key-bindings.bash
-	*	1614368299	0
-	"	95	0
-	^	92	61
-	.	92	0
-	+	92	60
-	+	92	46
-	+	92	0
-
-> /usr/share/fzf/completion.bash
-	*	1614366022	0
-	"	1	0
-
-> ~/.config/bash/functions/__cb_path_prompt.sh
-	*	1614365957	0
-	"	6	0
-	^	11	6
-	.	6	0
-	+	6	58
-	+	6	0
-	+	11	16
-	+	6	0
-
-> ~/.config/bash/functions/bash_prompt.sh
-	*	1614364889	0
-	"	20	2
-	^	12	30
-	.	12	30
-	+	16	16
-	+	22	10
-	+	6	9
-	+	6	0
-	+	16	0
-	+	6	26
-	+	6	13
-	+	6	0
-	+	10	0
-	+	6	2
-	+	7	0
-	+	8	0
-	+	9	0
-	+	6	51
-	+	7	50
-	+	8	51
-	+	9	52
-	+	16	7
-	+	17	10
-	+	13	10
-	+	17	18
-	+	20	12
-	+	18	0
-	+	20	15
-	+	17	22
-	+	20	0
-	+	20	14
-	+	20	3
-	+	22	0
-	+	20	0
-	+	21	0
-	+	22	10
-	+	20	25
-	+	22	0
-	+	12	30
+> ~/Documents/work/TensorDSE/benchmarking/reading_tflite_model/results/usb/SOFTMAX_44K/Results.csv
+	*	1614863235	0
+	"	2	108

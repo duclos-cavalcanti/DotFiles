@@ -2,13 +2,13 @@
 #
 # Xwindow script module for lemonbar.
 
-xwindow_refresh=1
-
 function xwindow {
-  current_node=$(bspc query -N -n .focused)
-  current_w_info=$(xdotool getwindowname $current_node)
-    
-  echo -e "$current_w_info"
+  . ${LEMON_PATH}/lib/lemon_utils.sh
+  bspc subscribe report |  while read -r _ _ _ node_id; do
+    node_id=$(bspc query -N -n .focused -d)
+    w_info=$(xdotool getwindowname "$node_id" 2>/dev/null)
+    echo "X${w_info}"
+  done
 }
 
 

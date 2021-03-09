@@ -20,25 +20,25 @@ set style tui-border foreground white
 
 set style filename intensity bold
 set style filename foreground white
-set style filename background black
+# set style filename background black
 
 set style address intensity bold
 set style address foreground magenta
 
 set style metadata intensity bold
 set style metadata foreground cyan
-set style metadata background black
+# set style metadata background black
 
 set style function intensity normal
 set style function foreground blue
 
 set style variable intensity bold
 set style variable foreground blue
-set style variable background black
+# set style variable background black
 
 set style highlight intensity bold
 set style highlight foreground magenta
-set style highlight background black
+# set style highlight background black
 
 set confirm off
 set verbose off

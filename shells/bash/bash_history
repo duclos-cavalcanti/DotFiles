@@ -1,94 +1,3 @@
-ls
-ls
-ll
-ls
-bspc desktop -s 2 --follow
-ls
-ll
-ls
-ls
-cd
-ls
-cd doc
-cd Documents/
-ls
-cd learn/
-ls
-cd intro-ai/
-ls
-ls ai50/
-l
-cd ai50/
-ls
-cd projects/
-ls
-ls
-cd Search/
-ls
-ls
-echo "$gap"
-ls
-vim ~/.config/bash/bashrc 
-ll
-ls
-for file in ls *.bash; do echo "$file"; done
-ls *.bash
-for file in $(ls *.bash); do echo "$file"; done
-l
-for file in $(ls *.bash); do file=$(cut -d '.' -f1 $file); echo $file; done
-for file in $(ls *.bash); do file=$(cut -d '.' -f1 $file); echo $file; done
-for file in $(ls *.bash); do file=$(cut -d '.' -f1 $file); echo $file; done
-ls *.bash
-for file in ls *.bash; do file=$(cut -d '.' -f1 $file); echo $file; done
-man trap
-man $#
-man bash
-a=bla blo bli
-orient="a b c"
-echo "$orient"
-for i in $orient; do echo "$i"; done
-for i in $orient; do echo "Here $i"; done
-exec a=1
-eval a=1
-echo "$a"
-ls
-a="b c d"
-b=2
-for i in $a; do echo %i; done
-for i in $a; do echo $i; done
-for i in $a; do echo eval $i; done
-for i in $a; do echo $(eval $i); done
-man eval
-test -a eval
-man PS2
-man PS4
-ls
-ls
-cd Documents/
-ll
-la
-ls
-ll
-ll
-ll
-ll
-ls
-ll
-ll
-ll
-ls
-l
-ll
-l
-l
-l
-ls
-ls
-ls
-function fun { local a="HELLO"; } ; echo "$a"
-un
-fun
-function fun { local a="HELLO"; } ; echo "$a"
 function fun { local a="HELLO"; } ; echo "$a"
 function fun { if [[ -f ~/.config/bash/bashrc ]]; then local a="HELLO"; fi; echo "$a" } ; fun function fun { if [[ -f ~/.config/bash/bashrc ]]; then local a="HELLO"; fi echo "$a" } ; fun
 function fun { if [[ -f ~/.config/bash/bashrc ]]; then local a="HELLO"; fi; echo "$a" } ; fun function fun { if [[ -f ~/.config/bash/bashrc ]]; then local a="HELLO"; fi ; echo "$a" } ; fun
@@ -236,3 +145,525 @@ select name in "Daniel" "Robert"; do echo "$name"; done
 select name in "Daniel" "Robert"; do echo "$name"; done
 sudo pacman -Qi xdotool
 sudo pacman -Qi xdotools
+ls
+ll
+ll
+ls
+ls
+ls
+./install.py 
+./install.py --clangd-completer
+ls
+cd
+cd .config/bash/
+ls
+cd functions/
+ls
+ls
+vim bash_prompt.sh 
+x
+x
+x
+x
+ls
+ls
+cd ..
+ls
+vim bashrc 
+ls
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+l
+ll
+ls
+bash install_requirements.sh classify_image.py 
+ls
+cd ..
+ls
+ls
+mkfifo example_fifo
+[ -e example_fifo ] && echo "Hi"
+[ -e example_fifo ] && rm example_fifo
+mkfifo example_fifo
+echo "HI" > example_fifo &
+variable=<(example_fifo)
+variable=echo < example_fifo
+echo "$variable"
+< example_fifo
+a < example_fifo
+a < example_fifo &
+echo "$a"
+echo "Hi" > example_fifo
+rm example_fifo 
+ls
+ls
+cd .config/lemonbar/
+ls
+cd tmp/
+ls
+rm example.sh 
+ls
+mkfifo example.fifo
+ls
+echo "HIII" > example.fifo &
+variable=(cat < example.fifo)
+variable=$(cat < example.fifo)
+echo "$variable"
+echo "AGAIN" > example.fifo &
+variable=$(cat < example.fifo)
+echo "$variable"
+echo "LAST" > example.fifo & >> /dev/null
+echo "LAST" > example.fifo >> /dev/null &
+echo "LAST" > example.fifo 2>/dev/null &
+echo "LAST" > example.fifo 1>/dev/null &
+echo "LAST" > example.fifo 1>/dev/null
+echo "LAST" > example.fifo &
+variable=$(cat < example.fifo)
+echo "$variable"
+cd ~/.config/lemonbar/
+ls
+cd tmp/
+ls
+ls
+echo (< example.fifo)
+echo (example.fifo)
+echo < example.fifo
+cat < example.fifo
+cat < example.fifo
+man cat
+cat < example.fifo
+ls
+ls
+ls
+mkfifo example.fifo
+ls
+echo "Hi" > example.fifo &
+echo "Hi" > example.fifo &
+ls
+rm example.fifo 
+ls
+type -a echo
+help echo
+help echo | less
+type exit
+help exit
+man read
+help read | less
+ll
+ll
+ls
+ll
+echo "$HOSTNAME"
+man bash
+ll
+x
+ll
+ll
+x
+bash
+ll
+ll
+bash
+ll
+ls
+cd Documents/dotfiles/
+ll
+ll
+ls
+cd Documents/
+ls
+cd dotfiles/
+ls
+source ~/.config/bash/inputrc 
+ls
+source inputrc 
+sudo source inputrc 
+sudo inputrc 
+ls
+vim B
+ls
+vim /etc/inputrc 
+ls
+ll
+ll
+ll
+ll
+cd
+ls
+cd Documents/dotfiles/
+ls
+cd
+man bash
+ls
+bind "TAB:menu-complete"
+bind "set show-all-if-ambiguous"
+bash
+type -a command
+help command | less
+ll
+ls
+ls
+la
+la
+ls
+ls
+cat ~/.config/bash/bash_history 
+cat ~/.config/bash/bash_history | fzf --layout=reverse
+cat ~/.config/bash/bash_history | fzf --layout=reverse-list
+cat ~/.config/bash/bash_history | fzf --layout=reverse-list --height=5
+cat ~/.config/bash/bash_history | fzf --layout=reverse-list --height=10
+cat ~/.config/bash/bash_history | fzf --layout=reverse-list --height=10
+type -a reverse
+man srot
+man sort
+
+cat ~/.config/bash/bash_history | sort --reverse
+cat ~/.config/bash/bash_history | sort
+man head
+cat ~/.config/bash/bash_history
+cat ~/.config/bash/bash_history | tail
+man tail
+type -a tac
+man tac
+cat ~/.config/bash/bash_history | tac
+cat ~/.config/bash/bash_history
+cat ~/.config/bash/bash_history | tac | less
+command grep
+command grep -F
+command grep -Fv
+command grep -Fv '0.0.0.0'
+man command
+help command | less
+echo "Daniel" | command grep 
+echo "Daniel" | command grep 'D'
+echo "Daniel" | grep 'D'
+cat ~/.config/bash/bash_history | fzf --layout=reverse-list --height=5
+cat ~/.config/bash/bash_history | fzf --layout=reverse-list --height=5
+cat ~/.config/bash/bash_history | fzf --layout=reverse-list --height=5
+cat ~/.config/bash/bash_history | fzf --layout=reverse-list --height=5
+cat ~/.config/bash/bash_history | tac | fzf --layout=reverse-list --height=5
+cat ~/.config/bash/bash_history | tac | fzf --layout=reverse --height=5
+cat ~/.config/bash/bash_history | tac | fzf --layout=reverse-list --height=5
+cat ~/.config/bash/bash_history | tac | fzf --layout=reverse-list --height=5 -i
+cat ~/.config/bash/bash_history | fzf -i --layout=reverse-list --tac --height=10
+cat ~/.config/bash/bash_history | fzf -i --layout=reverse-list --tac --height=10
+cat ~/.config/bash/bash_history | fzf -i --layout=reverse-list --tac --height=10
+man echo
+history
+history | fzf -i --layout=reverse-list --tac --height=10
+ll
+readline
+type -a readline
+history | fzf -i --layout=reverse-list --tac --height=10
+ls
+type -a fc
+help fc | less
+fc -lnr
+fc -lnr -21
+fc -lnr -2147483648
+fc -lnr -21
+fc -lnr -2147483648
+man fc
+type -a fc | less
+help fc | less
+history 1
+man perl
+type -a #
+type -a \#
+man #
+echo "\tDaniel"
+echo -e "\tDaniel"
+var="\tDaniel"
+var=${var#*$}
+
+var=${var#*$'\t'}
+echo "$var"
+function fzf_history() {   his=$(builtin fc -lnr -2147483648 | fzf -i --layout=reverse-list --tac --height=10);   eval $his; }
+
+function fzf_history() {   his=$(builtin fc -lnr -2147483648 | fzf -i --layout=reverse-list --height=10);   eval $his; }
+
+l
+function fzf_history() {   his=$(builtin fc -lnr -2147483648 | fzf -i --layout=reverse-list --height=10);   eval $his; }
+fzf_history 
+fzf_history 
+find -L
+ls
+cd Documents/
+man find
+ls
+cd dotfiles/
+find -L
+find -L | fzf
+man find
+ls
+ls
+ls
+ll
+ll
+ll
+ll
+ll
+ll
+cd Documents/
+ls
+cd dotfiles/
+ll
+ls
+ls
+ll
+ls
+ll
+ll
+ll
+ll
+ls
+ll
+ll
+ll
+ll
+ls
+ll
+ll
+ll
+ls
+ll
+la
+ll
+ll
+ll
+ll
+ll
+ll
+ll
+ls
+ll
+vim ~/.config/bash/bashrc 
+ll
+ls
+ll
+ll
+vim ~/.config/bash/bashrc 
+ll
+ll
+ll
+ll
+vim ~/.config/bash/bashrc 
+ll
+ll
+ls
+ls
+cd Documents/
+ls
+ls dotfiles/
+ll
+ll
+ll
+cd Documents/
+ls
+ll
+ls
+ll
+ls
+vim bashrc 
+ls
+ls
+ls
+vim bashrc 
+ll
+ls
+cd Documents/dotfiles/
+ls
+ll
+ls
+la
+ls
+ls
+ls
+ll
+ll
+ls
+ls
+ll
+la
+ll
+ls
+ll
+ls
+ls -l
+echo "Daniel" | grep "D"
+ls
+ls
+ls
+ll
+type -a IFS
+man IFS
+ll
+ll
+lll
+ls
+ls functions/
+ll functions/
+ls
+ll
+ll
+ll
+ll
+lll
+ls
+vim bashrc 
+ls
+ll
+ll
+lll
+ll
+vim bashrc 
+ls
+ls
+ls
+cd functions/
+ls
+vim __cb_char_prompt.sh 
+ls
+ll
+ll
+ls
+ls
+ls
+ll
+ls
+ls
+var="Daniel"
+len=${var#?}
+echo "$len"
+echo "#${var}"
+var="Daniel"
+echo "${var#?}"
+echo "${var#?}"
+yay -Ss spotidy
+yay -Ss spotify
+yay -S spotify
+sudo pacman -S gnupg
+ls
+ls
+var="Daniel:Cavalcanti"
+IFS=":"
+echo "${var#?}"
+var="Daniel:Duclos:Cavalcanti"
+IFS=":"
+set -- ${line}
+while [ "$#" -gt 0 ]; do echo "$1"; shift; done
+while [ "$#" -gt 0 ]; do echo "$1"; shift; done
+var="Daniel"
+echo "${var#D}"
+echo "${var#a}"
+echo "${var#Da}"
+var="Daniel"
+echo "${!var#?}
+echo "${!var#?}"
+ "HI"
+man bash
+man bash
+type -a set
+help set | less
+ls
+ls
+ls
+ls
+ls
+ls
+var=
+echo "${var}Daniel"
+var=""
+echo "${var}Daniel"
+var=
+echo "${var}Daniel"
+var=""
+echo "Daniel${var}Daniel"
+pgrep lemon*
+killall lemon*.sh
+killall "lemon*.sh"
+ls
+man mkfifo
+ls
+./lemon_bar.sh 
+./lemon_bar.sh 
+ls
+rm tmp/lemon.fifo 
+ls
+man read
+help read | less
+i=0
+$((i++))
+((i++))
+
+echo "$i"
+((i++))
+((i++))
+echo "$i"
+ls
+ll
+l!
+l!
+ll
+l!
+vim .
+v!
+v!
+vim .
+vim .
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+./lemon_bar.sh 
+ps | grep lemon
+ps | grep "lemon"
+ps -aux | grep "lemon"
+ps -ax | grep "lemon"
+ls
+htop
+killall polybar
+ls
+./lemon_bar.sh 
+type -a until
+help until | less
+xdo id -a 'statusbar'
+ps -aux | grep "lemon"
+killall lemonbar; killall lemon_bar.sh
+./lemon_bar.sh 
